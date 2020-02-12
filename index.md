@@ -45,6 +45,7 @@ The website is no longer running, however there are a few captures obtained by i
 Filtering works as this used JS to hide elements, Sorting and searching does not work however, as this used SQL queries.
 
 The image below shows the responsive layout and the page with the 360 degree view, however this does not work on the archive.
+
 ![Website](/RetrohubMobile.JPG)
 
 **Website - Wordpress** - freegram.co.uk (*personal*)
