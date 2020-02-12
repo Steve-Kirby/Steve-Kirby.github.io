@@ -26,7 +26,7 @@ This is based on the classic nokia game Snake, i hope to add extra interesting f
 ## Past Projects ##
 View my [past projects on GitHub here](https://github.com/Steve-Kirby) to see what i have worked on in the past.
 
-**Team Project** - Seaton Valley App (*university*) 
+### Team Project - Seaton Valley App (*university*) ### 
 
 App for local council called seaton valley (Java)
 
@@ -34,7 +34,7 @@ App for local council called seaton valley (Java)
 
 Have a look at some of the code involved for [Seaton-Valley-Council-App](https://github.com/Steven-Kirby/Seaton-Valley-Council-App)
 
-**Website - PHP, SQL, HTML, CSS, JS** - retrohub.co.uk (*personal*)
+### Website - PHP, SQL, HTML, CSS, JS - retrohub.co.uk (*personal*) ### 
 
 retrohub.co.uk was an ecommerce site for selling retro video games such as N64 and PS1, each item had a 360 degree view photographed in 35 images using a lazy susan turntable. The website used bCrypt in order to store users passwords as safely as possible, users accounts showed their baskets(items in baskets were locked for 15 minutes to prevent 2 sales of the same item at once due to the unique nature of the items for sale), past orders and basic details. Payment details and addresses were not stored, as I had implemented paypal.
 
@@ -48,13 +48,13 @@ The image below shows the responsive layout and the page with the 360 degree vie
 
 ![Website](/RetrohubMobile.JPG)
 
-**Website - Wordpress** - freegram.co.uk (*personal*)
+### Website - Wordpress - freegram.co.uk (*personal*) ###
 
 freegram.co.uk was a blog site/advertising site where users could sign up and also post their own posts if they were looking for a "freegrammer" to build something for them for free, such as a charities website or application, allowing programmers to boost their portfolios and do something good, and for charities to get work done for free.
 
 I also used the site to advertise any charitable causes being supported by friends, sadly i dont have any images of this website and the archive doesnt have any snapshots.
 
-**Photo Watermarker** - 
+### Photo Watermarker  ###
 
 This program was made for a friend who was paying for a website to watermark her photography with a very simple overlay and required her to upload each photograph.
 
@@ -79,7 +79,7 @@ This will be in reverse chronilogical order with the most recent and relevent in
   
 **Newcastle University**
    
-### Past Education and Learning ##
+### Past Education and Learning ###
 
 **Newcastle University - BSc Computer Science (Game Engineering)** (*First Class 73.6% overall*) [results report document](https://core.digitary.net/sharelink/09d22cd9-7a1b-4f5d-b9de-50b776e1f77d/7b408f64-c008-4b98-b005-c958d927039c)
   - Year 3 (*First 70.8% average*)
@@ -92,6 +92,7 @@ This will be in reverse chronilogical order with the most recent and relevent in
     - [System and Network Security](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3124)
     - [Website Construction and Management (Server-Side)](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3422)
     - [Project and Dissertation in Computing Science](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3095)
+    
   - Year 2 (*First 79.2% average*)
     - [Software Engineering](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2021)
     - [Software Engineering Team Project](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2022) (Java/Android)(XML)(Google Maps API)(Git)(Teamwork)
@@ -99,6 +100,7 @@ This will be in reverse chronilogical order with the most recent and relevent in
     - [Database Technology](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2024) (MySQL)
     - [Operating Systems](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2025) (Minix)(C)
     - [Computer Networks](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2026) (C)
+    
   - Year 1 (*First 77.3% average*)
     - [Programming I](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1021) (Java)
     - [Programming II](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1022) (Java)
@@ -147,4 +149,4 @@ This will be in reverse chronilogical order with the most recent and relevent in
   - more
   
 ## Contact Me!
-To contact me about anything, you can [message me on github](https://github.com/Steven-Kirby) or you can [email me](mailto:stevenkirbygames@gmail.com)
+To contact me about anything, you can [email me](mailto:stevenkirbywork@gmail.com).
