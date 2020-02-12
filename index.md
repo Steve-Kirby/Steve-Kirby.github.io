@@ -109,9 +109,9 @@ This will be in reverse chronilogical order with the most recent and relevent in
     - [Mathematics for Computer Science](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1025)
     - [Website Design and Construction](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1026) (HTML, CSS, JS)
   
-  **York College** [scan of results](/CollegeResults.JPG)
+  **York College - BTEC Software Development (Extended Diploma)** [scan of results](/CollegeResults.JPG)
   
-  Btec in Software Development achieving the highest grade possible of Triple Distinction Star.
+  Achieved the highest grade possible of Triple Distinction Star.
   - Year 2 (_D* D* D*_)
     - Computer Game Design
     - Developing Computer Games
