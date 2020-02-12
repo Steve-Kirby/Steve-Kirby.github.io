@@ -36,13 +36,15 @@ Have a look at some of the code involved for [Seaton-Valley-Council-App](https:/
 
 ### Website - PHP, SQL, HTML, CSS, JS - retrohub.co.uk (*personal*) ### 
 
-retrohub.co.uk was an ecommerce site for selling retro video games such as N64 and PS1, each item had a 360 degree view photographed in 35 images using a lazy susan turntable. The website used bCrypt in order to store users passwords as safely as possible, users accounts showed their baskets(items in baskets were locked for 15 minutes to prevent 2 sales of the same item at once due to the unique nature of the items for sale), past orders and basic details. Payment details and addresses were not stored, as I had implemented paypal.
+The website is no longer running, however there are a few captures obtained by internet archive service; wayback machine, [Archived Website Shown Here](https://web.archive.org/web/20180324135316/http://retrohub.co.uk/), Filtering works as this used JS to hide elements, Sorting and searching does not work however, as this used SQL queries.
+
+Retrohub.co.uk was an ecommerce site for selling retro video games such as N64 and PS1, each item had a 360 degree view photographed in 35 images using a lazy susan turntable. The website used bCrypt in order to store users passwords as safely as possible, users accounts showed their baskets (items in baskets were locked for 15 minutes to prevent 2 sales of the same item at once due to the unique nature of the items for sale), past orders and basic details. Payment details and addresses were not stored as paypal was implemented.
 
 ![Website](/Retrohub.JPG)
 
-The website is no longer running, however there are a few captures obtained by internet archive service; wayback machine, [Archived Website Shown Here](https://web.archive.org/web/20180324135316/http://retrohub.co.uk/)
+In the picture above, the website shows a few php templates coming together using a database to populate the page with products, this allowed me to control the stock and information quickly and remove them from the list of available stock automatically if they sold for example.
 
-Filtering works as this used JS to hide elements, Sorting and searching does not work however, as this used SQL queries.
+
 
 The image below shows the responsive layout and the page with the 360 degree view, however this does not work on the archive.
 
