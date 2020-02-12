@@ -1,14 +1,16 @@
 # Welcome!
-Feel free to browse my [portfolio](https://Steven-Kirby.github.io) and [github repository](https://github.com/Steven-Kirby)
+Feel free to browse my [portfolio](https://Steve-Kirby.github.io) and [github repository](https://github.com/Steve-Kirby)
 ## A Little Bit About Me
 
-I am a recent **Graduate** with a **First Class Degree** in **BSc Computer Science(Game Engineering)** from **Newcastle University** in June 2019, attaining between 70-80% each year of the course.
+I am a recent **Graduate** with a **First Class Degree** in **BSc Computer Science(Game Engineering)** from **Newcastle University** attaining results between 70-80% for each year of the course.
 
 I am looking for a role within the **games industry**, with the goal of becoming experienced in **programming** for games.
 
-I also enjoy **web development** and know most aspects of web development needed to build and maintain a **working and secure website**.
+I also enjoy **web development** and know most aspects of web development needed to build and maintain a **secure feature packed website**.
 
-## Current Projects ##
+I had recently gotten over a period of depression and now have regained my enthusiasm for programming, working on improving my portfolio and applying for suitable jobs(hopefully).
+
+## Current and Future Projects ##
 View my [current project on GitHub here](https://github.com/Steve-Kirby/Simple-Snake-2D) Simple Snake 2D.
 
 **Simple Snake 2D**
@@ -43,8 +45,6 @@ Retrohub.co.uk was an ecommerce site for selling retro video games such as N64 a
 ![Website](/Retrohub.JPG)
 
 In the picture above, the website shows a few php templates coming together using a database to populate the page with products, this allowed me to control the stock and information quickly and remove them from the list of available stock automatically if they sold for example.
-
-
 
 The image below shows the responsive layout and the page with the 360 degree view, however this does not work on the archive.
 
