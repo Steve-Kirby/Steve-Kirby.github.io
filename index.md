@@ -11,12 +11,22 @@ I also enjoy **web development** and know most aspects of web development needed
 I had recently gotten over a period of depression and now have regained my enthusiasm for programming, working on improving my portfolio and applying for suitable jobs(hopefully).
 
 ## Current and Future Projects ##
-View my [current project on GitHub here](https://github.com/Steve-Kirby/Simple-Snake-2D) Simple Snake 2D.
+
+### Current ###
+
+View my [current project on GitHub here](https://github.com/Steve-Kirby/Watermarker), Photo Watermarker.
+
+**Photo Watermarker**
+
+This reads a folder of images and produces a duplicate of the image with a watermark on top of the users choosing.
+The previous itteration of this programs' result is shown below in past projects.
+
+### Future ###
 
 **Simple Snake 2D**
+
 This is based on the classic nokia game Snake, i hope to add extra interesting features such as upgradeable snakes with ranks after the basic implementation is solid with maps of your own design using text maps and random fruit spawn.
 
-- [x] Create classes expected to be used
 - [ ] Implement a singular cube as snake
 - [ ] Implement map and collision
 - [ ] Implement fruit
