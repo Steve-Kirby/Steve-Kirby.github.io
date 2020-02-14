@@ -1,5 +1,8 @@
 # Welcome!
-Feel free to browse my [portfolio](https://Steve-Kirby.github.io) and [github repository](https://github.com/Steve-Kirby)
+Feel free to browse my portfolio and [github repository](https://github.com/Steve-Kirby)
+
+I am still updating this portfolio so check back soon for any updates! (version 1.1)
+
 ## A Little Bit About Me
 
 I am a recent **Graduate** with a **First Class Degree** in **BSc Computer Science(Game Engineering)** from **Newcastle University** attaining results between 70-80% for each year of the course.
@@ -39,6 +42,22 @@ This is based on the classic nokia game Snake, i hope to add extra interesting f
 
 ## Past Projects ##
 View my [past projects on GitHub here](https://github.com/Steve-Kirby) to see what i have worked on in the past.
+
+### Dissertation - Generation of Islands and Simulating Climate Change using OpenGL (*university*) ###
+
+A [link to my dissertation](/Dissertation.pdf) is available to read online(.pdf).
+
+For my 3rd year dissertation i wanted to explore graphics within programming as id never quite grasped how to implement them, by tackling this topic i was able to explore the belly of the beast, utilizing a codebase that was provided to us during a graphics module we were doing that year also.
+
+I enjoy games with wide open worlds that can be explored so decided i would generate random islands, this changed after discussion with my tutors to incorperate climate change and rising sea levels, which are returning to the forefront of issues we face once again. I made the decision to use heightmaps of the UK rather then randomly generated islands, in hopes of making people aware that these are our issues, not just an interesting graphics demo.
+
+![Dissertation Poster](/DissertationPoster.png)
+
+Another aspect of this dissertation I enjoyed was the data analysis of testing performance of the simulation with different detail or tesselation levels, amount of textures being rendered etc.
+
+Below is an example graph produced in Excel by using the fps, x and y position of the 'camera' to see if how much of the model was on the screen affected the render times/fps.
+
+![Graph](/DissertationGraph.png)
 
 ### Team Project - Seaton Valley App (*university*) ### 
 
