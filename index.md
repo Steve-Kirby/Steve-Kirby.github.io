@@ -74,8 +74,10 @@ Much like retrohub.co.uk, this was an ecommerce site for pokémon cards and is a
 
 The images below show the layout of searching for cards, i have laid out like this as it seemed appropriate for a deck of cards, the user can hover over a card and it will enlarge and slowly transition to a dark background.
 
-![Home](/SellcardsHome.PNG) ![Highlight](/SellcardsHighlight.PNG)
-
+<p float="left">
+  <img src="/SellcardsHome.PNG" width="auto" height="300px"/>
+  <img src="/SellcardsHighlight.PNG" width="auto" height ="300px"/> 
+</p>
 Searching and sorting used SQL
 
 ![Search](/SellcardsSearch.PNG) 
