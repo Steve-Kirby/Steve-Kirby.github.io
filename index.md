@@ -10,7 +10,7 @@ I also enjoy **web development** and know most aspects of web development needed
 
 I have recently gotten over a period of depression but have now regained my enthusiasm for programming, I am currently working on improving my portfolio and applying for suitable jobs(hopefully).
 
-## Current and Future Projects ##
+## Current Projects ##
 
 ### Current ###
 
