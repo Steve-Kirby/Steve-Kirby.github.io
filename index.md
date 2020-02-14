@@ -66,7 +66,24 @@ The image below shows the responsive layout and the page with the 360 degree vie
 
 freegram.co.uk was a blog site/advertising site where users could sign up and also post their own posts if they were looking for a "freegrammer" to build something for them for free, such as a charities website or application, allowing programmers to boost their portfolios and do something good, and for charities to get work done for free.
 
-I also used the site to advertise any charitable causes being supported by friends, sadly i dont have any images of this website and the archive doesnt have any snapshots.
+I also used the site to advertise any charitable causes being supported by friends.
+
+### Website - PHP, SQL, HTML, CSS, JS - sellcards.co.uk (*personal*) ###
+
+Much like retrohub.co.uk, this was an ecommerce site for pokémon cards and is also not a working domain anymore.
+
+The images below show the layout of searching for cards, i have laid out like this as it seemed appropriate for a deck of cards, the user can hover over a card and it will enlarge and slowly transition to a dark background.
+
+![Home](/SellcardsHome.PNG) ![Highlight](/SellcardsHighlight.PNG)
+
+Searching and sorting used SQL
+
+![Search](/SellcardsSearch.PNG) 
+
+Working baskets and itemised paypal checkout, paypal prerolled buttons were not appropriate for the amount of available cards, but i was able to roll my own. 
+
+![Account](/SellcardsAccount.PNG) ![Checkout](/SellcardsPaypal.PNG)
+
 
 ### Photo Watermarker  ###
 
