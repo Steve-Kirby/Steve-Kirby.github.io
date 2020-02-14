@@ -8,7 +8,7 @@ I am looking for a role within the **games industry**, with the goal of becoming
 
 I also enjoy **web development** and know most aspects of web development needed to build and maintain a **secure feature packed website**.
 
-I had recently gotten over a period of depression and now have regained my enthusiasm for programming, working on improving my portfolio and applying for suitable jobs(hopefully).
+I have recently gotten over a period of depression but have now regained my enthusiasm for programming, I am currently working on improving my portfolio and applying for suitable jobs(hopefully).
 
 ## Current and Future Projects ##
 
@@ -20,6 +20,8 @@ View my [current project on GitHub here](https://github.com/Steve-Kirby/Watermar
 
 This reads a folder of images and produces a duplicate of the image with a watermark on top of the users choosing.
 The previous itteration of this programs' result is shown below in past projects.
+
+I have decided to work on improving this as I would like to get back into my amateur photography hobby also.
 
 ### Future ###
 
@@ -77,8 +79,6 @@ Before
 After (Done in less then a second)
 
 ![after watermarking](/WatermarkedFolder.JPG)
-
-Have a look here at the code for [Photo Watermarker](https://github.com/Steve-Kirby/Photo-Watermarker)
 
 *Update:12/02/2020* Starting to work on improving this implementation.
 
