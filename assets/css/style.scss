@@ -48,5 +48,6 @@ img.enlarge:active {
 
 img.enlarge:active:not(img){
   background:black !important;
+  background-color:black;
   opacity:0.6;
 }
