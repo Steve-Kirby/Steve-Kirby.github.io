@@ -16,88 +16,84 @@ permalink: /coursework1
   <div class="col-xs-6">
     <h3>Assignment 1 - Tax Chart and Calculator</h3>
     <p>The First coursework we were tasked with in Java involved creating a Tax Calculator which then displayed a bar chart showing income and amount to pay.</p>
+	  
 	  {::options parse_block_html="true" /}
 	  <details><summary markdown="span">Let's see some code!</summary>
-		  ```java
-		  /**
- * @Author Steven Kirby
- * @Date 13/10/2016
- * @Company The Beurocratic Office Generating Other Financial Fiddles(BOGOFF)
- * @ClassPurpose Calculates tax paid based on income
- */
-public class TaxCalculator {
 
-	public static void main(String[] args) {
+	```java
+		  
+		 
+	public class TaxCalculator {
+
+		public static void main(String[] args) {
 		
-	}
-	
-	/**
-	 * Calculates how much tax to pay given an income
-	 * 
-	 * @param income gross income before tax
-	 * @return tax to be paid(rounded)
-	 */
-	public static int taxPayable(int income){
-		double payable = 0;
-		//declaring all the values for each tax band and the thresholds for each one.
-		double taxFree = 0.0,taxBand1 = 0.1,taxBand2 = 0.2,taxBand3 = 0.4,taxBand4 = 0.6,taxBand5 = 1.2;
-		int threshold1 = 100, threshold2 = 150, threshold3 = 200, threshold4 = 300, threshold5 = 400;
-		//this while loop will continue until income has reached 0, the way I have chosen to work out the tax paid is using
-		//the idea that starting at the income value, and decrementing by 1 whilst adding to the tax payable value
-		//until the income has reached 0.
-		while(income>0){
-			//it seems most logical to start at the higher threshold as when each for loop finishes it can move straight
-			//on to the next for loop.
-			for(income=income;(income>threshold5)&&(income>threshold5);income--){
-				payable += taxBand5;
-			}
-			for(income=income;(income<=threshold5)&&(income>threshold4);income--){
-				payable += taxBand4;
-			}
-			for(income=income;(income<=threshold4)&&(income>threshold3);income--){
-				payable += taxBand3;
-			}
-			for(income=income;(income<=threshold3)&&(income>threshold2);income--){
-				payable += taxBand2;
-			}	
-			for(income=income;(income<=threshold2)&&(income>threshold1);income--){
-				payable += taxBand1;
-			}	
-			for(income=income;(income<=threshold1)&&(income>0);income--){
-				//this isn't necessary but for completeness I have included it.
-				payable += taxFree;
-			}
 		}
-		//rounds the value of tax to be paid to the nearest pound.
-		
-		return(int)(Math.round(payable));
-	}
 	
-	/**
-	 * Works out how much net income will be left after tax
-	 * 
-	 * @param taxPaid takes the amount of tax paid
-	 * @param income takes the income before tax has been paid
-	 * @return returns net income
-	 */
-	public static int incomeRemaining(int income){
-		//calculates the income remaining after tax has been deducted.
-		int remainingIncome = income - taxPayable(income);
-			//prevents net income to be less then 0
-			if (remainingIncome < 0){
-			remainingIncome = 0;		
+		/**
+		 * Calculates how much tax to pay given an income
+		 * 
+		 * @param income gross income before tax
+		 * @return tax to be paid(rounded)
+		 */
+		public static int taxPayable(int income){
+			double payable = 0;
+			//declaring all the values for each tax band and the thresholds for each one.
+			double taxFree = 0.0,taxBand1 = 0.1,taxBand2 = 0.2,taxBand3 = 0.4,taxBand4 = 0.6,taxBand5 = 1.2;
+			int threshold1 = 100, threshold2 = 150, threshold3 = 200, threshold4 = 300, threshold5 = 400;
+			//this while loop will continue until income has reached 0, the way I have chosen to work out the tax paid is using
+			//the idea that starting at the income value, and decrementing by 1 whilst adding to the tax payable value
+			//until the income has reached 0.
+			while(income>0){
+				//it seems most logical to start at the higher threshold as when each for loop finishes it can move straight
+				//on to the next for loop.
+				for(income=income;(income>threshold5)&&(income>threshold5);income--){
+					payable += taxBand5;
+				}
+				for(income=income;(income<=threshold5)&&(income>threshold4);income--){
+					payable += taxBand4;
+				}
+				for(income=income;(income<=threshold4)&&(income>threshold3);income--){
+					payable += taxBand3;
+				}
+				for(income=income;(income<=threshold3)&&(income>threshold2);income--){
+					payable += taxBand2;
+				}	
+				for(income=income;(income<=threshold2)&&(income>threshold1);income--){
+					payable += taxBand1;
+				}	
+				for(income=income;(income<=threshold1)&&(income>0);income--){
+					//this isn't necessary but for completeness I have included it.
+					payable += taxFree;
+				}
 			}
-		return remainingIncome;
-	}
-	
-}
+			//rounds the value of tax to be paid to the nearest pound.
 
-		  ```
-Of course, it has to be Hello World, right?
+			return(int)(Math.round(payable));
+		}
+
+		/**
+		 * Works out how much net income will be left after tax
+		 * 
+		 * @param taxPaid takes the amount of tax paid
+		 * @param income takes the income before tax has been paid
+		 * @return returns net income
+		 */
+		public static int incomeRemaining(int income){
+			//calculates the income remaining after tax has been deducted.
+			int remainingIncome = income - taxPayable(income);
+				//prevents net income to be less then 0
+				if (remainingIncome < 0){
+				remainingIncome = 0;		
+				}
+			return remainingIncome;
+		}
+	
+	}
+	```
 </details>
 <br/>
-
 {::options parse_block_html="false" /}
+
   </div>
 </div>
 <div class="row">
