@@ -8,15 +8,15 @@ permalink: /coursework1
   <hr>
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1021">Programming I</a></h2>
 </div>
-<div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img src="TaxChartCoursework.PNG" style="max-width:90%" height="350">
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 1 - Tax Chart and Calculator</h3>
-    <p>The First coursework we were tasked with in Java involved creating a Tax Calculator which then displayed a bar chart showing income and amount to pay.</p>
 {::options parse_block_html="true" /}
+<div class="row">
+<hr>
+<div class="col-xs-6">
+<img src="TaxChartCoursework.PNG" style="max-width:90%" height="350">
+</div>
+<div class="col-xs-6">
+<h3>Assignment 1 - Tax Chart and Calculator</h3>
+<p>The First coursework we were tasked with in Java involved creating a Tax Calculator which then displayed a bar chart showing income and amount to pay.</p>
 <details><summary markdown="span">Show me the code!</summary>
 ```js
 var ul = 30  
