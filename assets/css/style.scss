@@ -42,7 +42,7 @@ img.enlarge:active {
     z-index: 1;
 }
 
-img.enlarge:not(:active){
+:not(img.enlarge:active){
   background-color:black;
   opacity:0.1;
   
