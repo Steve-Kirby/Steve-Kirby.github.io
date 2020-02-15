@@ -19,7 +19,7 @@ permalink: /coursework1
 {::options parse_block_html="true" /}
 <details><summary markdown="span">Show me the code!</summary>
 ```js
-var ul = 20  
+var ul = 30  
 ```
 </details>
 <br/>
