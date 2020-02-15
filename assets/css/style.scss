@@ -41,3 +41,8 @@ img.enlarge:active {
     max-height: 95vh;
     z-index: 1;
 }
+
+img.enlarge:not(:active){
+  opacity:0.1
+  
+}
