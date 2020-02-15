@@ -11,7 +11,7 @@ permalink: /coursework1
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="TaxChartCoursework.PNG" style="max-width:100%" height="350">
+    <img src="TaxChartCoursework.PNG" style="max-width:90%" height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - Tax Chart and Calculator</h3>
@@ -21,10 +21,10 @@ permalink: /coursework1
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="HotelCoursework2.PNG" style="max-width:100%" height="350">
+    <img src="HotelCoursework2.PNG" style="max-width:90%" height="350">
   </div>
   <div class="col-xs-6">
-    <h2>Assignment 2 - Hotel booking system</h2>
+    <h3>Assignment 2 - Hotel booking system</h3>
     <p>The Second coursework we were tasked with in Java involved creating a Hotel using OOP to allow a booking system, this did not require a GUI.</p>
   </div>
 </div>
@@ -35,10 +35,10 @@ permalink: /coursework1
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="BrowserCoursework.PNG" style="max-width:100%" height="350">
+    <img src="BrowserCoursework.PNG" style="max-width:90%" height="350">
   </div>
   <div class="col-xs-6">
-    <h2>Assignment 1 - Web Browser</h2>
+    <h3>Assignment 1 - Web Browser</h3>
     <p>The coursework we were tasked with in Java in the second semester was to create a browser that would display webpages and required a GUI, we were told to use Swing for this.</p>
   </div>
 </div>
@@ -49,17 +49,17 @@ permalink: /coursework1
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="" style="max-width:100%" height="350">
+    <img src="" style="max-width:90%" height="350">
   </div>
   <div class="col-xs-6">
-    <h2>Assignment 1 - Programming Presentation</h2>
+    <h3>Assignment 1 - Programming Presentation</h3>
     <p>Research and present information on a programming language of our choice, including a written report of the information also</p>
   </div>
 </div>
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="EthicsCoursework.PNG" style="max-width:100%" height="350">
+    <img src="EthicsCoursework.PNG" style="max-width:90%" height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 2 - Ethics in Software Engineering</h3>
@@ -70,7 +70,7 @@ permalink: /coursework1
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="usabilityCoursework.PNG" style="max-width:100%" height="350">
+    <img src="usabilityCoursework.PNG" style="max-width:90%" height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 3 - Usability Analysis(Sprint)</h3>
@@ -80,7 +80,7 @@ permalink: /coursework1
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="litCoursework.PNG" style="max-width:100%" height="350">
+    <img src="litCoursework.PNG" style="max-width:90%" height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 4 - Literature Review</h3>
@@ -90,8 +90,8 @@ permalink: /coursework1
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="testingCoursework.PNG" style="max-width:100%" height="350"><br><br>
-    <img src="testingCoursework2.PNG" style="max-width:100%" height="350">
+    <img src="testingCoursework.PNG" style="max-width:90%" height="350"><br><br>
+    <img src="testingCoursework2.PNG" style="max-width:90%" height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 5 - Debugging PreWritten Code</h3>
@@ -105,7 +105,7 @@ permalink: /coursework1
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="liftCoursework.PNG" style="max-width:100%" height="350"><br><br>
+    <img src="liftCoursework.PNG" style="max-width:90%" height="350"><br><br>
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - Lift Simulator</h3>
@@ -120,7 +120,7 @@ permalink: /coursework1
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="" style="max-width:100%" height="350"><br><br>
+    <img src="" style="max-width:90%" height="350"><br><br>
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - Maths</h3>
@@ -134,7 +134,7 @@ permalink: /coursework1
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="webCoursework.PNG" style="max-width:100%" height="350"><br><br>
+    <img src="webCoursework.PNG" style="max-width:90%" height="350"><br><br>
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - Copy a Website using image</h3>
