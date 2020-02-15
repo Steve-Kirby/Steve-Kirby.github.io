@@ -12,7 +12,7 @@ permalink: /coursework1
 <div class="row">
 <hr>
 <div class="row">
-<div class="col-xs-6 enlarge">
+<div class="col-xs-6">
 <img class="enlarge" src="TaxChartCoursework.PNG" style="max-width:90%" max-height="350">
 </div>
 <div class="col-xs-6">
