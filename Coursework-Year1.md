@@ -17,7 +17,7 @@ permalink: /coursework1
 <div class="row">
 <hr>
 <div class="col-xs-6">
-<img src="HotelCoursework2.PNG" style="max-width:100%" height=350>
+<img src="HotelCoursework2.PNG" style="max-width:100%" height="350">
 </div>
 <div class="col-xs-6">
 <h3>CSC1021 Assignment 2 - Hotel booking system</h3>
@@ -26,7 +26,7 @@ permalink: /coursework1
 </div>
 <div class="row">
 <div class="col-xs-6">
-<img src="BrowserCoursework.PNG" style="max-width:100%" height=350>
+<img src="BrowserCoursework.PNG" style="max-width:100%" height="350">
 </div>
 <div class="col-xs-6">
 <h3>CSC1022 Assignment 1 - Browser</h3>
@@ -36,7 +36,7 @@ permalink: /coursework1
 <div class="row">
 <hr>
 <div class="col-xs-6">
-<img src="" style="max-width:100%" height=350>
+<img src="" style="max-width:100%" height="350">
 </div>
 <div class="col-xs-6">
 <h3>CSC1023 Assignment 1 - Programming Presentation</h3>
@@ -46,7 +46,7 @@ permalink: /coursework1
 <div class="row">
 <hr>
 <div class="col-xs-6">
-<img src="EthicsCoursework.PNG" style="max-width:100%" height=350>
+<img src="EthicsCoursework.PNG" style="max-width:100%" height="350">
 </div>
 <div class="col-xs-6">
 <h3>CSC1023 Assignment 2 - Ethics in Software Engineering</h3>
@@ -57,7 +57,7 @@ permalink: /coursework1
 <div class="row">
 <hr>
 <div class="col-xs-6">
-<img src="usabilityCoursework.PNG" style="max-width:100%" height=350>
+<img src="usabilityCoursework.PNG" style="max-width:100%" height="350">
 </div>
 <div class="col-xs-6">
 <h3>CSC1023 Assignment 3 - Usability Analysis(Sprint)</h3>
@@ -67,7 +67,7 @@ permalink: /coursework1
 <div class="row">
 <hr>
 <div class="col-xs-6">
-<img src="litCoursework.PNG" style="max-width:100%" height=350>
+<img src="litCoursework.PNG" style="max-width:100%" height="350">
 </div>
 <div class="col-xs-6">
 <h3>CSC1023 Assignment 4 - Literature Review</h3>
@@ -77,8 +77,8 @@ permalink: /coursework1
 <div class="row">
 <hr>
 <div class="col-xs-6">
-<img src="testingCoursework.PNG" style="max-width:100%" height=350><br><br>
-<img src="testingCoursework2.PNG" style="max-width:100%" height=350>
+<img src="testingCoursework.PNG" style="max-width:100%" height="350"><br><br>
+<img src="testingCoursework2.PNG" style="max-width:100%" height="350">
 </div>
 <div class="col-xs-6">
 <h3>CSC1023 Assignment 5 - Debugging PreWritten Code</h3>
@@ -88,7 +88,7 @@ permalink: /coursework1
 <div class="row">
 <hr>
 <div class="col-xs-6">
-<img src="liftCoursework.PNG" style="max-width:100%" height=350><br><br>
+<img src="liftCoursework.PNG" style="max-width:100%" height="350"><br><br>
 </div>
 <div class="col-xs-6">
 <h3>CSC1024 Assignment 1 - Lift Simulator</h3>
@@ -99,7 +99,7 @@ permalink: /coursework1
 <div class="row">
 <hr>
 <div class="col-xs-6">
-<img src="webCoursework.PNG" style="max-width:100%" height=350><br><br>
+<img src="webCoursework.PNG" style="max-width:100%" height="350"><br><br>
 </div>
 <div class="col-xs-6">
 <h3>CSC1026 Assignment 1 - Copy a Website using image</h3>
