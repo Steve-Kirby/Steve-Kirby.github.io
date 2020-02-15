@@ -12,7 +12,7 @@ permalink: /coursework1
 <div class="row">
 <hr>
 <div class="col-xs-6">
-<img src="TaxChartCoursework.PNG" style="max-width:90%" height="350">
+<img src="TaxChartCoursework.PNG" style="max-width:90%" max-height="350">
 </div>
 <div class="col-xs-6">
 <h3>Assignment 1 - Tax Chart and Calculator</h3>
@@ -50,7 +50,7 @@ public void printTable(int[]gross){
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="HotelCoursework2.PNG" style="max-width:90%" height="350">
+    <img src="HotelCoursework2.PNG" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 2 - Hotel booking system</h3>
