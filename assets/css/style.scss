@@ -3,10 +3,6 @@
 
 @import "{{ site.theme }}";
 
-body{
-  background-color:white;
-}
-
 #main-content{
   
  width:100%;
@@ -46,7 +42,7 @@ img.enlarge:active {
     z-index: 1;
 }
 
-img.enlarge:active:not(img){
+img.enlarge:active :not(img){
   background:black !important;
   background-color:black;
   opacity:0.6;
