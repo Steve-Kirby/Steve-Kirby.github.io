@@ -17,6 +17,8 @@ permalink: /coursework1
 <div class="col-xs-6">
 <h3>Assignment 1 - Tax Chart and Calculator</h3>
 <p>The First coursework we were tasked with in Java involved creating a Tax Calculator which then displayed a bar chart showing income and amount to pay.</p>
+</div>
+<div class="row">
 <details><summary markdown="span">Show me the code!</summary>
 ```java
 /**
