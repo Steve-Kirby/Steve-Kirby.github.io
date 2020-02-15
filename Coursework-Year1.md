@@ -4,7 +4,7 @@ title: "Coursework - Year 1"
 permalink: /coursework1
 ---
 <h1 style="text-align:center;margin-top:20px;">Coursework - Year 1</h1>
-<div class="row">
+<div class="row" style="margin:auto">
   <hr>
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1021">Programming I</a></h2>
 </div>
