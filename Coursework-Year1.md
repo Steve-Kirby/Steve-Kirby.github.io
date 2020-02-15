@@ -4,7 +4,7 @@ title: "Coursework Year 1"
 permalink: /coursework1
 ---
 <h1 style="text-align:center;margin-top:20px;">Coursework - Year 1</h1>
-            <div class="row">
+<div class="row">
                 <hr>
                 <div class="col-xs-6">
                     <img src="TaxChartCoursework.PNG" style="max-width:100%" height=350>
@@ -117,3 +117,4 @@ permalink: /coursework1
                 </div>
 
             </div>
+
