@@ -13,7 +13,7 @@ permalink: /coursework1
 <hr>
 <div class="row">
 <div class="col-xs-6">
-<img src="TaxChartCoursework.PNG" style="max-width:90%" max-height="350">
+<img class="enlarge" src="TaxChartCoursework.PNG" style="max-width:90%" max-height="350">
 </div>
 <div class="col-xs-6">
 <h3>Assignment 1 - Tax Chart and Calculator</h3>
@@ -68,7 +68,7 @@ public void printTable(int[]gross){
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="BrowserCoursework.PNG" style="max-width:90%" height="350">
+    <img src="BrowserCoursework.PNG" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - Web Browser</h3>
@@ -82,7 +82,7 @@ public void printTable(int[]gross){
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="" style="max-width:90%" height="350">
+    <img src="" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - Programming Presentation</h3>
@@ -92,7 +92,7 @@ public void printTable(int[]gross){
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="EthicsCoursework.PNG" style="max-width:90%" height="350">
+    <img src="EthicsCoursework.PNG" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 2 - Ethics in Software Engineering</h3>
@@ -103,7 +103,7 @@ public void printTable(int[]gross){
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="usabilityCoursework.PNG" style="max-width:90%" height="350">
+    <img src="usabilityCoursework.PNG" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 3 - Usability Analysis(Sprint)</h3>
@@ -113,7 +113,7 @@ public void printTable(int[]gross){
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="litCoursework.PNG" style="max-width:90%" height="350">
+    <img src="litCoursework.PNG" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 4 - Literature Review</h3>
@@ -123,8 +123,8 @@ public void printTable(int[]gross){
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="testingCoursework.PNG" style="max-width:90%" height="350"><br><br>
-    <img src="testingCoursework2.PNG" style="max-width:90%" height="350">
+    <img src="testingCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
+    <img src="testingCoursework2.PNG" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 5 - Debugging PreWritten Code</h3>
@@ -138,7 +138,7 @@ public void printTable(int[]gross){
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="liftCoursework.PNG" style="max-width:90%" height="350"><br><br>
+    <img src="liftCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - Lift Simulator</h3>
@@ -153,7 +153,7 @@ public void printTable(int[]gross){
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="" style="max-width:90%" height="350"><br><br>
+    <img src="" style="max-width:90%" max-height="350"><br><br>
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - Maths</h3>
@@ -167,7 +167,7 @@ public void printTable(int[]gross){
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="webCoursework.PNG" style="max-width:90%" height="350"><br><br>
+    <img src="webCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - Copy a Website using image</h3>
