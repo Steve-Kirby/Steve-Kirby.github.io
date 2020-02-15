@@ -1,6 +1,6 @@
-----
+---
 layout: default
-----
+---
 
 # Welcome!
 Feel free to browse my portfolio and [github repository](https://github.com/Steve-Kirby)
