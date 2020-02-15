@@ -30,12 +30,21 @@ div.row{
   
 }
 
-.enlarge:active{
+div.enlarge:hover{
+  
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   text-align: center;
+  
+}
+
+img.enlarge:active{
  
-  margin:auto;
-  min-width: 50vw;
-  position: absolute;
-  width: 70vw;
+  max-width: 99%;
+  max-height: 99%;
   z-index:1;
   
 }
