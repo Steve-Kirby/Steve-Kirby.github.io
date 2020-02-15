@@ -21,7 +21,7 @@ permalink: /coursework1
 </div>
 </div>
 <div class="row">
-<details><summary markdown="span">Show me the code!</summary>
+<details><summary markdown="span" style="text-align:right">Show me the code!</summary>
 ```java
 /**
 * Prints table of data with gross,tax paid and net values
