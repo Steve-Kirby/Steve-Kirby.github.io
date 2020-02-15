@@ -3,24 +3,25 @@ layout: page
 title: "Coursework - Year 1"
 permalink: /coursework1
 ---
+
 <h1 style="text-align:center;margin-top:20px;">Coursework - Year 1</h1>
-<div class="row">
+<div class="row bodydark">
   <hr>
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1021">Programming I</a></h2>
 </div>
 {::options parse_block_html="true" /}
-<div class="row">
+<div class="row bodydark">
 <hr>
-<div class="row">
+<div class="row bodydark">
 <div class="col-xs-6">
 <img class="enlarge" src="TaxChartCoursework.PNG" style="max-width:90%" max-height="350">
 </div>
-<div class="col-xs-6">
+<div class="col-xs-6 bodydark">
 <h3>Assignment 1 - Tax Chart and Calculator</h3>
 <p>The First coursework we were tasked with in Java involved creating a Tax Calculator which then displayed a bar chart showing income and amount to pay.</p>
 </div>
 </div>
-<div class="row">
+<div class="row bodydark">
 <details><summary markdown="span" style="text-align:right">Show me the code!</summary>
 ```java
 /**
