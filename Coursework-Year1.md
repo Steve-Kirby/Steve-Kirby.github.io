@@ -16,9 +16,10 @@ permalink: /coursework1
   <div class="col-xs-6">
     <h3>Assignment 1 - Tax Chart and Calculator</h3>
     <p>The First coursework we were tasked with in Java involved creating a Tax Calculator which then displayed a bar chart showing income and amount to pay.</p>
-
-```java
-    /**
+	  {::options parse_block_html="true" /}
+	  <details><summary markdown="span">Let's see some code!</summary>
+		  ```java
+		  /**
  * @Author Steven Kirby
  * @Date 13/10/2016
  * @Company The Beurocratic Office Generating Other Financial Fiddles(BOGOFF)
@@ -90,8 +91,13 @@ public class TaxCalculator {
 	}
 	
 }
-```
 
+		  ```
+Of course, it has to be Hello World, right?
+</details>
+<br/>
+
+{::options parse_block_html="false" /}
   </div>
 </div>
 <div class="row">
