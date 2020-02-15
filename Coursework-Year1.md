@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Coursework Year 1"
+title: "Coursework - Year 1"
 permalink: /coursework1
 ---
 <h1 style="text-align:center;margin-top:20px;">Coursework - Year 1</h1>
 <div class="row">
+  <hr>
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1021">Programming I</a></h2>
 </div>
 <div class="row">
@@ -28,9 +29,11 @@ permalink: /coursework1
   </div>
 </div>
 <div class="row">
+  <hr>
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1022">Programming II</a></h2>
 </div>
 <div class="row">
+  <hr>
   <div class="col-xs-6">
     <img src="BrowserCoursework.PNG" style="max-width:100%" height="350">
   </div>
@@ -40,7 +43,8 @@ permalink: /coursework1
   </div>
 </div>
 <div class="row">
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1023">Programming I</a></h2>
+  <hr>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1023">The Software Engineering Professional</a></h2>
 </div>
 <div class="row">
   <hr>
@@ -95,6 +99,7 @@ permalink: /coursework1
   </div>
 </div>
 <div class="row">
+  <hr>
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1024">Computer Architecture</a></h2>
 </div>
 <div class="row">
@@ -109,7 +114,8 @@ permalink: /coursework1
   </div>
 </div>
 <div class="row">
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1021">Mathematics for Computer Science</a></h2>
+  <hr>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1025">Mathematics for Computer Science</a></h2>
 </div>
 <div class="row">
   <hr>
@@ -122,6 +128,7 @@ permalink: /coursework1
   </div>
 </div>
 <div class="row">
+  <hr>
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1026">Website Design and Construction</a></h2>
 </div>
 <div class="row">
