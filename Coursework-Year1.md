@@ -11,12 +11,14 @@ permalink: /coursework1
 {::options parse_block_html="true" /}
 <div class="row">
 <hr>
+<div class="row">
 <div class="col-xs-6">
 <img src="TaxChartCoursework.PNG" style="max-width:90%" max-height="350">
 </div>
 <div class="col-xs-6">
 <h3>Assignment 1 - Tax Chart and Calculator</h3>
 <p>The First coursework we were tasked with in Java involved creating a Tax Calculator which then displayed a bar chart showing income and amount to pay.</p>
+</div>
 </div>
 <div class="row">
 <details><summary markdown="span">Show me the code!</summary>
