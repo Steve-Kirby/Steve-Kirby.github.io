@@ -3,6 +3,7 @@ layout: page
 title: "Coursework - Year 1"
 permalink: /coursework1
 ---
+
 <h1 style="text-align:center;margin-top:20px;">Coursework - Year 1</h1>
 <div class="row">
   <hr>
@@ -16,11 +17,12 @@ permalink: /coursework1
   <div class="col-xs-6">
     <h3>Assignment 1 - Tax Chart and Calculator</h3>
     <p>The First coursework we were tasked with in Java involved creating a Tax Calculator which then displayed a bar chart showing income and amount to pay.</p>
-	  <details><summary markdown="span">Show me the code!</summary>
-	  <script src="https://gist.github.com/Steve-Kirby/ed6e9c61ad51929311f1641419d37009.js"></script>
+	  <details markdown="1"><summary markdown="span">Show me the code!</summary>
+```js
+var ul = 20  
+```
 	  </details>
 	<br/>
-
   </div>
 </div>
 <div class="row">
