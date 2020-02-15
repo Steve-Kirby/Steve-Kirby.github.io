@@ -47,6 +47,6 @@ img.enlarge:active {
 }
 
 img.enlarge:active:not(img){
-  background-color:black !important;
+  background:black !important;
   opacity:0.6;
 }
