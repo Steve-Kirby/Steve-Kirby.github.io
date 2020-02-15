@@ -29,7 +29,7 @@ permalink: /coursework1
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         <br>
-          <a href="steve-kirby.github.io"><span>Back to Home Page</span></a>
+          <a href="../"><span>Back to Home Page</span></a>
       </div>
     </header>
 
