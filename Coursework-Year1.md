@@ -16,12 +16,14 @@ permalink: /coursework1
   <div class="col-xs-6">
     <h3>Assignment 1 - Tax Chart and Calculator</h3>
     <p>The First coursework we were tasked with in Java involved creating a Tax Calculator which then displayed a bar chart showing income and amount to pay.</p>
-	  <details><summary markdown="span">Show me the code!</summary>
-	<span>```js
-	var ul = 20  
-	```</span>
-	  </details>
-	<br/>
+{::options parse_block_html="true" /}
+<details><summary markdown="span">Show me the code!</summary>
+```js
+var ul = 20  
+```
+</details>
+<br/>
+{::options parse_block_html="false" /}
   </div>
 </div>
 <div class="row">
