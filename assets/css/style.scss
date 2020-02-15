@@ -42,8 +42,9 @@ img.enlarge:active {
     z-index: 1;
 }
 
-img.enlarge:active :not(img){
+img.enlarge:active body{
   background:black !important;
   background-color:black !important;
   opacity:0.6;
+  filter: brightness(50%);
 }
