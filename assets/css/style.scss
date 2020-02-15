@@ -42,7 +42,7 @@ img.enlarge:active {
     z-index: 1;
 }
 
-:not(img.enlarge){
+img.enlarge:active:not(img){
   background-color:black;
   opacity:0.6;
 }
