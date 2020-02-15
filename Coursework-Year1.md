@@ -52,7 +52,9 @@ permalink: /coursework1
             <div class="row">
                 <hr>
                 <div class="col-xs-6">
+                <p>
                     <img src="/HotelCoursework2.PNG" style="max-width:100%" height=350>
+                    </p>
                 </div>
                 <div class="col-xs-6">
                     <h3>CSC1021 Assignment 2 - Hotel booking system</h3>
