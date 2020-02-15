@@ -7,8 +7,8 @@ permalink: /coursework1
 <div class="row">
 <hr>
 <div class="col-xs-6">
-![pic](/TaxChartCoursework.PNG)
-![Graph](/DissertationGraph.png)
+<img src="DissertationGraph.png" style="max-width:100%" height=350>
+<img src="/DissertationGraph.png" style="max-width:100%" height=350>
 </div>
 <div class="col-xs-6">
 <h3>CSC1021 Assignment 1 - Tax Chart and Calculator</h3>
