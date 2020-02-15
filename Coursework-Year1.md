@@ -19,25 +19,28 @@ permalink: /coursework1
 <p>The First coursework we were tasked with in Java involved creating a Tax Calculator which then displayed a bar chart showing income and amount to pay.</p>
 <details><summary markdown="span">Show me the code!</summary>
 ```java
-  /**
-	 * Prints table of data with gross,tax paid and net values
-	 * 
-	 * @param gross gross income before tax
-	 */
-	public void printTable(int[]gross){
-		int[] net;
-		net = new int[gross.length];
-		//for loop prints each of gross income, net income , and tax paid on the gross income.
-		for(int row = 0;row<=(gross.length -1);row++){
-			net[row] = ((gross[row])-(TaxCalculator.taxPayable(gross[row])));
-			//ensures the net income is never less then 0
-			if (net[row]<0){
-				net[row]=0;
-				}
-		//prints out the values to the console
-			System.out.println("Gross:" +gross[row] + " Tax-Payable:" + (TaxCalculator.taxPayable(gross[row])) + " Net:" + net[row]);
+/**
+* Prints table of data with gross,tax paid and net values
+* 
+* @param gross gross income before tax
+*/
+public void printTable(int[]gross){
+	int[] net;
+	net = new int[gross.length];
+	
+	//for loop prints each of gross income, net income , and tax paid on the gross income.
+	for(int row = 0;row<=(gross.length -1);row++){
+		net[row] = ((gross[row])-(TaxCalculator.taxPayable(gross[row])));
+			
+		//ensures the net income is never less then 0
+		if (net[row]<0){
+			net[row]=0;
 		}
+		
+		//prints out the values to the console
+		System.out.println("Gross:" +gross[row] + " Tax-Payable:" + (TaxCalculator.taxPayable(gross[row])) + " Net:" + net[row]);
 	}
+}
 ```
 </details>
 <br/>
