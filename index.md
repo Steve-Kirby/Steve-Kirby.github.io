@@ -5,7 +5,7 @@ layout: default
 # Welcome!
 Feel free to browse my portfolio and [github repository](https://github.com/Steve-Kirby), 
 
-The links in the header link to work I have completed during my time at university and for personal projects.
+The **links in the header** link to **work I have completed** during my time at **university** and for **personal projects**.
 
 I am still updating this portfolio so check back soon for any updates! (version 1.1)
 
