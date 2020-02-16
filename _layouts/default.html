@@ -22,11 +22,8 @@
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         <br>
-        <a href="#current-projects"><span>Current Projects</span></a>
-        <a href="#past-projects"><span>Past Projects</span></a>
-        <a href="#education-and-learning"><span>Education and Learning</span></a>
-        <a href="/coursework1"><span style="float:right" margin:"auto">Personal Projects</span></a>
-        <a href="/coursework1"><span style="float:right" margin:"auto">University Assignments</span></a>
+        <a href="/coursework1"><span>Personal Projects</span></a>
+        <a href="/coursework1"><span>University Assignments</span></a>
         {% if site.github.is_user_page %}
           <a href="{{ site.github.owner_url }}" class="button"><small>Follow me on</small> GitHub</a>
         {% endif %}
@@ -37,6 +34,10 @@
       <div class="inner clearfix">
 
         <section id="main-content">
+        <a href="#current-projects"><span>Current Projects</span></a>
+        <a href="#past-projects"><span>Past Projects</span></a>
+        <a href="#education-and-learning"><span>Education and Learning</span></a>
+          
           {{ content }}
         </section>
         
