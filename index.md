@@ -3,7 +3,9 @@ layout: default
 ---
 
 # Welcome!
-Feel free to browse my portfolio and [github repository](https://github.com/Steve-Kirby)
+Feel free to browse my portfolio and [github repository](https://github.com/Steve-Kirby), 
+
+The links in the header link to work I have completed during my time at university and for personal projects.
 
 I am still updating this portfolio so check back soon for any updates! (version 1.1)
 
@@ -56,14 +58,6 @@ This will be in reverse chronilogical order with the most recent and relevent in
   - Working on Responsive Web Design Certification (300 hours) on [freecodecamp.org](http://www.freecodecamp.org);
    
 ### Past Education and Learning ###
-
-The following links show the work I have done during my time at university.
-
-[Year 1](/coursework1)
-
-[Year 2](/coursework2)
-
-[Year 3](/coursework3)
 
 **Newcastle University - BSc Computer Science (Game Engineering)** (*First Class 73.6% overall*) [results report document](https://core.digitary.net/sharelink/09d22cd9-7a1b-4f5d-b9de-50b776e1f77d/7b408f64-c008-4b98-b005-c958d927039c)
   - Year 3 (*First 70.8% average*)
