@@ -5,7 +5,7 @@ layout: default
 # Welcome!
 Feel free to browse my portfolio and [github repository](https://github.com/Steve-Kirby), 
 
-The **links in the header** link to **work I have completed** during my time at **university** and for **personal projects**.
+The **links in the header** show **work I have completed** during my time at **university** and for **personal projects**.
 
 I am still updating this portfolio so check back soon for any updates! (version 1.1)
 
@@ -17,7 +17,7 @@ I am looking for a role within the **games industry**, with the goal of becoming
 
 I also enjoy **web development** and know most aspects of web development needed to build and maintain a **secure feature packed website**.
 
-I have recently gotten over a period of depression but have now regained my enthusiasm for programming, I am currently working on improving my portfolio and applying for suitable jobs(hopefully).
+I have recently gotten over a period of depression but have now regained my enthusiasm for programming, I am currently working on improving my portfolio and applying for suitable jobs.
 
 ## Current Projects ##
 
