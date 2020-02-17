@@ -7,172 +7,68 @@ permalink: /personal1
 <h1 style="text-align:center;margin-top:20px;">Website Development</h1>
 <div class="row bodydark">
   <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1021">Programming I</a></h2>
-</div>
-{::options parse_block_html="true" /}
-<div class="row bodydark">
-<hr>
-<div class="row bodydark">
-<div class="col-xs-6">
-<img class="enlarge" src="TaxChartCoursework.PNG" style="max-width:90%" max-height="350">
-</div>
-<div class="col-xs-6 bodydark">
-<h3>Assignment 1 - Tax Chart and Calculator</h3>
-<p>The First coursework we were tasked with in Java involved creating a Tax Calculator which then displayed a bar chart showing income and amount to pay.</p>
-</div>
-</div>
-<div class="row bodydark">
-<details><summary markdown="span" style="text-align:right">Show me the code!</summary>
-```java
-/**
-* Prints table of data with gross,tax paid and net values
-* 
-* @param gross gross income before tax
-*/
-public void printTable(int[]gross){
-    int[] net;
-    net = new int[gross.length];
-	
-//for loop prints each of gross income, net income , and tax paid on the gross income.
-    for(int row = 0;row<=(gross.length -1);row++){
-        net[row] = ((gross[row])-(TaxCalculator.taxPayable(gross[row])));
-			
-//ensures the net income is never less then 0
-	if (net[row]<0){
-	    net[row]=0;
-	}
-		
-//prints out the values to the console
-	System.out.println("Gross:" +gross[row] + " Tax-Payable:" + (TaxCalculator.taxPayable(gross[row])) + " Net:" + net[row]);
-    }
-}
-```
-</details>
-<br/>
-</div>
-</div>
-{::options parse_block_html="false" /}
-<div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img class="enlarge" src="HotelCoursework2.PNG" style="max-width:90%" max-height="350">
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 2 - Hotel booking system</h3>
-    <p>The Second coursework we were tasked with in Java involved creating a Hotel using OOP to allow a booking system, this did not require a GUI.</p>
-  </div>
+  <h2><a href="#">Freegram.co.uk</a></h2>
 </div>
 <div class="row">
-  <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1022">Programming II</a></h2>
+	<hr>
+	<div class="col-xs-6">
+		<img src="loginFreegram.PNG" style="max-width:100%" height=350>
+            </div>
+	<div class="col-xs-6">
+		<h3>WordPress/Social Media Login</h3>
+		<p>The site uses WordPress and enables users to signup and login with facebook, google, twitter or youtube quickly and securely in a couple of clicks</p>
+	</div>
 </div>
 <div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img class="enlarge" src="BrowserCoursework.PNG" style="max-width:90%" max-height="350">
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 1 - Web Browser</h3>
-    <p>The coursework we were tasked with in Java in the second semester was to create a browser that would display webpages and required a GUI, we were told to use Swing for this.</p>
-  </div>
+	<hr>
+	<div class="col-xs-6">
+		<img src="seperationFreegram.PNG" style="max-width:100%" height=350>
+	</div>
+	<div class="col-xs-6">
+		<h3>Blog Categories</h3>
+		<p>I Chose to layout the site as a Blog, which would enable users to post their own blogs, projects and news by setting the correct category they could be seperated and easily found</p>
+		<p>The main categories include News, Blogs and Projects, this is because the site is primarily supposed to be aimed toward companies with little to no budget/charities who need programming jobs done in exchange for a programmer to gain experience and a reference to add to their portfolio</p>
+	</div>
 </div>
 <div class="row">
-  <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1023">The Software Engineering Professional</a></h2>
+	<hr>
+	<div class="col-xs-6">
+            <img src="userblogFreegram.PNG" style="max-width:100%" height=350>
+	</div>
+	<div class="col-xs-6">
+		<h3>Editing of Plugins</h3>
+		<p>The use of plugins make it very easy to knock up a website in a very short time with great functionality, however to get the very best out of wordpress, you need the ability to edit or modify plugins to your liking, i have done this here with limited success as it is a very manual process, by disincluding my own posts into the blogs by users, and likewise with only including my own blogs in the blogs by me section</p>
+		<p>Blogs by users will only show other peoples blogs, Blogs by Freegram will only show the blogs posted by me</p>
+		<p>I also replicated the behaviour of showing all posts whereby the picture for the post is showing beside the blurb as this was not a default option with the plugin i used.</p>
+	</div>
 </div>
 <div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img class="enlarge" src="" style="max-width:90%" max-height="350">
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 1 - Programming Presentation</h3>
-    <p>Research and present information on a programming language of our choice, including a written report of the information also</p>
-  </div>
+	<hr>
+	<div class="col-xs-6">
+		<img src="tutislandFreegram.PNG" style="max-width:100%" height=350>
+	</div>
+	<div class="col-xs-6">
+		<h3>Tutorial Island</h3>
+		<p>This page is a one stop place for many of a budding programmers needs to learn, without having to leave the page they have access to alot of resources from youtube about web development, programming and SEO</p>
+	</div>
 </div>
 <div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img class="enlarge" src="EthicsCoursework.PNG" style="max-width:90%" max-height="350">
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 2 - Ethics in Software Engineering</h3>
-    <p>This coursework involved choosing a computing disaster to discuss about, mainly the ethics behind the disaster and what happend,how it happened and what could of been done to prevent this.</p>
-    <p>The topic I decided to choose was 000webhost and their database breach of plain text information of over 13.5 million users details and passwords.</p>
-  </div>
+	<hr>
+	<div class="col-xs-6">
+		<img src="socialFreegram.PNG" style="max-width:100%" height=100>
+            </div>
+	<div class="col-xs-6">
+		<h3>Social Media</h3>
+		<p>Using the simple application IFTTT, if this then that, i have made each and every blog, news or project that is posted, also be posted to facebook and twitter.</p>
+            </div>
 </div>
 <div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img class="enlarge" src="usabilityCoursework.PNG" style="max-width:90%" max-height="350">
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 3 - Usability Analysis(Sprint)</h3>
-    <p>Using Nielsen's 10 Usablity Heuristics where appropriate we were tasked with testing out the universities blackboard system</p>
-  </div>
-</div>
-<div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img class="enlarge" src="litCoursework.PNG" style="max-width:90%" max-height="350">
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 4 - Literature Review</h3>
-    <p>Using Google Scholar we were to find 3 literature pieces from trusted and reliable sources based on a subject in computing science, I opted to choose AI and Machine Learning, this wasnt a suggested topic however I find this subject interesting.</p>
-  </div>
-</div>
-<div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img class="enlarge" src="testingCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
-    <img class="enlarge" src="testingCoursework2.PNG" style="max-width:90%" max-height="350">
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 5 - Debugging PreWritten Code</h3>
-    <p>The Code we were given had been written specifically for the purpose of testing and debugging with injected issues.</p>
-  </div>
-</div>
-<div class="row">
-  <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1024">Computer Architecture</a></h2>
-</div>
-<div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img class="enlarge" src="liftCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 1 - Lift Simulator</h3>
-    <p>Using assembly language, we were tasked with controlling a lift.</p>
-    <p>We had a very limited amount of memory to work with.</p>
-  </div>
-</div>
-<div class="row">
-  <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1025">Mathematics for Computer Science</a></h2>
-</div>
-<div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img src="" style="max-width:90%" max-height="350"><br><br>
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 1 - Maths</h3>
-    <p>Generic maths</p>
-  </div>
-</div>
-<div class="row">
-  <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1026">Website Design and Construction</a></h2>
-</div>
-<div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img class="enlarge" src="webCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 1 - Copy a Website using image</h3>
-    <p>Using just an image and some pre written text we were tasked with marking up the text so that the page had the same underlying 
-structure as a website and then using css to make it look like the final result</p>
-  </div>
+	<hr>
+	<div class="col-xs-6">
+		<img src="customFreegram.png" style="max-width:100%" height=350>
+	</div>
+	<div class="col-xs-6">
+		<h3>Custom HTML Pages</h3>
+		<p>Of course just because the website uses wordpress predominantly, there is no reason why not to use custom html pages, as such i have created a smoking calculator, and of course this portfolio will be on a custom page on this website</p>
+	</div>
 </div>
