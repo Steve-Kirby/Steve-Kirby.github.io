@@ -65,7 +65,7 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img class="enlarge" src="customFreegram.png" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="customFreegram.PNG" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>Custom HTML Pages</h3>
