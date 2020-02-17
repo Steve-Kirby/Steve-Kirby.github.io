@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Welcome!
-Feel free to browse my portfolio and [github repository](https://github.com/Steve-Kirby), 
+Feel free to browse my portfolio and [github repository](https://github.com/Steve-Kirby).
 
 The **links in the header** show **work I have completed** during my time at **university** and for **personal projects**.
 
@@ -47,12 +47,17 @@ This is based on the classic nokia game Snake, i hope to add extra interesting f
 *Update:12/02/2020* Postponing to work on Watermarker.
 
 ## Past Projects ##
-View my [past projects on GitHub here](https://github.com/Steve-Kirby) to see what i have worked on in the past.
 
+View these links to see what i have worked on in the past.
+
+  - [University Coursework](/coursework1)
+  - [Personal Projects](/personal1) 
+  - [Projects on GitHub](https://github.com/Steve-Kirby)
 
 ## Education and Learning ##
 Any resources i have used to help me learn from and use as a reference in case i need to look over it again, including YouTube, Books, University/College and Websites such as Stack Overflow, GitHub and any others i see fit.
 This will be in reverse chronilogical order with the most recent and relevent information at the top of the list.
+
 ### Current Goals
   - Working through android game programming course on [gamecodeschool.com](http://gamecodeschool.com/courses/android-game-programming/)
   - Working on Responsive Web Design Certification (300 hours) on [freecodecamp.org](http://www.freecodecamp.org);
@@ -120,11 +125,10 @@ This will be in reverse chronilogical order with the most recent and relevent in
   
 **Java**
   - Java for Dummies
-  - more
+  - Effective Java
   
 **Visual Basic**
   - Sams Teach Yourself VB in 24 Hours
-  - more
   
 ## Contact Me!
 To contact me about anything, you can [email me](mailto:stevenkirbywork@gmail.com).
