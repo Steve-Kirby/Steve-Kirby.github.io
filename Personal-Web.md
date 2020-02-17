@@ -80,7 +80,7 @@ permalink: /personal1
 	<hr>
 	<div class="col-xs-6">
 		<img src="LoginSellCards.PNG" style="max-width:90%" max-height="350">
-		<img src="UserDB.PNG" style="max-width:90%">
+		<img src="UserDB.PNG" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>PHP Login/SQL Database</h3>
@@ -116,9 +116,10 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img src="HomePageSellCards.PNG"  style="max-width:90%" max-height="350"><br><br>
-		<img src="SearchSellCards.PNG"  style="max-width:90%" max-height="350"><br><br>
-		<img src="CardDBSellCards.PNG"  style="max-width:90%" max-height="350">
+		<img src="SellCardsHome.PNG"  style="max-width:90%" max-height="350"><br><br>
+		<img src="SellCardsSearch.PNG"  style="max-width:90%" max-height="350"><br><br>
+		<img src="CardDBSellCards.PNG"  style="max-width:90%" max-height="350"><br><br>
+		<img src="SellCardsHighlight.PNG" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>PHP/SQL Search & Sort</h3>
@@ -128,15 +129,15 @@ permalink: /personal1
 		<h3>CSS Transition</h3>
 		<p>Upon hovering over each card, the background will go black, and the card will enlarge and remain highlighted as well as pop out in front of the other cards</p>
 		<p>This took alot of trial and error, however the result is very satisfactory.</p>
-		<img src="HighlightSellCards.PNG" style="max-width:90%" max-height="350">
+		
 	</div>
 </div>
 <div class="row">
 	<hr>
         <div class="col-xs-6">
-		<img src="AccountPageSellCards.PNG"  style="max-width:90%" max-height="350"><br><br>
+		<img src="SellCardsAccount.PNG"  style="max-width:90%" max-height="350"><br><br>
 		<img src="CartsDB.PNG"  style="max-width:90%" max-height="350"><br><br>
-		<img src="PaypalCheckoutSellCards.PNG"  style="max-width:90%" max-height="350">
+		<img src="SellCardsPaypal.PNG"  style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>PHP/SQL Cart & PayPal</h3>
