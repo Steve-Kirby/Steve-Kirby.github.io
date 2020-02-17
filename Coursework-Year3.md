@@ -5,23 +5,38 @@ permalink: /coursework3
 ---
 
 <h1 style="text-align:center;margin-top:20px;">Coursework - Year 3</h1>
-<div class="row bodydark">
+<div class="row">
   <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1021">Programming I</a></h2>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3095">Project and Dissertation in Computing Science</a></h2>
+</div>
+<div class="row">
+  <hr>
+  <div class="col-xs-6">
+    <img class="enlarge" src="webCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
+  </div>
+  <div class="col-xs-6">
+    <h3>Assignment 1 - Copy a Website using image</h3>
+    <p>Using just an image and some pre written text we were tasked with marking up the text so that the page had the same underlying 
+structure as a website and then using css to make it look like the final result</p>
+  </div>
+</div>
+<div class="row">
+  <hr>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3221">Programming for Games</a></h2>
 </div>
 {::options parse_block_html="true" /}
-<div class="row bodydark">
+<div class="row">
 <hr>
-<div class="row bodydark">
+<div class="row">
 <div class="col-xs-6">
 <img class="enlarge" src="TaxChartCoursework.PNG" style="max-width:90%" max-height="350">
 </div>
-<div class="col-xs-6 bodydark">
+<div class="col-xs-6">
 <h3>Assignment 1 - Tax Chart and Calculator</h3>
 <p>The First coursework we were tasked with in Java involved creating a Tax Calculator which then displayed a bar chart showing income and amount to pay.</p>
 </div>
 </div>
-<div class="row bodydark">
+<div class="row">
 <details><summary markdown="span" style="text-align:right">Show me the code!</summary>
 ```java
 /**
@@ -64,7 +79,7 @@ public void printTable(int[]gross){
 </div>
 <div class="row">
   <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1022">Programming II</a></h2>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3222">Gaming Simulations</a></h2>
 </div>
 <div class="row">
   <hr>
@@ -78,7 +93,7 @@ public void printTable(int[]gross){
 </div>
 <div class="row">
   <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1023">The Software Engineering Professional</a></h2>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3223">Graphics for Games</a></h2>
 </div>
 <div class="row">
   <hr>
@@ -134,7 +149,7 @@ public void printTable(int[]gross){
 </div>
 <div class="row">
   <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1024">Computer Architecture</a></h2>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3224">Computer Games Development</a></h2>
 </div>
 <div class="row">
   <hr>
@@ -149,7 +164,7 @@ public void printTable(int[]gross){
 </div>
 <div class="row">
   <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1025">Mathematics for Computer Science</a></h2>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3122">Mobile Computer Systems Development</a></h2>
 </div>
 <div class="row">
   <hr>
@@ -163,7 +178,37 @@ public void printTable(int[]gross){
 </div>
 <div class="row">
   <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1026">Website Design and Construction</a></h2>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3123">Web Technologies</a></h2>
+</div>
+<div class="row">
+  <hr>
+  <div class="col-xs-6">
+    <img class="enlarge" src="webCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
+  </div>
+  <div class="col-xs-6">
+    <h3>Assignment 1 - Copy a Website using image</h3>
+    <p>Using just an image and some pre written text we were tasked with marking up the text so that the page had the same underlying 
+structure as a website and then using css to make it look like the final result</p>
+  </div>
+</div>
+<div class="row">
+  <hr>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3124">System and Network Security</a></h2>
+</div>
+<div class="row">
+  <hr>
+  <div class="col-xs-6">
+    <img class="enlarge" src="webCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
+  </div>
+  <div class="col-xs-6">
+    <h3>Assignment 1 - Copy a Website using image</h3>
+    <p>Using just an image and some pre written text we were tasked with marking up the text so that the page had the same underlying 
+structure as a website and then using css to make it look like the final result</p>
+  </div>
+</div>
+<div class="row">
+  <hr>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3123">Web Construction and Management(Server-Side)</a></h2>
 </div>
 <div class="row">
   <hr>
