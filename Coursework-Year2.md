@@ -7,7 +7,7 @@ permalink: /coursework2
 <h1 style="text-align:center;margin-top:20px;">Coursework - Year 2</h1>
 <div class="row bodydark">
   <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1021">Programming I</a></h2>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2021">Software Engineering</a></h2>
 </div>
 {::options parse_block_html="true" /}
 <div class="row bodydark">
@@ -64,7 +64,7 @@ public void printTable(int[]gross){
 </div>
 <div class="row">
   <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1022">Programming II</a></h2>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2022">Software Engineering Team Project</a></h2>
 </div>
 <div class="row">
   <hr>
@@ -78,7 +78,7 @@ public void printTable(int[]gross){
 </div>
 <div class="row">
   <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1023">The Software Engineering Professional</a></h2>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2023">Algorithm Design and Analysis</a></h2>
 </div>
 <div class="row">
   <hr>
@@ -134,7 +134,7 @@ public void printTable(int[]gross){
 </div>
 <div class="row">
   <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1024">Computer Architecture</a></h2>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2024">Database Technology</a></h2>
 </div>
 <div class="row">
   <hr>
@@ -149,7 +149,7 @@ public void printTable(int[]gross){
 </div>
 <div class="row">
   <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1025">Mathematics for Computer Science</a></h2>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2025">Operating Systems</a></h2>
 </div>
 <div class="row">
   <hr>
@@ -163,7 +163,7 @@ public void printTable(int[]gross){
 </div>
 <div class="row">
   <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1026">Website Design and Construction</a></h2>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2026">Computer Networks</a></h2>
 </div>
 <div class="row">
   <hr>
