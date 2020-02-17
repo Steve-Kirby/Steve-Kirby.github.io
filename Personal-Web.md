@@ -5,9 +5,9 @@ permalink: /personal1
 ---
 
 <h1 style="text-align:center;margin-top:20px;">Website Development</h1>
-<div class="row bodydark">
+<div class="row">
   <hr>
-  <h2><a href="#">Freegram.co.uk</a></h2>
+  <h2><a href="#">Freegram.co.uk (Wordpress Blog/Charity Site)</a></h2>
 </div>
 <div class="row">
 	<hr>
@@ -70,5 +70,91 @@ permalink: /personal1
 	<div class="col-xs-6">
 		<h3>Custom HTML Pages</h3>
 		<p>Of course just because the website uses wordpress predominantly, there is no reason why not to use custom html pages, as such i have created a smoking calculator, and of course this portfolio will be on a custom page on this website</p>
+	</div>
+</div>
+<div class="row">
+  <hr>
+  <h2><a href="#">SellCards.co.uk (Ecommerce Site)</a></h2>
+</div>
+<div class="row">
+	<hr>
+	<div class="col-xs-6">
+		<img src="LoginSellCards.PNG" style="max-width:90%" max-height="350">
+		<img src="UserDB.PNG" style="max-width:90%">
+	</div>
+	<div class="col-xs-6">
+		<h3>PHP Login/SQL Database</h3>
+		<p>Hashing of user passwords using bcrypt</p>
+		<p>User can sign up, however no email verification is in place, and log in using this email and the password chosen.</p>
+		<p>The website is Secure and uses https:// however it doesnt redirect to this when accessing over http://, this is shown here</p>
+		<p>There is an issue i need to fix regarding guest access where it is checking too often whether a user is logged in causing the website to run slowly until the user logs in</p>
+	</div>
+</div>
+<div class="row">
+	<hr>
+	<div class="col-xs-6">
+		<img src="MessageSellCards.PNG" style="max-width:90%" max-height="350">
+		<img src="EmailSentSellCards.png" style="max-width:90%" max-height="350"><br>
+	</div>
+	<div class="col-xs-6">
+		<h3>PHP Mail</h3>
+		<p>Uses GET to pass the data to the mail php file, although this potentially allows for spam requests so will be changing this to post.</p>
+		<p>Below is the code for this as it was short i have included it.</p>
+		<code>&lt;?php<br>
+			$name=$_GET['name'];<br>
+			$email=$_GET['email'];<br>
+			$phone=$_GET['phone'];<br>
+			$message=$_GET['message'];<br><br>	
+			$to = "Email@EMail.com";<br>
+			$subject = "Sent from contact form on sellcards.co.uk";<br>
+			$txt = $name." ('".$email."/".$phone."') ".$message;<br>
+			mail($to,$subject,$txt);<br>
+			header( 'Location: https://sellcards.co.uk/index.php' ) ;<br>
+			?&gt</code>
+	</div>
+</div>
+<div class="row">
+	<hr>
+	<div class="col-xs-6">
+		<img src="HomePageSellCards.PNG"  style="max-width:90%" max-height="350"><br><br>
+		<img src="SearchSellCards.PNG"  style="max-width:90%" max-height="350"><br><br>
+		<img src="CardDBSellCards.PNG"  style="max-width:90%" max-height="350">
+	</div>
+	<div class="col-xs-6">
+		<h3>PHP/SQL Search & Sort</h3>
+		<p>This function works by reloading the page with new GET parameters which it reads to determine how to order the cards</p>
+		<p>A Query is sent to the database and returns the cards based on the above paramaters and the search parameter</p>
+		<p>This returns back an array of cards which are displayed in rows on the page to the user, the more results that are returned however the longer it takes to load, other then this it is a quick function</p>
+		<h3>CSS Transition</h3>
+            <p>Upon hovering over each card, the background will go black, and the card will enlarge and remain highlighted as well as pop out in front of the other cards</p>
+		<p>This took alot of trial and error, however the result is very satisfactory.</p>
+		<img src="HighlightSellCards.PNG" style="max-width:100%;position:absolute;left:20%;">
+	</div>
+</div>
+        <div class="row">
+	<hr>
+        <div class="col-xs-6">
+		<img src="AccountPageSellCards.PNG"  style="max-width:100%"><br><br>
+		<img src="CartsDB.PNG"  style="max-width:100%"><br><br>
+		<img src="PaypalCheckoutSellCards.PNG"  style="max-width:100%">
+	</div>
+	<div class="col-xs-6">
+		<h3>PHP/SQL Cart & PayPal</h3>
+		<p>The account page includes all the items that the user has added to their cart, able to remove these and is stored in a seperate table in the database, with the fields below to create a connection or foriegn key between tables</p>
+		<p>The user's details are also included on this page and in the future i will make this editible by the user</p>
+		<p>Once the user has decided to buy the cards in their cart, they can checkout with paypal either by logging in or as a guest, secure and quick.</p>
+		<p>The PayPal method i used allows the listing of each item in the transaction, although easier using the built in PayPal buttons, this was not viable for the quantity of different items that my site could potentially handle, just over 15000 if you were wondering, and possibly more depending on any diversity of items decided to be sold. </p>
+		<code>$sql="SELECT * FROM cart WHERE userID =".$_SESSION['user'];</code><br>
+		<p>This is a simple sql query using php to get relevent information to select everything from the current users cart.</p>
+		<code>while ($row = mysqli_fetch_array($query)){<br>
+			&emsp;&emsp;&emsp;$query2 = mysqli_query($conn,"SELECT * FROM card WHERE cardID={$row['cardID']}");<br>
+			&emsp;&emsp;&emsp;while($row2 = mysqli_fetch_array($query2)){<br>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;${'item'.$i} = $row2['cardName'];<br>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$i+=1;<br>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;${'item'.$i} = $row2['cardPrice'];<br>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$i+=1;<br>
+			&emsp;&emsp;&emsp;}<br>
+			}</code><br>
+            <p>This takes the results of the last query and creates another query for each card that was in the cart of the current user returning the card details such as name and price, and adds it to the PayPal itemlist with its requirement to have a name and a price for each item.</p>
 	</div>
 </div>
