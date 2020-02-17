@@ -116,10 +116,10 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img src="SellCardsHome.PNG"  style="max-width:90%" max-height="350"><br><br>
-		<img src="SellCardsSearch.PNG"  style="max-width:90%" max-height="350"><br><br>
+		<img src="SellcardsHome.PNG"  style="max-width:90%" max-height="350"><br><br>
+		<img src="SellcardsSearch.PNG"  style="max-width:90%" max-height="350"><br><br>
 		<img src="CardDBSellCards.PNG"  style="max-width:90%" max-height="350"><br><br>
-		<img src="SellCardsHighlight.PNG" style="max-width:90%" max-height="350">
+		<img src="SellcardsHighlight.PNG" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>PHP/SQL Search & Sort</h3>
@@ -135,9 +135,9 @@ permalink: /personal1
 <div class="row">
 	<hr>
         <div class="col-xs-6">
-		<img src="SellCardsAccount.PNG"  style="max-width:90%" max-height="350"><br><br>
+		<img src="SellcardsAccount.PNG"  style="max-width:90%" max-height="350"><br><br>
 		<img src="CartsDB.PNG"  style="max-width:90%" max-height="350"><br><br>
-		<img src="SellCardsPaypal.PNG"  style="max-width:90%" max-height="350">
+		<img src="SellcardsPaypal.PNG"  style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>PHP/SQL Cart & PayPal</h3>
