@@ -165,3 +165,18 @@ permalink: /personal1
 		<p>This takes the results of the last query and creates another query for each card that was in the cart of the current user returning the card details such as name and price, and adds it to the PayPal itemlist with its requirement to have a name and a price for each item.</p>
 	</div>
 </div>
+<div class="row">
+	<hr>
+	<h2><a href="#">RetroHub.co.uk (Ecommerce Site) </a></h2>
+</div>
+<div class="row">
+	<hr>
+	<div class="col-xs-6">
+		<img class="enlarge" src="#" style="max-width:90%" max-height="350">
+	</div>
+	<div class="col-xs-6">
+		<h3>Title</h3>
+		<p>Writing blah</p>
+	</div>
+</div>
+	
