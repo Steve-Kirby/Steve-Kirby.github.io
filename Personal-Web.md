@@ -79,8 +79,8 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img src="LoginSellCards.PNG" style="max-width:90%" max-height="350">
-		<img src="UserDB.PNG" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="LoginSellCards.PNG" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="UserDB.PNG" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>PHP Login/SQL Database</h3>
@@ -93,8 +93,8 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img src="MessageSellCards.PNG" style="max-width:90%" max-height="350">
-		<img src="EmailSentSellCards.png" style="max-width:90%" max-height="350"><br>
+		<img class="enlarge" src="MessageSellCards.PNG" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="EmailSentSellCards.png" style="max-width:90%" max-height="350"><br>
 	</div>
 	<div class="col-xs-6">
 		<h3>PHP Mail</h3>
@@ -116,9 +116,9 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img src="SellcardsHome.PNG"  style="max-width:90%" max-height="350"><br><br>
-		<img src="SellcardsSearch.PNG"  style="max-width:90%" max-height="350"><br><br>
-		<img src="CardDBSellCards.PNG"  style="max-width:90%" max-height="350"><br><br>
+		<img class="enlarge" src="SellcardsHome.PNG"  style="max-width:90%" max-height="350">
+		<img class="enlarge" src="SellcardsSearch.PNG"  style="max-width:90%" max-height="350">
+		<img class="enlarge" src="CardDBSellCards.PNG"  style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>PHP/SQL Search & Sort</h3>
@@ -130,7 +130,7 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img src="SellcardsHighlight.PNG" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="SellcardsHighlight.PNG" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>CSS Transition</h3>
@@ -141,9 +141,9 @@ permalink: /personal1
 <div class="row">
 	<hr>
         <div class="col-xs-6">
-		<img src="SellcardsAccount.PNG"  style="max-width:90%" max-height="350"><br><br>
-		<img src="CartsDB.PNG"  style="max-width:90%" max-height="350"><br><br>
-		<img src="SellcardsPaypal.PNG"  style="max-width:90%" max-height="350">
+		<img class="enlarge" src="SellcardsAccount.PNG"  style="max-width:90%" max-height="350">
+		<img class="enlarge" src="CartsDB.PNG"  style="max-width:90%" max-height="350">
+		<img class="enlarge" src="SellcardsPaypal.PNG"  style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>PHP/SQL Cart & PayPal</h3>
