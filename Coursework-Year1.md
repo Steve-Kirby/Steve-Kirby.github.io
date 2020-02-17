@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: coursework1
 title: "Coursework - Year 1"
 permalink: /coursework1
 ---
