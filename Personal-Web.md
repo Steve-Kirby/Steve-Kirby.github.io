@@ -126,12 +126,12 @@ permalink: /personal1
 		<p>A Query is sent to the database and returns the cards based on the above paramaters and the search parameter</p>
 		<p>This returns back an array of cards which are displayed in rows on the page to the user, the more results that are returned however the longer it takes to load, other then this it is a quick function</p>
 		<h3>CSS Transition</h3>
-            <p>Upon hovering over each card, the background will go black, and the card will enlarge and remain highlighted as well as pop out in front of the other cards</p>
+		<p>Upon hovering over each card, the background will go black, and the card will enlarge and remain highlighted as well as pop out in front of the other cards</p>
 		<p>This took alot of trial and error, however the result is very satisfactory.</p>
 		<img src="HighlightSellCards.PNG" style="max-width:90%" max-height="350">
 	</div>
 </div>
-        <div class="row">
+<div class="row">
 	<hr>
         <div class="col-xs-6">
 		<img src="AccountPageSellCards.PNG"  style="max-width:90%" max-height="350"><br><br>
@@ -155,6 +155,6 @@ permalink: /personal1
 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$i+=1;<br>
 			&emsp;&emsp;&emsp;}<br>
 			}</code><br>
-            <p>This takes the results of the last query and creates another query for each card that was in the cart of the current user returning the card details such as name and price, and adds it to the PayPal itemlist with its requirement to have a name and a price for each item.</p>
+		<p>This takes the results of the last query and creates another query for each card that was in the cart of the current user returning the card details such as name and price, and adds it to the PayPal itemlist with its requirement to have a name and a price for each item.</p>
 	</div>
 </div>
