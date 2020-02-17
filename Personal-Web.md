@@ -12,7 +12,7 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img src="loginFreegram.PNG" style="max-width:90%" height="350">
+		<img class="enlarge" src="loginFreegram.PNG" style="max-width:90%" max-height="350">
             </div>
 	<div class="col-xs-6">
 		<h3>WordPress/Social Media Login</h3>
@@ -22,7 +22,7 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img src="seperationFreegram.PNG" style="max-width:90%" height="350">
+		<img class="enlarge" src="seperationFreegram.PNG" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>Blog Categories</h3>
@@ -33,7 +33,7 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-            <img src="userblogFreegram.PNG" style="max-width:90%" height="350">
+            <img class="enlarge" src="userblogFreegram.PNG" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>Editing of Plugins</h3>
@@ -45,7 +45,7 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img src="tutislandFreegram.PNG" style="max-width:90%" height="350">
+		<img class="enlarge" src="tutislandFreegram.PNG" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>Tutorial Island</h3>
@@ -55,7 +55,7 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img src="socialFreegram.PNG" style="max-width:90%" height="100">
+		<img class="enlarge" src="socialFreegram.PNG" style="max-width:90%" max-height="100">
             </div>
 	<div class="col-xs-6">
 		<h3>Social Media</h3>
@@ -65,7 +65,7 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img src="customFreegram.png" style="max-width:90%" height="350">
+		<img class="enlarge" src="customFreegram.png" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>Custom HTML Pages</h3>
