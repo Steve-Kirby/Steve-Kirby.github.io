@@ -119,17 +119,23 @@ permalink: /personal1
 		<img src="SellcardsHome.PNG"  style="max-width:90%" max-height="350"><br><br>
 		<img src="SellcardsSearch.PNG"  style="max-width:90%" max-height="350"><br><br>
 		<img src="CardDBSellCards.PNG"  style="max-width:90%" max-height="350"><br><br>
-		<img src="SellcardsHighlight.PNG" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>PHP/SQL Search & Sort</h3>
 		<p>This function works by reloading the page with new GET parameters which it reads to determine how to order the cards</p>
 		<p>A Query is sent to the database and returns the cards based on the above paramaters and the search parameter</p>
 		<p>This returns back an array of cards which are displayed in rows on the page to the user, the more results that are returned however the longer it takes to load, other then this it is a quick function</p>
+	</div>
+</div>
+<div class="row">
+	<hr>
+	<div class="col-xs-6">
+		<img src="SellcardsHighlight.PNG" style="max-width:90%" max-height="350">
+	</div>
+	<div class="col-xs-6">
 		<h3>CSS Transition</h3>
 		<p>Upon hovering over each card, the background will go black, and the card will enlarge and remain highlighted as well as pop out in front of the other cards</p>
 		<p>This took alot of trial and error, however the result is very satisfactory.</p>
-		
 	</div>
 </div>
 <div class="row">
