@@ -172,11 +172,40 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img class="enlarge" src="#" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/RetrohubCart.png" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
-		<h3>Title</h3>
-		<p>Writing blah</p>
+		<h3>Account/Cart</h3>
+		<p>The account page shows the user the products currently in their cart with an ability to remove the item, which can be inspected further by clicking on the item itself.</p>
+		<p>The user can checkout using paypal, and has a section where they cn view which items are on their wishlist, the wishlist can contain items that are out of stock</p>
+		<p>Also the user can subscribe or unsubscribe to marketing emails here as required by GDPR regulations.</p>
 	</div>
 </div>
-	
+<div class="row">
+	<hr>
+	<div class="col-xs-6">
+		<img class="enlarge" src="/RetrohubSSL.png" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/RetrohubSignupPage.png" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/RetrohubVisitorTracking.png" style="max-width:90%" max-height="350">
+	</div>
+	<div class="col-xs-6">
+		<h3>Security and GDPR</h3>
+		<p>The Website has an SSL certificate and uses https in all sections of the website where is it is needed, if the user does go to these sections of the website using http, they are redirected to https automatically</p>
+		<p>The user must agree to terms and conditions and privacy policy before they are able to sign up for the website.</p>
+		<p>Also the user can subscribe or unsubscribe to marketing emails here, either option will allow the user to sign up.</p>
+		<p>The website tracks IP addresses and times for tracking website usage and security, however doesnt use any custom cookies.</p>
+	</div>
+</div>
+<div class="row">
+	<hr>
+	<div class="col-xs-6">
+		<img class="enlarge" src="/RetrohubWishlistOOS.png" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/RetrohubAnotherUser.png" style="max-width:90%" max-height="350">
+	</div>
+	<div class="col-xs-6">
+		<h3>Preventing Simultanious Sales</h3>
+		<p>Due to the unique nature of the items for sale, being that most if not all items are second hand and in varyings states of condition(which the customer can see before they purchase the item). Each item can not sell more then once.</p>
+		<p>These images show a couple of measures to prevent this, being that if the item is in another users cart, they will be told so and be given a timeframe before this item can be added to their own cart.</p>
+		<p>If an item has already been sold, this item will change to out of stock but is still able to be added to the users wishlist, this is useful for knowing what items are in demand and i would be able to send them an email if they have subscribed to marketing emails.</p>
+	</div>
+</div>	
