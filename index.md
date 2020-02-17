@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Welcome!
-Feel free to browse my portfolio and [github repository](https://github.com/Steve-Kirby).
+Feel free to browse my [portfolio](/coursework1) and [github repository](https://github.com/Steve-Kirby).
 
 The **links in the header** show **work I have completed** during my time at **university** and for **personal projects**.
 
