@@ -8,6 +8,7 @@ permalink: /personal1
 <div class="row">
   <hr>
   <h2><a href="#">Freegram.co.uk (Wordpress Blog/Charity Site)</a></h2>
+	<p>There is no backup of this website and as such do not have a live demo available</p>
 </div>
 <div class="row">
 	<hr>
