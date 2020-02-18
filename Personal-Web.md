@@ -74,7 +74,8 @@ permalink: /personal1
 </div>
 <div class="row">
   <hr>
-  <h2><a href="#">SellCards.co.uk (Ecommerce Site)</a></h2>
+  <h2><a href="https://sellcards.steve-kirby.website/index.php?search=">SellCards.co.uk (Ecommerce Site)</a></h2>
+	<p>link above is an old backup of this site, as such not all aspects shown below can be tested (Email:test@test.com, Password:test99</p>
 </div>
 <div class="row">
 	<hr>
@@ -167,7 +168,8 @@ permalink: /personal1
 </div>
 <div class="row">
 	<hr>
-	<h2><a href="#">RetroHub.co.uk (Ecommerce Site) </a></h2>
+	<h2><a href="https://retrohub.steve-kirby.website">RetroHub.co.uk (Ecommerce Site) </a></h2>
+	<p>link above is an old backup of this site, as such not all aspects shown below can be tested (Email:test@test.com, Password:test99</p>
 </div>
 <div class="row">
 	<hr>
