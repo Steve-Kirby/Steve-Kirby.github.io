@@ -138,8 +138,8 @@ public void printTable(int[]gross){
 
 {::options parse_block_html="true" /}
 <div class="row">
-	<hr>
-	<h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1024">Computer Architecture</a></h2>
+<hr>
+<h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1024">Computer Architecture</a></h2>
 </div>
 <div class="row">
 <hr>
@@ -267,7 +267,6 @@ END
 ```
 
 </details>
-</br>
 </div>
 </div>
 
