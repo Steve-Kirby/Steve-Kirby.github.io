@@ -5,48 +5,201 @@ permalink: /coursework2
 ---
 
 <h1 style="text-align:center;margin-top:20px;">Coursework - Year 2</h1>
-<div class="row bodydark">
+<div class="row">
   <hr>
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2021">Software Engineering</a></h2>
 </div>
 {::options parse_block_html="true" /}
-<div class="row bodydark">
+<div class="row">
 <hr>
-<div class="row bodydark">
+<div class="row">
 <div class="col-xs-6">
-<img class="enlarge" src="TaxChartCoursework.PNG" style="max-width:90%" max-height="350">
+<img class="enlarge" src="UMLdiagram.png" style="max-width:90%" max-height="350">
+<img class="enlarge" src="TDDtests.png" style="max-width:90%" max-height="350">
 </div>
-<div class="col-xs-6 bodydark">
-<h3>Assignment 1 - Tax Chart and Calculator</h3>
-<p>The First coursework we were tasked with in Java involved creating a Tax Calculator which then displayed a bar chart showing income and amount to pay.</p>
+<div class="col-xs-6">
+<h3>Assignment 1 - Test Driven Development</h3>
+<p>This assignment was split into 3 tasks, the first of which being to produce a UML diagram.</p>
+<p>The second task was to produce the program using the UML diagram as a base writing the code first and then the tests, the code could differ from the UML diagram as long as any changes were documented in the code</p>
+<p>The third task was to program the same program, however using TDD(Test Driven Development) first, producing tests before doing any programming, we had to show the test failing and then passing once the programming was complete, this was tracked using a framework provided.</p>
 </div>
 </div>
-<div class="row bodydark">
+<div class="row">
 <details><summary markdown="span" style="text-align:right">Show me the code!</summary>
+
 ```java
-/**
-* Prints table of data with gross,tax paid and net values
-* 
-* @param gross gross income before tax
-*/
-public void printTable(int[]gross){
-    int[] net;
-    net = new int[gross.length];
+package com.example.tddCoursework.Part1And2CodeAndTest;
+
+import java.util.ArrayList;
+
+public class RecordManagerNonTDD {
+	String officeName;
+	ArrayList<EmployeeNonTDD> employees = new ArrayList<EmployeeNonTDD>();
 	
-//for loop prints each of gross income, net income , and tax paid on the gross income.
-    for(int row = 0;row<=(gross.length -1);row++){
-        net[row] = ((gross[row])-(TaxCalculator.taxPayable(gross[row])));
-			
-//ensures the net income is never less then 0
-	if (net[row]<0){
-	    net[row]=0;
+	
+	RecordManagerNonTDD(String officeName){
+		this.officeName = officeName;
 	}
+	
+	public ArrayList<EmployeeNonTDD> getAllEmployees(){
+		return employees;
+	}
+	
+	public void addEmployee(EmployeeNonTDD employee){
+		employees.add(employee);
+	}
+	
+	public void addEmployee(String name, String address, String phoneNumber, String department, String dateStarted){
+		employees.add(new EmployeeNonTDD(name,address,phoneNumber,department,dateStarted));
+	}
+	
+	public String getAllEmployeeDetails(){
+		String str = "";
+		for(EmployeeNonTDD emp : employees){
+			str += emp.toString();
+		}
 		
-//prints out the values to the console
-	System.out.println("Gross:" +gross[row] + " Tax-Payable:" + (TaxCalculator.taxPayable(gross[row])) + " Net:" + net[row]);
-    }
+		return str;
+		
+	}
+	
+}
+
+import java.util.ArrayList;
+
+public class EmployeeNonTDD {
+	final int STAFF_ID;
+	public static int id = 0;
+	String name;
+	String address;
+	String phoneNumber;
+	String department;
+	String dateStarted;
+	ArrayList<TrainingRecordNonTDD> trainingRecords = new ArrayList<TrainingRecordNonTDD>();
+	
+	EmployeeNonTDD(String name, String address, String phoneNumber, String department, String dateStarted){
+		
+		this.STAFF_ID = id++;
+		this.name = name;
+		this.address = address;
+		this.phoneNumber = phoneNumber;
+		this.department = department;
+		this.dateStarted = dateStarted;
+	}
+	
+	public String toString(){
+		String str = String.format(" %d %s %s %s %s %s Training Records[",this.STAFF_ID,this.name,this.address,this.phoneNumber,this.department,this.dateStarted);
+		if (this.trainingRecords.size() < 1){
+			str += "n/a";
+		} else {
+		for(TrainingRecordNonTDD tr : this.trainingRecords){
+			str += tr.toString();
+			if(tr != this.trainingRecords.get(trainingRecords.size()-1))
+				str += ", ";
+		}
+		}
+		str += "];";
+		return str;	
+	}
+}
+
+public class TrainingRecordNonTDD {
+
+	String qualificationName;
+	String dateAchieved;
+	String levelOfQualification;
+	
+	TrainingRecordNonTDD(String qualificationName, String levelOfQualification ,String dateAchieved){
+		this.qualificationName = qualificationName;
+		this.dateAchieved = dateAchieved;
+		this.levelOfQualification = levelOfQualification;
+	}
+	
+	public String toString(){
+		
+		String tr = String.format("%s %s %s", this.qualificationName,this.levelOfQualification,this.dateAchieved);
+		
+		return tr;
+	}
 }
 ```
+
+</details>
+<br/>
+<details><summary markdown="span" style="text-align:right">Show me the tests!</summary>
+
+```java
+package com.example.tddCoursework.Part1And2CodeAndTest;
+
+import static org.junit.Assert.*;
+
+import org.junit.*;
+
+public class RecordManagerTestPart2 {
+	
+	public RecordManagerNonTDD rm,anotherRm;
+	public EmployeeNonTDD testEmployee;
+	public EmployeeNonTDD stevenKirby;
+	
+	@Before
+	public void setUp(){
+		
+		rm = new RecordManagerNonTDD("Test");
+		anotherRm = new RecordManagerNonTDD("Another");
+		
+		stevenKirby = new EmployeeNonTDD("Steven Kirby","17 Exam Lane","07432965778","Sales","15/11/2017");
+		testEmployee = new EmployeeNonTDD("Test Man","28 Test Hill","07422945322","IT","12/11/2017");
+
+		rm.addEmployee(stevenKirby);
+		rm.addEmployee(testEmployee);
+		
+		stevenKirby.trainingRecords.add(new TrainingRecordNonTDD("BSC Computer Science","First","10/11/2017"));
+		testEmployee.trainingRecords.add(new TrainingRecordNonTDD("BSC Biomedical Studies","Pass","05/02/2016"));
+
+		testEmployee.trainingRecords.add(new TrainingRecordNonTDD("BSC Biomedical Studies 2","First","01/07/2016"));
+		testEmployee.trainingRecords.add(new TrainingRecordNonTDD("BSC Biomedical Studies 3","Second","08/04/2017"));
+		
+		EmployeeNonTDD.id = 0;
+	}
+	
+	
+	
+	@Test
+	public void testRecordManager() {
+		assertTrue(rm != null);
+		
+	}
+	
+	@Test
+	public void testMultipleRecordManagers(){
+		assertTrue(rm != null && anotherRm !=null && rm != anotherRm);
+	}
+
+	@Test
+	public void testGetAllEmployees() {
+		assertEquals(rm.employees,rm.getAllEmployees());
+		
+	}
+
+	@Test
+	public void testAddEmployee() {
+		assertEquals(stevenKirby,rm.employees.get(0));
+	}
+
+	@Test
+	public void testGetAllEmployeeDetails(){
+		assertEquals(" 0 Steven Kirby 17 Exam Lane 07432965778 Sales 15/11/2017 Training Records[BSC Computer Science First 10/11/2017]; 1 Test Man 28 Test Hill 07422945322 IT 12/11/2017 Training Records[BSC Biomedical Studies Pass 05/02/2016, BSC Biomedical Studies 2 First 01/07/2016, BSC Biomedical Studies 3 Second 08/04/2017];",rm.getAllEmployeeDetails());
+	}
+	
+	@Test
+	public void testNoTrainingRecords(){
+		
+		stevenKirby.trainingRecords.remove(0);
+		assertEquals(" 0 Steven Kirby 17 Exam Lane 07432965778 Sales 15/11/2017 Training Records[n/a]; 1 Test Man 28 Test Hill 07422945322 IT 12/11/2017 Training Records[BSC Biomedical Studies Pass 05/02/2016, BSC Biomedical Studies 2 First 01/07/2016, BSC Biomedical Studies 3 Second 08/04/2017];",rm.getAllEmployeeDetails());
+	}
+}
+```
+	
 </details>
 <br/>
 </div>
@@ -55,11 +208,11 @@ public void printTable(int[]gross){
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="HotelCoursework2.PNG" style="max-width:90%" max-height="350">
+    <img class="enlarge" src="TDDreport.png" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
-    <h3>Assignment 2 - Hotel booking system</h3>
-    <p>The Second coursework we were tasked with in Java involved creating a Hotel using OOP to allow a booking system, this did not require a GUI.</p>
+    <h3>Assignment 2 - Report - Test Driven Development</h3>
+<p>This assignment required us to write a short report (500 words) based on our experience of producing a same piece of software with both TDD and non-TDD workflows.</p> 
   </div>
 </div>
 <div class="row">
