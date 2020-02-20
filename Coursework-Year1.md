@@ -135,27 +135,27 @@ public void printTable(int[]gross){
     <p>The Code we were given had been written specifically for the purpose of testing and debugging with injected issues.</p>
   </div>
 </div>
+
 {::options parse_block_html="true" /}
 <div class="row">
-  <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1024">Computer Architecture</a></h2>
-</div>
-
-<div class="row">
-<hr>
-<div class="row">
-<div class="col-xs-6">
-    <img class="enlarge" src="liftCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 1 - Lift Simulator</h3>
-    <p>Using assembly language, we were tasked with controlling a lift.</p>
-    <p>We had a very limited amount of memory to work with.</p>
-  </div>
+	<hr>
+	<h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1024">Computer Architecture</a></h2>
 </div>
 <div class="row">
-<details><summary markdown="span" style="text-align:right">Show me the code!</summary>
-	
+	<hr>
+	<div class="row">
+		<div class="col-xs-6">
+			<img class="enlarge" src="liftCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
+		</div>
+		<div class="col-xs-6">
+			<h3>Assignment 1 - Lift Simulator</h3>
+			<p>Using assembly language, we were tasked with controlling a lift.</p>
+			<p>We had a very limited amount of memory to work with.</p>
+		</div>
+	</div>
+	<div class="row">
+		<details><summary markdown="span" style="text-align:right">Show me the code!</summary>
+			
 ```asm
 ; ----- LIFT --------------------------
 	JMP	Start		; Skip the db's
@@ -263,13 +263,16 @@ ORG AA
 
 END
 ; --------------------------------------------------------------
+
 ```
 
 </details>
-</br>
+	</br>
+	</div>
 </div>
-</div>
+
 {::options parse_block_html="false" /}
+
 <div class="row">
   <hr>
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1025">Mathematics for Computer Science</a></h2>
