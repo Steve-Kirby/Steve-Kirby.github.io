@@ -14,7 +14,7 @@ permalink: /coursework2
 <hr>
 <div class="row">
 <div class="col-xs-6">
-<img class="enlarge" src="UMLdiagram.png" style="max-width:90%" max-height="350">
+<img class="enlarge" src="UMLdiagram.png" style="max-width:90%" max-height="350"><br><br>
 <img class="enlarge" src="TDDtests.png" style="max-width:90%" max-height="350">
 </div>
 <div class="col-xs-6">
