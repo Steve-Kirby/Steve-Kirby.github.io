@@ -37,7 +37,7 @@ permalink: /personal2
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="HotelCoursework2.PNG" style="max-width:90%" max-height="350">
+    <img class="enlarge" src="" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
     <h3>Game Info</h3>
