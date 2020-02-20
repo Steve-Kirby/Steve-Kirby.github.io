@@ -23,6 +23,7 @@ permalink: /coursework1
 </div>
 <div class="row">
 <details><summary markdown="span" style="text-align:right">Show me the code!</summary>
+	
 ```java
 /**
 * Prints table of data with gross,tax paid and net values
@@ -47,11 +48,13 @@ public void printTable(int[]gross){
     }
 }
 ```
+
 </details>
 <br/>
 </div>
 </div>
 {::options parse_block_html="false" /}
+
 <div class="row">
   <hr>
   <div class="col-xs-6">
@@ -132,15 +135,16 @@ public void printTable(int[]gross){
     <p>The Code we were given had been written specifically for the purpose of testing and debugging with injected issues.</p>
   </div>
 </div>
+{::options parse_block_html="true" /}
 <div class="row">
   <hr>
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1024">Computer Architecture</a></h2>
 </div>
-{::options parse_block_html="true" /}
+
 <div class="row">
 <hr>
 <div class="row">
-  <div class="col-xs-6">
+<div class="col-xs-6">
     <img class="enlarge" src="liftCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
   </div>
   <div class="col-xs-6">
@@ -151,6 +155,7 @@ public void printTable(int[]gross){
 </div>
 <div class="row">
 <details><summary markdown="span" style="text-align:right">Show me the code!</summary>
+	
 ```asm
 ; ----- LIFT --------------------------
 	JMP	Start		; Skip the db's
@@ -259,6 +264,7 @@ ORG AA
 END
 ; --------------------------------------------------------------
 ```
+
 </details>
 </br>
 </div>
