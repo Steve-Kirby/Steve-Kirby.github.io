@@ -5,23 +5,23 @@ permalink: /coursework1
 ---
 
 <h1 style="text-align:center;margin-top:20px;">Coursework - Year 1</h1>
-<div class="row bodydark">
+<div class="row">
   <hr>
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1021">Programming I</a></h2>
 </div>
 {::options parse_block_html="true" /}
-<div class="row bodydark">
+<div class="row">
 <hr>
-<div class="row bodydark">
+<div class="row">
 <div class="col-xs-6">
 <img class="enlarge" src="TaxChartCoursework.PNG" style="max-width:90%" max-height="350">
 </div>
-<div class="col-xs-6 bodydark">
+<div class="col-xs-6">
 <h3>Assignment 1 - Tax Chart and Calculator</h3>
 <p>The First coursework we were tasked with in Java involved creating a Tax Calculator which then displayed a bar chart showing income and amount to pay.</p>
 </div>
 </div>
-<div class="row bodydark">
+<div class="row">
 <details><summary markdown="span" style="text-align:right">Show me the code!</summary>
 ```java
 /**
@@ -136,8 +136,10 @@ public void printTable(int[]gross){
   <hr>
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1024">Computer Architecture</a></h2>
 </div>
+{::options parse_block_html="true" /}
 <div class="row">
-  <hr>
+<hr>
+<div class="row">
   <div class="col-xs-6">
     <img class="enlarge" src="liftCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
   </div>
@@ -147,6 +149,121 @@ public void printTable(int[]gross){
     <p>We had a very limited amount of memory to work with.</p>
   </div>
 </div>
+<div class="row">
+<details><summary markdown="span" style="text-align:right">Show me the code!</summary>
+```asm
+; ----- LIFT --------------------------
+	JMP	Start		; Skip the db's
+	db	A8		; Code for Timer Interupt stored in A8
+	db	00		; Keyboard Interupt not used
+	db 	AA		; Keypad Interupt Code stored in AA
+
+Start:
+	STI			; Set the Interupt
+	MOV	CL, 4F	;o	; Set Register CL to char o
+	MOV	DL, 54	;t	; Set Register DL to char t
+	OUT	08		; Display Key Pad
+	OUT	06		; Display lift window
+	JMP	WaitUpButton	; Jump to check for button pressed
+
+;------------ Display up and start up motor ------------
+UP:
+	
+	IN	06		; Read Lift Status
+	AND	AL, 04		; Isolate Near top check bit
+	JNZ	WaitDownButton	; If near top go back to wait for buttons
+				; else continue
+	MOV	BL, 55		; Display "UP"
+	MOV	[C0], BL	; |
+	MOV	BL, 50		; |
+	MOV	[C1], BL	; v
+	MOV	BL, 0		; Clear Excess Letters using null
+	MOV	[C2], BL	; |
+	MOV	[C3], BL	; |	
+	MOV	[C4], BL	; |
+	MOV	[C5], BL	; v
+
+	OR	AL, 01		; Set UP motor bit
+	OUT	06		; Turn on UP motor
+;------------ Start checking if near top -----------------
+CheckU:	   
+	AND	AL, 4		; Isolate near top check bit
+	IN	06		; Read lift status
+	JZ	CheckU		; If reached top continue else keep checking
+	AND	AL, FE		; Turn off up motor
+	OUT	06		; Send command to lift - turns off lift motor
+	MOV	[C0], DL	; T
+	MOV	[C1], CL	; O
+	MOV	BL, 50		; set bl to p
+	MOV	[C2], BL	; P
+	
+;------------- Check if any buttons have been pressed -----------
+WaitDownButton:
+	IN	06		; Read lift status
+	AND	AL, 10		; Isolate down button
+	JNZ	Down		; Jump to down if pressed else continue
+	JMP	WaitDownButton  ; Keep checking
+WaitUpButton:
+	IN	06		; Read Status again
+	AND	AL, 20		; Isolate up button
+	JNZ	UP		; Jump to up if Pressed else continue
+	JMP	WaitUpButton	; Keep checking till button pressed
+;------------ Display Down and start down motor ----------------
+Down:
+	
+	IN	06		; Read lift status
+	AND	AL, 08		; Isolate near bottom check bit
+	JNZ	WaitUpButton	; If near bottom, go back and wait for buttons
+				; Else continue
+	MOV	BL, 44		; BL set to D
+	MOV	[C0], BL	; D
+	MOV	[C1], CL	; O
+	MOV	BL, 57		; BL set to W
+	MOV	[C2], BL	; W
+	MOV	BL, 4E		; BL set to N
+	MOV	[C3], BL	; N
+
+	OR	AL, 02		; Set Down motor bit
+	OUT	06		; Turn on Down motor
+;------------ Start checking if lift is at bottom --------------
+CheckD:
+	AND	AL, 08		; Isolate near bottom check bit
+	IN	06		; Read lift status
+	JZ	CheckD		; If near bottom continue else keep checking
+	AND	AL, FD		; Turn off down motor
+	OUT	06		; Send command to lift - turns off lift motor
+
+	MOV	BL, 42		; Set BL to B
+	MOV	[C0], BL	; B
+	MOV	[C2], DL	; T miss O as this would already be there from dOwn
+	MOV	[C3], DL	; T
+	MOV	[C4], CL	; O
+	MOV	BL, 4D		; Set Bl to M
+	MOV	[C5], BL	; M
+	JMP	WaitUpButton	; Go back to wait for buttons again	
+	
+ORG A8
+	iret			; Do nothing, return
+ORG AA
+	POP 	AL		; POP to prevent code overwriting, done first to prevent
+				; quick presses of button affecting code
+
+	IN	08		; Port for the peripheral keypad
+	CMP	AL,0D		; Check if enter was pressed on pad
+	JZ 	DOWN		; If it was jump to Down
+	IN	06		; Read Lift Status
+	AND	AL, 1		; Check if up motor was on
+	JNZ	CheckU		; If it was check if near top to prevent crash		
+	JMP	CheckD		; Else check if near bottom to prevent crash
+
+END
+; --------------------------------------------------------------
+```
+</details>
+</br>
+</div>
+</div>
+{::options parse_block_html="false" /}
 <div class="row">
   <hr>
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1025">Mathematics for Computer Science</a></h2>
