@@ -304,11 +304,14 @@ structure as a website and then using css to make it look like the final result<
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="TutorialWebsite.png" style="max-width:90%" max-height="350"><br><br>
+	  <img class="enlarge" src="TutorialWebsiteCSS.png" style="max-width:90%" max-height="350"><br><br>
+	  <img class="enlarge" src="TutorialWebsite.png" style="max-width:90%" max-height="350"><br><br>
+	  <img class="enlarge" src="TutorialWebsiteExpand.png" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
-    <h3>Assignment 2 - Develop Tutorial Website
-    <p>Using just an image and some pre written text we were tasked with marking up the text so that the page had the same underlying 
-structure as a website and then using css to make it look like the final result</p>
+	  <h3>Assignment 2 - Develop Tutorial Website</h3>
+	  <p>Voice clips and slides from the course are laid out in easy to use sections seperating the different topics of the course</p>
+	  <p>The user can use what they learn from the website and gain feedback immediately by using the live HTML, CSS, Javascript testing area, i believe this function was adapted from some code i found online and changes depending on what section of the tutorial website the user is on (shown in the pictures).</p>
+		       <p>This testing area can expand to accomodate more lines as needed</p> 
   </div>
 </div>
