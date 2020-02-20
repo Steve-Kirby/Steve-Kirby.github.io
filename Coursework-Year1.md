@@ -301,3 +301,14 @@ END
 structure as a website and then using css to make it look like the final result</p>
   </div>
 </div>
+<div class="row">
+  <hr>
+  <div class="col-xs-6">
+    <img class="enlarge" src="TutorialWebsite.png" style="max-width:90%" max-height="350"><br><br>
+  </div>
+  <div class="col-xs-6">
+    <h3>Assignment 2 - Develop Tutorial Website
+    <p>Using just an image and some pre written text we were tasked with marking up the text so that the page had the same underlying 
+structure as a website and then using css to make it look like the final result</p>
+  </div>
+</div>
