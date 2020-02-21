@@ -68,7 +68,7 @@ permalink: /coursework-highlights
 		<p>The embedded Youtube video shows the app in action with voice over explaining what I am doing on the app.</p>
 	</div>
 	<div class="col-xs-6">
-		<iframe style="max-width:90%" max-height="350" src="https://www.youtube.com/embed/wm44R9TGu7s"> </iframe>
+		<iframe max-width="90%" max-height="350" src="https://www.youtube.com/embed/wm44R9TGu7s"> </iframe>
 	</div>
 	
 </div>
