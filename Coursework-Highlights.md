@@ -55,10 +55,13 @@ permalink: /coursework-highlights
 	<div class="col-xs-6">
 		<img class="enlarge" src="ISpyPP.png"  style="max-width:90%" max-height="350">
 		<p><a href="/ISpyPP.pptx">Download Powerpoint(23.1mb), with business case (embedded word document).</a></p>
+		<br /><br />
+		<img class="enlarge" src="AppLog.png" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>Moodboard, Fontboard, Storyboard and Business Case</h3>
 		<p>This stage was designing and developing ideas for the app, once I had started the storyboard I had a pretty good idea of what I wanted the app to look like.</p>
+		<p>I also kept track of any ideas or problems I came across for the app in a spreadsheet</p>
 	</div>
 </div>
 <div class="row">
