@@ -3,37 +3,35 @@ layout: coursework-highlights
 title: "Coursework - Highlights"
 permalink: /coursework-highlights
 ---
-<div class="row" align="center">
 
-# Coursework - Highlights
-<hr>
-</div>
-<div class="row">
-  
-## Dissertation - Generation of Islands and Simulating Rising Sea Levels
-<hr>
-</div>
+<h1 style="text-align:center;margin-top:20px;">Coursework - Highlights</h1>
 
 <div class="row">
-  
-## Graphics - OpenGL
+<hr>
+  <h2>Dissertation - Generation of Islands and Simulating Rising Sea Levels</h2>
 <hr>
 </div>
 
 <div class="row">
   
-## iSpy - Android App
+<h2><a href="#">Graphics - OpenGL</a></h2>
 <hr>
 </div>
 
 <div class="row">
   
-## Team Project - Seaton Valley Council - Android App
+<h2><a href="#">iSpy - Android App</a></h2>
 <hr>
 </div>
 
 <div class="row">
   
-## Tutorial Website
+<h2><a href="#">Team Project - Seaton Valley Council - Android App</a></h2>
+<hr>
+</div>
+
+<div class="row">
+  
+<h2><a href="#">Tutorial Website</a></h2>
 <hr>
 </div>
