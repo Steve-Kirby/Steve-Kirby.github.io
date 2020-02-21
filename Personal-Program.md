@@ -1,5 +1,5 @@
 ---
-layout: personal3
+layout: personal-highlights
 title: "Personal - Programming"
 permalink: /personal3
 ---
