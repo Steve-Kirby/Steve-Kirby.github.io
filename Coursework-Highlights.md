@@ -11,6 +11,7 @@ permalink: /coursework-highlights
 <h2><a href="#">Dissertation - Generation of Islands and Simulating Rising Sea Levels</a></h2>
 <hr>
 </div>
+<div class="xs-
 
 <div class="row">
   
@@ -31,7 +32,15 @@ permalink: /coursework-highlights
 </div>
 
 <div class="row">
-  
-<h2><a href="#">Tutorial Website</a></h2>
-<hr>
+  <h2><a href="#">Tutorial Website</a></h2>
+  <hr>
+  <div class="col-xs-6">
+    <img class="enlarge" src="TutorialWebsiteCSS.png" style="max-width:90%" max-height="350"><br /><br />
+	  <img class="enlarge" src="TutorialWebsite.png" style="max-width:90%" max-height="350">
+  </div>
+  <div class="col-xs-6">
+	  <p>Voice clips and slides from the course are laid out in easy to use sections seperating the different topics of the course</p>
+	  <p>The user can use what they learn from the website and gain feedback immediately by using the live HTML, CSS, Javascript testing area, this was adapted from some code found online, the layout changes depending on what section of the tutorial website the user is on (shown in the pictures).</p>
+  </div>
+
 </div>
