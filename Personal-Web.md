@@ -1,5 +1,5 @@
 ---
-layout: personal1
+layout: personal-highlights
 title: "Personal - Website Development"
 permalink: /personal1
 ---
