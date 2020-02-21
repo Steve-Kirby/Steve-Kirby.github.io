@@ -9,7 +9,7 @@ permalink: /coursework-highlights
 <div class="row">
 
 <h2><a href="/Dissertation.pdf">Dissertation - Generation of Islands and Simulating Climate Change using OpenGL</a></h2>
-<p> Link above is my dissertation available to read online(.pdf).</p>
+<p> My dissertation is available to read online(.pdf) at the link above.</p>
 <hr>
 </div>
 
@@ -26,6 +26,7 @@ permalink: /coursework-highlights
 		<p> The biggest change was to incorperate climate change and rising sea levels, which are returning to the forefront of issues we face once again.</p>
 		<p>I made the decision to use heightmaps of the UK rather then randomly generated islands, in hopes of making people aware that these are real issues, not just an interesting graphics demo.</p>
 	</div>
+<hr>
 </div>
 <div class="row">
 	<div class="col-xs-6">
@@ -36,6 +37,7 @@ permalink: /coursework-highlights
 	<div class="col-xs-6">
 		<img class="enlarge" src="/DissertationGraph.png" style="max-width:90%" max-height="350">
 	</div>
+<hr>
 </div>
 
 <div class="row">
@@ -53,6 +55,17 @@ permalink: /coursework-highlights
 <div class="row">
   
 <h2><a href="#">Team Project - Seaton Valley Council - Android App</a></h2>
+<hr>
+</div>
+<div class="row">
+	<div class="col-xs-6">
+		<img class="enlarge" src="/SeatonValleyDemo.gif" style="max-width:90%" max-height="350">
+	</div>
+	<div class="col-xs-6">
+		<p>As part of our <em>Software Engineering - Group Project</em> module we were to design and develop an android app, this could be a variety of different options chosen by the university.</p>
+		<p>We decided as a group to take on the Seaton Valley Council app, which could provide information to residents of the parish.</p>
+		<p>The gif here shows the app in use, for this project I was lead programmer along with 2 other programmers and 2 testers, ensuring any code pushed using gitlab was functional and could integrate with any previous code.</p>
+	</div>
 <hr>
 </div>
 
