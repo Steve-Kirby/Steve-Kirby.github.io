@@ -11,7 +11,26 @@ permalink: /coursework-highlights
 <h2><a href="#">Dissertation - Generation of Islands and Simulating Rising Sea Levels</a></h2>
 <hr>
 </div>
-<div class="xs-
+
+<div class="row">
+	<div class="col-xs-6">
+		<img class="enlarge" src="/DissertationPoster.png" max-width="90%" max-height="350">
+	</div>
+	<div class="col-xs-6">
+		<h3>Poster</h3>
+		<p>Writing about diss poster</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-6">
+		<h3>Graph</h3>
+		<p>Writing about diss graph</p>
+	</div>
+	<div class="col-xs-6">
+		<img class="enlarge" src="/DissertationGraph.png" max-width="90%" max-height="350">
+	</div>
+	
+</div>
 
 <div class="row">
   
