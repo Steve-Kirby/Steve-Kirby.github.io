@@ -8,7 +8,8 @@ permalink: /coursework-highlights
 <hr>
 <div class="row">
 
-<h2><a href="#">Dissertation - Generation of Islands and Simulating Rising Sea Levels</a></h2>
+<h2><a href="/Dissertation.pdf">Dissertation - Generation of Islands and Simulating Climate Change using OpenGL</a></h2>
+<p> Link above is my dissertation available to read online(.pdf).</p>
 <hr>
 </div>
 
@@ -18,7 +19,7 @@ permalink: /coursework-highlights
 	</div>
 	<div class="col-xs-6">
 		<h3>Poster</h3>
-		<p>For my 3rd year dissertation I wanted to explore graphics within programming as id never quite grasped how to implement them</p>
+		<p>For my 3rd year dissertation I wanted to explore graphics within programming as id never quite grasped how to implement them.</p>
 		<p>Tackling this topic enabled me to explore the belly of the beast, I utilised a codebase provided to us during the graphics module I was doing that year.</p>
 		<p>This provided a framework in which to easily set up a window using OpenGL as well as a few other features, however understanding the codebase I had never used before made this slightly more difficult; albeit increasing my confidence in using anothers complex code.</p>
 		<p>I enjoy games with wide open worlds that can be explored so decided i would generate random islands, this changed after discussion with my tutors.</p>
@@ -28,9 +29,9 @@ permalink: /coursework-highlights
 </div>
 <div class="row">
 	<div class="col-xs-6">
-		<h3>Graph</h3>
+		<h3>Data Analysis Graph</h3>
 		<p>Another aspect of this dissertation I enjoyed was the data analysis of testing performance of the simulation with different detail or tesselation levels, amount of textures being rendered etc.</p>
-		<p>This is an example graph produced in Excel by using the fps, x and y position of the 'camera' to see if how much of the model was on the screen affected the render times/fps.</p>
+		<p>This is just one example of the graphs I produced in Excel, this particular graph using the fps, x and y position of the 'camera' to see how much the render times/fps were effected by how much of the model was showing on the screen.</p>
 	</div>
 	<div class="col-xs-6">
 		<img class="enlarge" src="/DissertationGraph.png" style="max-width:90%" max-height="350">
