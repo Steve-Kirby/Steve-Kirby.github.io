@@ -37,9 +37,9 @@ permalink: /coursework-highlights
 	<div class="col-xs-6">
 		<img class="enlarge" src="/DissertationGraph.png" style="max-width:90%" max-height="350">
 	</div>
-<hr>
-</div>
 
+</div>
+<hr>
 <div class="row">
   
 <h2><a href="#">Graphics - OpenGL</a></h2>
@@ -65,9 +65,9 @@ permalink: /coursework-highlights
 		<img class="enlarge" src="GraphicsCW2.png" style="max-width:90%" max-height="350">
 	</div>
 </div>
-
+<hr>
 <div class="row">
-  
+
 <h2><a href="#">iSpy - Android App</a></h2>
 <hr>
 </div>
@@ -96,9 +96,25 @@ permalink: /coursework-highlights
 	</div>
 	
 </div>
-
+<hr>
 <div class="row">
   
+<h2><a href="https://steve-kirby.github.io/game/TheEmpyreanTreasure.html">Game Development - Godot</a></h2>
+<p>Link above takes you to a 'playable in browser' version of this prototype game.</p>
+<hr>
+</div>
+<div class="row">
+	<div class="col-xs-6">
+		<img class="enlarge" src="GameDev.png" style="max-width:90%" max-height="350">
+	</div>
+	<div class="col-xs-6">
+		<h3>Godot - Exported to HTML</h3>
+		<p>The screenshot shows the game in action, it isnt perfect and it was extremely ambitious for the time I had to work with along side looming deadlines for other modules and my dissertation, but more importantly I learned a lot about Godot and game development in general whilst making this prototype game.</p>
+	</div>
+</div>
+
+<div class="row">
+	
 <h2><a href="https://github.com/Steven-Kirby/Seaton-Valley-Council-App">Team Project - Seaton Valley Council - Android App</a></h2>
 <p> Link above leads to a git repository with only the code which was written by myself or a team member for this app and as such wont work as an imported project. </p>
 <hr>
