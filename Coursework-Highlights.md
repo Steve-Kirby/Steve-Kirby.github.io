@@ -45,6 +45,26 @@ permalink: /coursework-highlights
 <h2><a href="#">Graphics - OpenGL</a></h2>
 <hr>
 </div>
+<div class="row">
+	<div class="col-xs-6">
+		<img class="enlarge" src="GraphicsCW.png" style="max-width:90%" max-height="350">
+	</div>
+	<div class="col-xs-6">
+		<h3>Assignment 1 - Space Scene</h3>
+		<p>Using OpenGL to create a space scene which needed to incorporate the sun, stars, a planet and a spaceship (user controlled).</p>
+		<p>I also added in a moving comet which randomly starts at a location in the distance and flys towards the player, when leaving the screen it starts somewhere randomly in the distance again.</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-6">
+		<h3>Assignment 2 - Shaders</h3>
+		<p>Using OpenGL and GLSL I was to create four requested effects on cubes, and come up with two of my own.</p>
+		<p>The two that I came up with on my own were the shattering cube and the twisting smiley cube.</p>
+	</div>
+	<div class="col-xs-6">
+		<img class="enlarge" src="GraphicsCW2.png" style="max-width:90%" max-height="350">
+	</div>
+</div>
 
 <div class="row">
   
