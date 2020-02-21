@@ -14,22 +14,27 @@ permalink: /coursework-highlights
 
 <div class="row">
 	<div class="col-xs-6">
-		<img class="enlarge" src="/DissertationPoster.png" max-width="90%" max-height="350">
+		<img class="enlarge" src="/DissertationPoster.png" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>Poster</h3>
-		<p>Writing about diss poster</p>
+		<p>For my 3rd year dissertation I wanted to explore graphics within programming as id never quite grasped how to implement them</p>
+		<p>Tackling this topic enabled me to explore the belly of the beast, I utilised a codebase provided to us during the graphics module I was doing that year.</p>
+		<p>This provided a framework in which to easily set up a window using OpenGL as well as a few other features, however understanding the codebase I had never used before made this slightly more difficult; albeit increasing my confidence in using anothers complex code.</p>
+		<p>I enjoy games with wide open worlds that can be explored so decided i would generate random islands, this changed after discussion with my tutors.</p>
+		<p> The biggest change was to incorperate climate change and rising sea levels, which are returning to the forefront of issues we face once again.</p>
+		<p>I made the decision to use heightmaps of the UK rather then randomly generated islands, in hopes of making people aware that these are real issues, not just an interesting graphics demo.</p>
 	</div>
 </div>
 <div class="row">
 	<div class="col-xs-6">
 		<h3>Graph</h3>
-		<p>Writing about diss graph</p>
+		<p>Another aspect of this dissertation I enjoyed was the data analysis of testing performance of the simulation with different detail or tesselation levels, amount of textures being rendered etc.</p>
+		<p>This is an example graph produced in Excel by using the fps, x and y position of the 'camera' to see if how much of the model was on the screen affected the render times/fps.</p>
 	</div>
 	<div class="col-xs-6">
-		<img class="enlarge" src="/DissertationGraph.png" max-width="90%" max-height="350">
+		<img class="enlarge" src="/DissertationGraph.png" style="max-width:90%" max-height="350">
 	</div>
-	
 </div>
 
 <div class="row">
