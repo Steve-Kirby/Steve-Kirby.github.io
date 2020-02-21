@@ -65,7 +65,7 @@ permalink: /coursework-highlights
 	<div class="col-xs-6">
 		<h3>Coding the App</h3>
 		<p>In this stage we programmed our apps using Android Studio, i used Java for this rather then Kotlin.</p>
-		<p>The embedded Youtube video shows the app in action with voice over explaining what I am doing on the app.</p>
+		<p>The embedded <a href="https://www.youtube.com/watch?v=wm44R9TGu7s">Youtube video shows the app in action</a> with voice over explaining what I am doing on the app.</p>
 	</div>
 	<div class="col-xs-6">
 		<iframe width="90%" height="350" src="https://www.youtube.com/embed/wm44R9TGu7s"> </iframe>
