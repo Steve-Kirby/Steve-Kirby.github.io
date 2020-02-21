@@ -1,5 +1,5 @@
 ---
-layout: coursework-highlight
+layout: coursework-highlights
 title: "Coursework - Year 1"
 permalink: /coursework1
 ---
