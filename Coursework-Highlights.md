@@ -64,10 +64,11 @@ permalink: /coursework-highlights
 <div class="row">
 	<div class="col-xs-6">
 		<h3>Coding the App</h3>
-		<p>In this stage we programmed our apps using Android Studio, i used Java for this rather then kotlin.</p>
+		<p>In this stage we programmed our apps using Android Studio, i used Java for this rather then Kotlin.</p>
+		<p>The embedded Youtube video shows the app in action with voice over explaining what I am doing on the app.</p>
 	</div>
 	<div class="col-xs-6">
-		<iframe style="max-width:90%" max-height="350" src="https://www.youtube.com/watch?v=wm44R9TGu7s"> </iframe>
+		<iframe style="max-width:90%" max-height="350" src="https://www.youtube.com/embed/wm44R9TGu7s"> </iframe>
 	</div>
 	
 </div>
