@@ -105,7 +105,7 @@ permalink: /coursework-highlights
 </div>
 <div class="row">
 	<div class="col-xs-6">
-		<img class="enlarge" src="GameDev.png" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/GameDevelopment.png" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>Godot - Exported to HTML</h3>
