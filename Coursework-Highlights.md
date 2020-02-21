@@ -64,7 +64,7 @@ permalink: /coursework-highlights
 	<div class="col-xs-6">
 		<p>As part of our <em>Software Engineering - Group Project</em> module we were to design and develop an android app, this could be a variety of different options chosen by the university.</p>
 		<p>We decided as a group to take on the Seaton Valley Council app, which could provide information to residents of the parish.</p>
-		<p>The gif here shows the app in use, for this project I was lead programmer along with 2 other programmers and 2 testers, ensuring any code pushed using gitlab was functional and could integrate with any previous code.</p>
+		<p>The gif here shows the app in use, for this project I was lead programmer along with 2 other programmers and 2 testers, ensuring any code pushed using gitlab was functional and could integrate with previous code.</p>
 	</div>
 <hr>
 </div>
