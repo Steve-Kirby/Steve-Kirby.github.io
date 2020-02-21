@@ -1,5 +1,5 @@
 ---
-layout: personal2
+layout: personal-highlights
 title: "Personal - Game Development"
 permalink: /personal2
 ---
