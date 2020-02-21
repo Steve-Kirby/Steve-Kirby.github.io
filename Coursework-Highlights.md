@@ -51,10 +51,20 @@ permalink: /coursework-highlights
 <h2><a href="#">iSpy - Android App</a></h2>
 <hr>
 </div>
+<div class="row">
+	<div class="col-xs-6">
+		<img class="enlarge" src="ISpyPP.png"  style="max-width:90%" max-height="350">
+		<p><a href="/ISpyPP.pptx">Link to download Powerpoint(23.1mb), with business case (embedded word document object).</a></p>
+	</div>
+	<div class="col-xs-6">
+		
+	</div>
+</div>
 
 <div class="row">
   
-<h2><a href="#">Team Project - Seaton Valley Council - Android App</a></h2>
+<h2><a href="https://github.com/Steven-Kirby/Seaton-Valley-Council-App">Team Project - Seaton Valley Council - Android App</a></h2>
+<p> Link above leads to a git repository with only the code which was written by myself or a team member for this app and as such wont work as an imported project. </p>
 <hr>
 </div>
 <div class="row">
