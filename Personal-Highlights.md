@@ -38,12 +38,6 @@ permalink: /personal-highlights
 
 <div class="row">
   
-<h2><a href="#">Other Website Development</a></h2>
-<hr>
-</div>
-
-<div class="row">
-  
 <h2><a href="#">Photo Watermarker</a></h2>
 <hr>
 </div>
@@ -57,14 +51,37 @@ permalink: /personal-highlights
 		<img class="enlarge" src="Planter.jpg" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
-		<p>I made this planter using 2 fence posts cut in half, some decking board and using 24 mortice and tenon joints</p>
+		<h3>The Finished Product</h3>
+		<p>The materials used for this planter included 2 fence posts cut in half, some decking board, a small tester pot of waterproofing paint and some screws.</p>
+		<p>I chiselled 24 mortice and tenon joints for the side walls, screwed the bottom on and drilled some large drainage holes, stapled the lining to the edges leaving holes for drainage, covered the holes with large stones and filled with soil.</p>
 	</div>
 </div>
 
 <div class="row">
   
 <h2><a href="#">Gold Panning</a></h2>
-<hr>
+<hr> 
+</div>
+
+<div class="row">
+	<div class="col-xs-6">
+		<img class="enlarge" src="Panning.jpg" style="max-width:90%" max-height="350">
+	</div>
+	<div class="col-xs-6">
+		<h3>'Gold Fever'</h3>
+		<p>Gold panning is a hobby I share with my dad, we have been doing this since we caught 'gold fever' almost 10 years ago on a guided lesson, sadly we dont get to go often as it is a long distance to travel.</p>
+		<p>There is a lot of hard physical work involved for the chance of finding small pieces of gold. But it isn't about the value of the gold. It's the thrill of the hunt and spending time outdoors around great landscapes.</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs-6">
+		<h3>Result!</h3>
+		<p>This is one of the bigger pieces of gold we have found, the sound of the gold 'tinking' against the glass vial, knowing it has never been touched before is awe inspiring to me.</p>
+	</div>
+	<div class="col-xs-6">
+		<img class="enlarge" src="Gold.jpg" style="max-width:90%" max-height="350">
+	</div>
 </div>
 
 
