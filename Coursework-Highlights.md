@@ -30,6 +30,28 @@ permalink: /coursework-highlights
 </div>
 <div class="row">
 	<div class="col-xs-6">
+		<h3>Planning - Gantt Chart</h3>
+		<p>In order to organise my dissertation I used a gantt chart which changed over time after discussions with tutors and ideas came to me.</p>
+	</div>
+	<div class="col-xs-6">
+		<img class="enlarge" src="/DissGantt.png" style="max-width:90%" max-height="350">
+	</div>
+<hr>
+</div>
+<div class="row">
+	<div class="col-xs-6">
+		<img class="enlarge" src="/DissErosion.png" style="max-width:90%" max-height="350">
+	</div>
+	<div class="col-xs-6">
+		<h3>The Result</h3>
+		<p>This project was a challenging experience for me, however I managed to achieve what I had set out to do, albeit not as pretty as I would have liked.</p>
+		<p>The image shows the erosion and the inundation of water upon the UK after the sea level had risen.</p>
+	</div>
+<hr>
+</div>
+
+<div class="row">
+	<div class="col-xs-6">
 		<h3>Data Analysis Graph</h3>
 		<p>Another aspect of this dissertation I enjoyed was the data analysis of testing performance of the simulation with different detail or tesselation levels, amount of textures being rendered etc.</p>
 		<p>This is just one example of the graphs I produced in Excel, this particular graph using the fps, x and y position of the 'camera' to see how much the render times/fps were effected by how much of the model was showing on the screen.</p>
@@ -39,6 +61,7 @@ permalink: /coursework-highlights
 	</div>
 
 </div>
+
 <hr>
 <div class="row">
   
