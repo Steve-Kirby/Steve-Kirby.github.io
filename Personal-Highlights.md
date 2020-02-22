@@ -48,7 +48,7 @@ permalink: /personal-highlights
 </div>
 <div class="row">
 	<div class="col-xs-6">
-		<img class="enlarge" src="Planter.jpg" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="Planter.jpg" style="max-width:90%" height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>The Finished Product</h3>
@@ -65,7 +65,7 @@ permalink: /personal-highlights
 
 <div class="row">
 	<div class="col-xs-6">
-		<img class="enlarge" src="Panning.jpg" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="Panning.jpg" style="max-width:90%;max-height:350px">
 	</div>
 	<div class="col-xs-6">
 		<h3>'Gold Fever'</h3>
@@ -80,7 +80,7 @@ permalink: /personal-highlights
 		<p>This is one of the bigger pieces of gold we have found, the sound of the gold 'tinking' against the glass vial, knowing it has never been touched before is awe inspiring to me.</p>
 	</div>
 	<div class="col-xs-6">
-		<img class="enlarge" src="Gold.jpg" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="Gold.jpg" style="max-width:90%;max-height:350px">
 	</div>
 </div>
 
