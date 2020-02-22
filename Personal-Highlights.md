@@ -52,6 +52,14 @@ permalink: /personal-highlights
 <h2><a href="#">Carpentry - Planter Box</a></h2>
 <hr>
 </div>
+<div class="row">
+	<div class="col-xs-6">
+		<img class="enlarge" src="Planter.jpg" style="max-width:90%" max-height="350">
+	</div>
+	<div class="col-xs-6">
+		<p>I made this planter using 2 fence posts cut in half, some decking board and using 24 mortice and tenon joints</p>
+	</div>
+</div>
 
 <div class="row">
   
