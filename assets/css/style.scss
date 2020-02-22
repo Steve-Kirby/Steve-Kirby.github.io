@@ -39,13 +39,6 @@ img.enlarge:active {
     margin: auto;
     bottom: 0;
     width: 70% !important;
-    max-height: 95vh;
+    max-height: 95vh !important;
     z-index: 1;
-}
-
-img.enlarge:active .bodydark{
-  background:black !important;
-  background-color:black !important;
-  opacity:0.6;
-  filter: brightness(50%);
 }
