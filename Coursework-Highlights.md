@@ -112,7 +112,7 @@ permalink: /coursework-highlights
 		<p>The screenshot shows the game in action, it isnt perfect and it was extremely ambitious for the time I had to work with along side looming deadlines for other modules and my dissertation, but more importantly I learned a lot about Godot and game development in general whilst making this prototype game.</p>
 	</div>
 </div>
-</hr>
+<hr>
 <div class="row">
 	
 <h2><a href="https://github.com/Steven-Kirby/Seaton-Valley-Council-App">Team Project - Seaton Valley Council - Android App</a></h2>
@@ -265,7 +265,7 @@ END
 </details>
 </div>
 </div>
-</hr>
+<hr>
 {::options parse_block_html="false" /}
 
 <div class="row">
