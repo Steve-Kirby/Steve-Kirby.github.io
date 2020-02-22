@@ -15,8 +15,8 @@ permalink: /personal-highlights
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img class="enlarge" src="SellcardsHome.PNG"  style="max-width:90%" max-height="350"><br /><br />
-		<img class="enlarge" src="SellcardsHighlight.PNG"  style="max-width:90%" max-height="350">
+		<img class="enlarge" src="SellcardsHome.PNG" style="max-width:90%;max-height:350px"><br /><br />
+		<img class="enlarge" src="SellcardsHighlight.PNG"  style="max-width:90%;max-height:350px">
 	</div>
 	<div class="col-xs-6">
 		<h3>Stacked Cards with Transitions</h3>
@@ -31,8 +31,8 @@ permalink: /personal-highlights
 		<p>The retrohub site is close to the sellcards site as it was built after it, taking the bits that i decided worked well, the code however is much more organised on retrohub, with a better use of templates and includes of seperated code for each page, making the website alot more maintainable.</p>
 	</div>
   <div class="col-xs-6">
-    <img class="enlarge" src="Retrohub.JPG"  style="max-width:90%" max-height="350"><br /><br />
-		<img class="enlarge" src="RetrohubCart.png"  style="max-width:90%" max-height="350">
+    <img class="enlarge" src="Retrohub.JPG"  style="max-width:90%;max-height:350px"><br /><br />
+		<img class="enlarge" src="RetrohubCart.png"  style="max-width:90%;max-height:350px">
 	</div>
 </div>
 
@@ -48,7 +48,7 @@ permalink: /personal-highlights
 </div>
 <div class="row">
 	<div class="col-xs-6">
-		<img class="enlarge" src="Planter.jpg" style="max-width:90%" height="350">
+		<img class="enlarge" src="Planter.jpg" style="max-width:90%;max-height:350px">
 	</div>
 	<div class="col-xs-6">
 		<h3>The Finished Product</h3>
