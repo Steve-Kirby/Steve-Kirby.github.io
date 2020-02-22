@@ -16,6 +16,7 @@ permalink: /coursework-highlights
 <div class="row">
 	<div class="col-xs-6">
 		<img class="enlarge" src="/DissertationPoster.png" style="max-width:90%;max-height:350px">
+		<p>Most images on my portfolio can be enlarged by holding down the left mouse button on the image</p>
 	</div>
 	<div class="col-xs-6">
 		<h3>Poster</h3>
