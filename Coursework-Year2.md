@@ -14,8 +14,8 @@ permalink: /coursework2
 <hr>
 <div class="row">
 <div class="col-xs-6">
-<img class="enlarge" src="UMLdiagram.png" style="max-width:90%" max-height="350"><br><br>
-<img class="enlarge" src="TDDtests.png" style="max-width:90%" max-height="350">
+<img class="enlarge" src="/img/coursework/UMLdiagram.png" style="max-width:90%" max-height="350"><br><br>
+<img class="enlarge" src="/img/coursework/TDDtests.png" style="max-width:90%" max-height="350">
 </div>
 <div class="col-xs-6">
 <h3>Assignment 1 - Test Driven Development</h3>
@@ -208,7 +208,7 @@ public class RecordManagerTestPart2 {
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="TDDreport.png" style="max-width:90%" max-height="350">
+    <img class="enlarge" src="/img/coursework/TDDreport.png" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 2 - Report - Test Driven Development</h3>
