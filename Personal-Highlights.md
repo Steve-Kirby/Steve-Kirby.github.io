@@ -41,7 +41,6 @@ permalink: /personal-highlights
 <h2><a href="#">Photo Watermarker</a></h2>
 <hr>
 </div>
-<hr>
 
 <div class="row">
 	<div class="col-xs-6">
@@ -55,6 +54,7 @@ permalink: /personal-highlights
 		<p>I am planning on improving this implementation to allow the user to choose an image to watermark all the images with, as well as improving the GUI. This is what i will be working on after finishing my portfolio</p>
 	</div>
 </div>
+<hr>
 
 <div class="row">
   
