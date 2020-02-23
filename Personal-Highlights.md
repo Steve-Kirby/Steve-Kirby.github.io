@@ -76,6 +76,7 @@ permalink: /personal-highlights
 </div>
 
 <div class="row">
+	<hr>
 	<div class="col-xs-6">
 		<h3>Result!</h3>
 		<p>This is one of the bigger pieces of gold we have found, the sound of the gold 'tinking' against the glass vial, knowing it has never been touched before is awe inspiring to me.</p>
