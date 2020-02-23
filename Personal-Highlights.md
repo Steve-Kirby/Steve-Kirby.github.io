@@ -26,7 +26,6 @@ permalink: /personal-highlights
 </div>
 <hr>
 <div class="row">
-	<hr>
 	<div class="col-xs-6">
 		<h3>Learning from Past Mistakes</h3>
 		<p>The retrohub site is close to the sellcards site as it was built after it, taking the bits that i decided worked well, the code however is much more organised on retrohub, with a better use of templates and includes of seperated code for each page, making the website alot more maintainable.</p>
