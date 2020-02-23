@@ -9,7 +9,7 @@ permalink: /personal-highlights
 <div class="row">
 
 <h2><a href="#">Retrohub.co.uk and Sellcards.co.uk - Ecommerce Websites</a></h2>
-<hr>
+
 </div>
 
 <div class="row">
@@ -24,7 +24,7 @@ permalink: /personal-highlights
 		<p>When hovering over a card in the stack the card moves to the front and darkens the screen to allow the user to more closely see the card, they could then click on the card to see it on its own page and add to the users cart.</p>
 	</div>
 </div>
-
+<hr>
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
@@ -36,12 +36,13 @@ permalink: /personal-highlights
 		<img class="enlarge" src="RetrohubCart.png"  style="max-width:90%;max-height:350px">
 	</div>
 </div>
-
+<hr>
 <div class="row">
   
 <h2><a href="#">Photo Watermarker</a></h2>
 <hr>
 </div>
+<hr>
 <div class="row">
   
 <h2><a href="#">Carpentry - Planter Box</a></h2>
@@ -57,7 +58,7 @@ permalink: /personal-highlights
 		<p>I chiselled 24 mortice and tenon joints for the side walls, screwed the bottom on and drilled some large drainage holes, stapled the lining to the edges leaving holes for drainage, covered the holes with large stones and filled with soil.</p>
 	</div>
 </div>
-
+<hr>
 <div class="row">
   
 <h2><a href="#">Gold Panning</a></h2>
