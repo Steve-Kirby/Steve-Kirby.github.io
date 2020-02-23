@@ -224,6 +224,7 @@ public class RecordManagerTestPart2 {
   <div class="col-xs-6">
     <h3>Assignment 3 - VDM-SL (Overture) Temperature Monitoring</h3>
 <p>Using VDM-SL to check logic and prove properties of a program by modelling its' systems in Overture.</p> 
+	  <p style="color:red">Work in progress.</p>
   </div>
 </div>
 <div class="row">
@@ -237,7 +238,7 @@ public class RecordManagerTestPart2 {
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 -</h3>
-    <p>Generic</p>
+    <p style="color:red">Work in progress.</p>
   </div>
 </div>
 <div class="row">
@@ -251,7 +252,7 @@ public class RecordManagerTestPart2 {
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 -</h3>
-    <p>Generic</p>
+  <p style="color:red">Work in progress.</p>
   </div>
 </div>
 <div class="row">
@@ -265,7 +266,7 @@ public class RecordManagerTestPart2 {
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - </h3>
-	  <p></p>
+	<p style="color:red">Work in progress.</p>
   </div>
 </div>
 <div class="row">
@@ -279,7 +280,7 @@ public class RecordManagerTestPart2 {
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 -</h3>
-    <p>Generic</p>
+    <p style="color:red">Work in progress.</p>
   </div>
 </div>
 <div class="row">
@@ -293,6 +294,6 @@ public class RecordManagerTestPart2 {
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - </h3>
-    <p>Using</p>
+    <p style="color:red">Work in progress.</p>
   </div>
 </div>
