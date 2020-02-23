@@ -15,7 +15,7 @@ permalink: /coursework-highlights
 
 <div class="row">
 	<div class="col-xs-6">
-		<img class="enlarge" src="/DissertationPoster.png" style="max-width:90%;max-height:350px">
+		<img class="enlarge" src="/img/coursework/DissertationPoster.png" style="max-width:90%;max-height:350px">
 		<p>Most images on my portfolio can be enlarged by holding down the left mouse button on the image</p>
 	</div>
 	<div class="col-xs-6">
@@ -35,14 +35,14 @@ permalink: /coursework-highlights
 		<p>I made the decision to use heightmaps of the UK rather then randomly generated islands, in hopes of making people aware that these are real issues, not just an interesting graphics demo.</p>
 	</div>
 	<div class="col-xs-6">
-		<img class="enlarge" src="/DissGantt.png" style="max-width:90%;max-height:350px">
+		<img class="enlarge" src="/img/coursework/DissGantt.png" style="max-width:90%;max-height:350px">
 	</div>
 
 </div>
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img class="enlarge" src="/DissErosion.png" style="max-width:90%;max-height:350px">
+		<img class="enlarge" src="/img/coursework/DissErosion.png" style="max-width:90%;max-height:350px">
 	</div>
 	<div class="col-xs-6">
 		<h3>The Result</h3>
@@ -60,7 +60,7 @@ permalink: /coursework-highlights
 		<p>This is just one example of the graphs I produced in Excel, this particular graph using the fps, x and y position of the 'camera' to see how much the render times/fps were effected by how much of the model was showing on the screen.</p>
 	</div>
 	<div class="col-xs-6">
-		<img class="enlarge" src="/DissertationGraph.png" style="max-width:90%;max-height:350px">
+		<img class="enlarge" src="/img/coursework/DissertationGraph.png" style="max-width:90%;max-height:350px">
 	</div>
 
 </div>
@@ -73,7 +73,7 @@ permalink: /coursework-highlights
 </div>
 <div class="row">
 	<div class="col-xs-6">
-		<img class="enlarge" src="GraphicsCW.png" style="max-width:90%;max-height:350px">
+		<img class="enlarge" src="/img/coursework/GraphicsCW.png" style="max-width:90%;max-height:350px">
 	</div>
 	<div class="col-xs-6">
 		<h3>Assignment 1 - Space Scene</h3>
@@ -89,7 +89,7 @@ permalink: /coursework-highlights
 		<p>The two that I came up with on my own were the shattering cube and the twisting smiley cube.</p>
 	</div>
 	<div class="col-xs-6">
-		<img class="enlarge" src="GraphicsCW2.png" style="max-width:90%;max-height:350px">
+		<img class="enlarge" src="/img/coursework/GraphicsCW2.png" style="max-width:90%;max-height:350px">
 	</div>
 </div>
 <hr>
@@ -100,10 +100,10 @@ permalink: /coursework-highlights
 </div>
 <div class="row">
 	<div class="col-xs-6">
-		<img class="enlarge" src="ISpyPP.png" style="max-width:90%;max-height:350px">
+		<img class="enlarge" src="/img/coursework/ISpyPP.png" style="max-width:90%;max-height:350px">
 		<p><a href="/ISpyPP.pptx">Download Powerpoint(23.1mb), with business case (embedded word document).</a></p>
 		<br /><br />
-		<img class="enlarge" src="AppLog.png" style="max-width:90%;max-height:350px">
+		<img class="enlarge" src="/img/coursework/AppLog.png" style="max-width:90%;max-height:350px">
 	</div>
 	<div class="col-xs-6">
 		<h3>Moodboard, Fontboard, Storyboard and Business Case</h3>
@@ -133,7 +133,7 @@ permalink: /coursework-highlights
 </div>
 <div class="row">
 	<div class="col-xs-6">
-		<img class="enlarge" src="/GameDevelopment.png" style="max-width:90%;max-height:350px">
+		<img class="enlarge" src="/img/coursework/GameDevelopment.png" style="max-width:90%;max-height:350px">
 	</div>
 	<div class="col-xs-6">
 		<h3>Godot - Exported to HTML</h3>
@@ -149,7 +149,7 @@ permalink: /coursework-highlights
 </div>
 <div class="row">
 	<div class="col-xs-6">
-		<img class="enlarge" src="/SeatonValleyDemo.gif" style="max-width:90%;max-height:350px">
+		<img class="enlarge" src="/img/coursework/SeatonValleyDemo.gif" style="max-width:90%;max-height:350px">
 	</div>
 	<div class="col-xs-6">
 		<p>As part of our <em>Software Engineering - Group Project</em> module we were to design and develop an android app, this could be a variety of different options chosen by the university.</p>
@@ -168,7 +168,7 @@ permalink: /coursework-highlights
 <hr>
 <div class="row">
 <div class="col-xs-6">
-<img class="enlarge" src="liftCoursework.PNG" style="max-width:90%;max-height:350px"><br><br>
+<img class="enlarge" src="/img/coursework/liftCoursework.PNG" style="max-width:90%;max-height:350px"><br><br>
 </div>
 <div class="col-xs-6">
 <h3>Lift Simulator</h3>
@@ -300,8 +300,8 @@ END
   <h2><a href="#">Tutorial Website</a></h2>
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="TutorialWebsiteCSS.png" style="max-width:90%;max-height:350px"><br /><br />
-	  <img class="enlarge" src="TutorialWebsite.png" style="max-width:90%;max-height:350px">
+    <img class="enlarge" src="/img/coursework/TutorialWebsiteCSS.png" style="max-width:90%;max-height:350px"><br /><br />
+	  <img class="enlarge" src="/img/coursework/TutorialWebsite.png" style="max-width:90%;max-height:350px">
   </div>
   <div class="col-xs-6">
 	  <p>Voice clips and slides from the course are laid out in easy to use sections seperating the different topics of the course</p>
