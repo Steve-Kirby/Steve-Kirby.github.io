@@ -1,15 +1,18 @@
 ---
 layout: default
 ---
-
+<hr>
 # Welcome!
+<hr>
 Feel free to browse my [portfolio](/coursework1) and [github repository](https://github.com/Steve-Kirby).
 
 The **links in the header** show **work I have completed** during my time at **university** and for **personal projects**.
 
 I am still updating this portfolio so check back soon for any updates! (version 1.1)
 
+<hr>
 ## A Little Bit About Me
+<hr>
 
 I am a recent **Graduate** with a **First Class Degree** in **BSc Computer Science(Game Engineering)** from **Newcastle University** attaining results between 70-80% for each year of the course.
 
@@ -19,10 +22,11 @@ I also enjoy **web development** and know most aspects of web development needed
 
 I have recently gotten over a period of depression but have now regained my enthusiasm for programming, I am currently working on improving my portfolio and applying for suitable jobs.
 
+<hr>
 ## Current Projects ##
+<hr>
 
 ### Current ###
-
 View my [current project on GitHub here](https://github.com/Steve-Kirby/Watermarker), Photo Watermarker.
 
 **Photo Watermarker**
@@ -46,7 +50,9 @@ This is based on the classic nokia game Snake, i hope to add extra interesting f
 
 *Update:12/02/2020* Postponing to work on Watermarker.
 
+<hr>
 ## Past Projects ##
+<hr>
 
 View these links to see what i have worked on in the past.
 
@@ -54,7 +60,10 @@ View these links to see what i have worked on in the past.
   - [Personal Projects](/personal1) 
   - [Projects on GitHub](https://github.com/Steve-Kirby)
 
+<hr>
 ## Education and Learning ##
+<hr>
+
 Any resources i have used to help me learn from and use as a reference in case i need to look over it again, including YouTube, Books, University/College and Websites such as Stack Overflow, GitHub and any others i see fit.
 This will be in reverse chronilogical order with the most recent and relevent information at the top of the list.
 
@@ -130,5 +139,8 @@ This will be in reverse chronilogical order with the most recent and relevent in
 **Visual Basic**
   - Sams Teach Yourself VB in 24 Hours
   
+<hr>
 ## Contact Me!
+<hr>
+
 To contact me about anything, you can [email me](mailto:stevenkirbywork@gmail.com).
