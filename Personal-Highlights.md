@@ -30,8 +30,8 @@ permalink: /personal-highlights
 		<h3>Learning from Past Mistakes</h3>
 		<p>The retrohub site is close to the sellcards site as it was built after it, taking the bits that i decided worked well, the code however is much more organised on retrohub, with a better use of templates and includes of seperated code for each page, making the website alot more maintainable.</p>
 	</div>
-  <div class="col-xs-6">
-    <img class="enlarge" src="Retrohub.JPG"  style="max-width:90%;max-height:350px"><br /><br />
+  	<div class="col-xs-6">
+    		<img class="enlarge" src="Retrohub.JPG"  style="max-width:90%;max-height:350px"><br /><br />
 		<img class="enlarge" src="RetrohubCart.png"  style="max-width:90%;max-height:350px">
 	</div>
 </div>
@@ -42,6 +42,17 @@ permalink: /personal-highlights
 <hr>
 </div>
 <hr>
+
+<div class="row">
+	<div class="col-xs-6">
+		<img class="enlarge" src="BeforeWatermarkedFolder.JPG" style="max-width:90%;max-height:350px"><br /><br />
+		<img class="enlarge" src="WatermarkedFolder.JPG" style="max-width:90%;max-height:350px">
+	</div>
+	<div class="col-xs-6">
+		<p>This program was made for a friend who was paying for a website to watermark her photography with a very simple overlay and required her to upload each photograph.</p> 
+	</div>
+</div>
+
 <div class="row">
   
 <h2><a href="#">Carpentry - Planter Box</a></h2>
