@@ -13,8 +13,8 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img class="enlarge" src="LoginSellCards.PNG" style="max-width:90%" max-height="350">
-		<img class="enlarge" src="UserDB.PNG" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/LoginSellCards.PNG" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/UserDB.PNG" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>PHP Login/SQL Database</h3>
@@ -27,8 +27,8 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img class="enlarge" src="MessageSellCards.PNG" style="max-width:90%" max-height="350">
-		<img class="enlarge" src="EmailSentSellCards.png" style="max-width:90%" max-height="350"><br>
+		<img class="enlarge" src="/img/personal/MessageSellCards.PNG" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/EmailSentSellCards.png" style="max-width:90%" max-height="350"><br>
 	</div>
 	<div class="col-xs-6">
 		<h3>PHP Mail</h3>
@@ -50,9 +50,9 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img class="enlarge" src="SellcardsHome.PNG"  style="max-width:90%" max-height="350">
-		<img class="enlarge" src="SellcardsSearch.PNG"  style="max-width:90%" max-height="350">
-		<img class="enlarge" src="CardDBSellCards.PNG"  style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/SellcardsHome.PNG"  style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/SellcardsSearch.PNG"  style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/CardDBSellCards.PNG"  style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>PHP/SQL Search & Sort</h3>
@@ -64,7 +64,7 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img class="enlarge" src="SellcardsHighlight.PNG" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/SellcardsHighlight.PNG" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>CSS Transition</h3>
@@ -75,9 +75,9 @@ permalink: /personal1
 <div class="row">
 	<hr>
         <div class="col-xs-6">
-		<img class="enlarge" src="SellcardsAccount.PNG"  style="max-width:90%" max-height="350">
-		<img class="enlarge" src="CartsDB.PNG"  style="max-width:90%" max-height="350">
-		<img class="enlarge" src="SellcardsPaypal.PNG"  style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/SellcardsAccount.PNG"  style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/CartsDB.PNG"  style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/SellcardsPaypal.PNG"  style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>PHP/SQL Cart & PayPal</h3>
@@ -107,7 +107,7 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img class="enlarge" src="/RetrohubCart.png" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/RetrohubCart.png" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>Account/Cart</h3>
@@ -119,9 +119,9 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img class="enlarge" src="/RetrohubSSL.png" style="max-width:90%" max-height="350">
-		<img class="enlarge" src="/RetrohubSignupPage.png" style="max-width:90%" max-height="350">
-		<img class="enlarge" src="/RetrohubVisitorTracking.png" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/RetrohubSSL.png" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/RetrohubSignupPage.png" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/RetrohubVisitorTracking.png" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>Security and GDPR</h3>
@@ -134,8 +134,8 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img class="enlarge" src="/RetrohubWishlistOOS.png" style="max-width:90%" max-height="350">
-		<img class="enlarge" src="/RetrohubAnotherUser.png" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/RetrohubWishlistOOS.png" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/RetrohubAnotherUser.png" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>Preventing Simultanious Sales</h3>
@@ -152,7 +152,7 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img class="enlarge" src="loginFreegram.PNG" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/loginFreegram.PNG" style="max-width:90%" max-height="350">
             </div>
 	<div class="col-xs-6">
 		<h3>WordPress/Social Media Login</h3>
@@ -162,7 +162,7 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img class="enlarge" src="seperationFreegram.PNG" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/seperationFreegram.PNG" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>Blog Categories</h3>
@@ -173,7 +173,7 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-            <img class="enlarge" src="userblogFreegram.PNG" style="max-width:90%" max-height="350">
+            <img class="enlarge" src="/img/personal/userblogFreegram.PNG" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>Editing of Plugins</h3>
@@ -185,7 +185,7 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img class="enlarge" src="tutislandFreegram.PNG" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/tutislandFreegram.PNG" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>Tutorial Island</h3>
@@ -195,7 +195,7 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img class="enlarge" src="socialFreegram.PNG" style="max-width:90%" max-height="100">
+		<img class="enlarge" src="/img/personal/socialFreegram.PNG" style="max-width:90%" max-height="100">
             </div>
 	<div class="col-xs-6">
 		<h3>Social Media</h3>
@@ -205,7 +205,7 @@ permalink: /personal1
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img class="enlarge" src="customFreegram.PNG" style="max-width:90%" max-height="350">
+		<img class="enlarge" src="/img/personal/customFreegram.PNG" style="max-width:90%" max-height="350">
 	</div>
 	<div class="col-xs-6">
 		<h3>Custom HTML Pages</h3>
