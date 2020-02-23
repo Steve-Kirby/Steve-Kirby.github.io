@@ -14,7 +14,7 @@ permalink: /coursework1
 <hr>
 <div class="row">
 <div class="col-xs-6">
-<img class="enlarge" src="TaxChartCoursework.PNG" style="max-width:90%" max-height="350">
+<img class="enlarge" src="/img/coursework/TaxChartCoursework.PNG" style="max-width:90%" max-height="350">
 </div>
 <div class="col-xs-6">
 <h3>Assignment 1 - Tax Chart and Calculator</h3>
@@ -58,7 +58,7 @@ public void printTable(int[]gross){
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="HotelCoursework2.PNG" style="max-width:90%" max-height="350">
+    <img class="enlarge" src="/img/coursework/HotelCoursework2.PNG" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 2 - Hotel booking system</h3>
@@ -72,7 +72,7 @@ public void printTable(int[]gross){
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="BrowserCoursework.PNG" style="max-width:90%" max-height="350">
+    <img class="enlarge" src="/img/coursework/BrowserCoursework.PNG" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - Web Browser</h3>
@@ -96,7 +96,7 @@ public void printTable(int[]gross){
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="EthicsCoursework.PNG" style="max-width:90%" max-height="350">
+    <img class="enlarge" src="/img/coursework/EthicsCoursework.PNG" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 2 - Ethics in Software Engineering</h3>
@@ -107,7 +107,7 @@ public void printTable(int[]gross){
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="usabilityCoursework.PNG" style="max-width:90%" max-height="350">
+    <img class="enlarge" src="/img/coursework/usabilityCoursework.PNG" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 3 - Usability Analysis(Sprint)</h3>
@@ -117,7 +117,7 @@ public void printTable(int[]gross){
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="litCoursework.PNG" style="max-width:90%" max-height="350">
+    <img class="enlarge" src="/img/coursework/litCoursework.PNG" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 4 - Literature Review</h3>
@@ -127,8 +127,8 @@ public void printTable(int[]gross){
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="testingCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
-    <img class="enlarge" src="testingCoursework2.PNG" style="max-width:90%" max-height="350">
+    <img class="enlarge" src="/img/coursework/testingCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
+    <img class="enlarge" src="/img/coursework/testingCoursework2.PNG" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 5 - Debugging PreWritten Code</h3>
@@ -145,7 +145,7 @@ public void printTable(int[]gross){
 <hr>
 <div class="row">
 <div class="col-xs-6">
-<img class="enlarge" src="liftCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
+<img class="enlarge" src="/img/coursework/liftCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
 </div>
 <div class="col-xs-6">
 <h3>Assignment 1 - Lift Simulator</h3>
@@ -293,7 +293,7 @@ END
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="webCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
+    <img class="enlarge" src="/img/coursework/webCoursework.PNG" style="max-width:90%" max-height="350"><br><br>
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - Copy a Website using image</h3>
@@ -304,15 +304,15 @@ structure as a website and then using css to make it look like the final result<
 <div class="row">
   <hr>
   <div class="col-xs-6">
-	  <img class="enlarge" src="TutorialWebsiteCSS.png" style="max-width:90%" max-height="350"><br><br>
-	  <img class="enlarge" src="TutorialWebsite.png" style="max-width:90%" max-height="350">
+	  <img class="enlarge" src="/img/coursework/TutorialWebsiteCSS.png" style="max-width:90%" max-height="350"><br><br>
+	  <img class="enlarge" src="/img/coursework/TutorialWebsite.png" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
 	  <h3>Assignment 2 - Develop Tutorial Website</h3>
 	  <p>Voice clips and slides from the course are laid out in easy to use sections seperating the different topics of the course</p>
 	  <p>The user can use what they learn from the website and gain feedback immediately by using the live HTML, CSS, Javascript testing area, i believe this function was adapted from some code i found online and changes depending on what section of the tutorial website the user is on (shown in the pictures).</p>
 	  <p>This testing area can expand to accomodate more lines as needed</p>
-	  <img class="enlarge" src="TutorialWebsiteExpand.png" style="max-width:90%" max-height="350">
+	  <img class="enlarge" src="/img/coursework/TutorialWebsiteExpand.png" style="max-width:90%" max-height="350">
 	  
   </div>
 </div>
