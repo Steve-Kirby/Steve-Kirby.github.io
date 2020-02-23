@@ -22,17 +22,17 @@ permalink: /coursework-highlights
 		<h3>Poster</h3>
 		<p>For my 3rd year dissertation I wanted to explore graphics within programming as id never quite grasped how to implement them.</p>
 		<p>Tackling this topic enabled me to explore the belly of the beast, I utilised a codebase provided to us during the graphics module I was doing that year.</p>
-		<p>This provided a framework in which to easily set up a window using OpenGL as well as a few other features, however understanding the codebase I had never used before made this slightly more difficult; albeit increasing my confidence in using anothers complex code.</p>
-		<p>I enjoy games with wide open worlds that can be explored so decided i would generate random islands, this changed after discussion with my tutors.</p>
-		<p> The biggest change was to incorperate climate change and rising sea levels, which are returning to the forefront of issues we face once again.</p>
-		<p>I made the decision to use heightmaps of the UK rather then randomly generated islands, in hopes of making people aware that these are real issues, not just an interesting graphics demo.</p>
+		<p>This provided a framework in which to easily set up a window using OpenGL as well as a few other features, however understanding the codebase I had never used before made this slightly more difficult; albeit increasing my confidence in using another programmers complex code.</p>
 	</div>
 <hr>
 </div>
 <div class="row">
 	<div class="col-xs-6">
 		<h3>Planning - Gantt Chart</h3>
-		<p>In order to organise my dissertation I used a gantt chart which changed over time after discussions with tutors and ideas came to me.</p>
+		<p>In order to organise my dissertation I used a gantt chart which changed over time as needed.</p>
+		<p>I enjoy games with wide open worlds that can be explored, and naturally wanted to generate random islands to replicate this, this changed after discussion with my tutors.</p>
+		<p> The biggest change was to incorperate climate change and rising sea levels, which are returning to the forefront of issues we face once again.</p>
+		<p>I made the decision to use heightmaps of the UK rather then randomly generated islands, in hopes of making people aware that these are real issues, not just an interesting graphics demo.</p>
 	</div>
 	<div class="col-xs-6">
 		<img class="enlarge" src="/DissGantt.png" style="max-width:90%;max-height:350px">
