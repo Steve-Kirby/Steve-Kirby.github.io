@@ -49,7 +49,10 @@ permalink: /personal-highlights
 		<img class="enlarge" src="WatermarkedFolder.JPG" style="max-width:90%;max-height:350px">
 	</div>
 	<div class="col-xs-6">
+		<h3>Helping a Friend</h3>
 		<p>This program was made for a friend who was paying for a website to watermark her photography with a very simple overlay and required her to upload each photograph.</p> 
+		<p>The watermark is hard coded with a folder select screen for choosing which folder to watermark and where to save the copies.</p>
+		<p>I am planning on improving this implementation to allow the user to choose an image to watermark all the images with, as well as improving the GUI. This is what i will be working on after finishing my portfolio</p>
 	</div>
 </div>
 
