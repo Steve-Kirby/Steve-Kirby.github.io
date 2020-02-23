@@ -209,6 +209,6 @@ permalink: /personal1
 	</div>
 	<div class="col-xs-6">
 		<h3>Custom HTML Pages</h3>
-		<p>Of course just because the website uses wordpress predominantly, there is no reason why not to use custom html pages, as such i have created a smoking calculator, and of course this portfolio will be on a custom page on this website.</p>
+		<p>Of course just because the website uses wordpress predominantly, there is no reason why not to use custom html pages, as such i have created a smoking calculator.</p>
 	</div>
 </div>
