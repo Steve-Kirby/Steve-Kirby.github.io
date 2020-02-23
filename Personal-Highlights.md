@@ -15,8 +15,8 @@ permalink: /personal-highlights
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
-		<img class="enlarge" src="SellcardsHome.PNG" style="max-width:90%;max-height:350px"><br /><br />
-		<img class="enlarge" src="SellcardsHighlight.PNG"  style="max-width:90%;max-height:350px">
+		<img class="enlarge" src="/img/personal/SellcardsHome.PNG" style="max-width:90%;max-height:350px"><br /><br />
+		<img class="enlarge" src="/img/personal/SellcardsHighlight.PNG"  style="max-width:90%;max-height:350px">
 	</div>
 	<div class="col-xs-6">
 		<h3>Stacked Cards with Transitions</h3>
@@ -31,8 +31,8 @@ permalink: /personal-highlights
 		<p>The retrohub site is close to the sellcards site as it was built after it, taking the bits that i decided worked well, the code however is much more organised on retrohub, with a better use of templates and includes of seperated code for each page, making the website alot more maintainable.</p>
 	</div>
   	<div class="col-xs-6">
-    		<img class="enlarge" src="Retrohub.JPG"  style="max-width:90%;max-height:350px"><br /><br />
-		<img class="enlarge" src="RetrohubCart.png"  style="max-width:90%;max-height:350px">
+    		<img class="enlarge" src="/img/personal/Retrohub.JPG"  style="max-width:90%;max-height:350px"><br /><br />
+		<img class="enlarge" src="/img/personal/RetrohubCart.png"  style="max-width:90%;max-height:350px">
 	</div>
 </div>
 <hr>
@@ -45,8 +45,8 @@ permalink: /personal-highlights
 
 <div class="row">
 	<div class="col-xs-6">
-		<img class="enlarge" src="BeforeWatermarkedFolder.JPG" style="max-width:90%;max-height:350px"><br /><br />
-		<img class="enlarge" src="WatermarkedFolder.JPG" style="max-width:90%;max-height:350px">
+		<img class="enlarge" src="/img/personal/BeforeWatermarkedFolder.JPG" style="max-width:90%;max-height:350px"><br /><br />
+		<img class="enlarge" src="/img/personal/WatermarkedFolder.JPG" style="max-width:90%;max-height:350px">
 	</div>
 	<div class="col-xs-6">
 		<h3>Helping a Friend</h3>
@@ -64,7 +64,7 @@ permalink: /personal-highlights
 </div>
 <div class="row">
 	<div class="col-xs-6">
-		<img class="enlarge" src="Planter.jpg" style="max-width:90%;max-height:350px">
+		<img class="enlarge" src="/img/personal/Planter.jpg" style="max-width:90%;max-height:350px">
 	</div>
 	<div class="col-xs-6">
 		<h3>The Finished Product</h3>
@@ -81,7 +81,7 @@ permalink: /personal-highlights
 
 <div class="row">
 	<div class="col-xs-6">
-		<img class="enlarge" src="Panning.jpg" style="max-width:90%;max-height:350px">
+		<img class="enlarge" src="/img/personal/Panning.jpg" style="max-width:90%;max-height:350px">
 	</div>
 	<div class="col-xs-6">
 		<h3>'Gold Fever'</h3>
@@ -97,7 +97,7 @@ permalink: /personal-highlights
 		<p>This is one of the bigger pieces of gold we have found, the sound of the gold 'tinking' against the glass vial, knowing it has never been touched before is awe inspiring to me.</p>
 	</div>
 	<div class="col-xs-6">
-		<img class="enlarge" src="Gold.jpg" style="max-width:90%;max-height:350px">
+		<img class="enlarge" src="/img/personal/Gold.jpg" style="max-width:90%;max-height:350px">
 	</div>
 </div>
 
