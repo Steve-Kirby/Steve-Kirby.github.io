@@ -24,9 +24,9 @@ permalink: /coursework-highlights
 		<p>Tackling this topic enabled me to explore the belly of the beast, I utilised a codebase provided to us during the graphics module I was doing that year.</p>
 		<p>This provided a framework in which to easily set up a window using OpenGL as well as a few other features, however understanding the codebase I had never used before made this slightly more difficult; albeit increasing my confidence in using another programmers complex code.</p>
 	</div>
-<hr>
 </div>
 <div class="row">
+	<hr>
 	<div class="col-xs-6">
 		<h3>Planning - Gantt Chart</h3>
 		<p>In order to organise my dissertation I used a gantt chart which changed over time as needed.</p>
@@ -37,9 +37,10 @@ permalink: /coursework-highlights
 	<div class="col-xs-6">
 		<img class="enlarge" src="/DissGantt.png" style="max-width:90%;max-height:350px">
 	</div>
-<hr>
+
 </div>
 <div class="row">
+	<hr>
 	<div class="col-xs-6">
 		<img class="enlarge" src="/DissErosion.png" style="max-width:90%;max-height:350px">
 	</div>
@@ -48,10 +49,11 @@ permalink: /coursework-highlights
 		<p>This project was a challenging experience for me, however I managed to achieve what I had set out to do, albeit not as pretty as I would have liked.</p>
 		<p>The image shows the erosion and the inundation of water upon the UK after the sea level had risen.</p>
 	</div>
-<hr>
+
 </div>
 
 <div class="row">
+	<hr>
 	<div class="col-xs-6">
 		<h3>Data Analysis Graph</h3>
 		<p>Another aspect of this dissertation I enjoyed was the data analysis of testing performance of the simulation with different detail or tesselation levels, amount of textures being rendered etc.</p>
