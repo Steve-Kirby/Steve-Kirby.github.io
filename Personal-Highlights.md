@@ -8,8 +8,8 @@ permalink: /personal-highlights
 <hr>
 <div class="row">
 
-<h2><a href="#">Retrohub.co.uk and Sellcards.co.uk - Ecommerce Websites</a></h2>
-
+<h2><a href="/personal1">Retrohub.co.uk and Sellcards.co.uk - Ecommerce Websites</a></h2>
+<p>Link above leads to a more indepth look into both of these websites.</p>
 </div>
 
 <div class="row">
@@ -38,7 +38,8 @@ permalink: /personal-highlights
 <hr>
 <div class="row">
   
-<h2><a href="#">Photo Watermarker</a></h2>
+<h2><a href="https://github.com/Steve-Kirby/Watermarker">Photo Watermarker</a></h2>
+<p>This project is being worked on, the link above leads to the github repository.</p>
 <hr>
 </div>
 
