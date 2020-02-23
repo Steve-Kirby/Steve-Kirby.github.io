@@ -16,7 +16,7 @@ permalink: /coursework3
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 -</h3>
-    <p>U</p>
+    <p style="color:red">Work in progress.</p>
   </div>
 </div>
 <div class="row">
@@ -32,7 +32,7 @@ permalink: /coursework3
 </div>
 <div class="col-xs-6">
 <h3>Assignment 1 - </h3>
-<p>.</p>
+<p style="color:red">Work in progress.</p>
 </div>
 </div>
 <div class="row">
@@ -54,7 +54,7 @@ permalink: /coursework3
   </div>
   <div class="col-xs-6">
     <h3>Assignment 2 - </h3>
-    <p>T</p>
+   <p style="color:red">Work in progress.</p>
   </div>
 </div>
 <div class="row">
@@ -68,7 +68,7 @@ permalink: /coursework3
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - </h3>
-    <p>Y</p>
+    <p style="color:red">Work in progress.</p>
   </div>
 </div>
 <div class="row">
@@ -82,7 +82,7 @@ permalink: /coursework3
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - </h3>
-    <p></p>
+    <p style="color:red">Work in progress.</p>
   </div>
 </div>
 <div class="row">
@@ -92,7 +92,7 @@ permalink: /coursework3
   </div>
   <div class="col-xs-6">
     <h3>Assignment 2 -</h3>
-	  <p></p>
+	 <p style="color:red">Work in progress.</p>
   </div>
 </div>
 <div class="row">
@@ -106,7 +106,7 @@ permalink: /coursework3
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - </h3>
-	<p> </p>
+	<p style="color:red">Work in progress.</p>
   </div>
 </div>
 <div class="row">
@@ -120,7 +120,7 @@ permalink: /coursework3
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - </h3>
-    <p>Port</p>
+    <p style="color:red">Work in progress.</p>
   </div>
 </div>
 <div class="row">
@@ -134,7 +134,7 @@ permalink: /coursework3
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - </h3>
-    <p>Us</p>
+    <p style="color:red">Work in progress.</p>
   </div>
 </div>
 <div class="row">
@@ -148,7 +148,7 @@ permalink: /coursework3
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - </h3>
-    <p>t</p>
+    <p style="color:red">Work in progress.</p>
   </div>
 </div>
 <div class="row">
@@ -162,6 +162,6 @@ permalink: /coursework3
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - </h3>
-    <p>Ust</p>
+    <p style="color:red">Work in progress.</p>
   </div>
 </div>
