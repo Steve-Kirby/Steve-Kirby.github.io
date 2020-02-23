@@ -20,7 +20,8 @@ permalink: /personal-highlights
 	</div>
 	<div class="col-xs-6">
 		<h3>Stacked Cards with Transitions</h3>
-		<p>When hovering over a card in the stack the card moves to the front and darkens the screen.</p>
+		<p>I decided on this layout for cards as it resembles how you would spread a stack of cards out physically, although maybe at more of a fan spread.</p>
+		<p>When hovering over a card in the stack the card moves to the front and darkens the screen to allow the user to more closely see the card, they could then click on the card to see it on its own page and add to the users cart.</p>
 	</div>
 </div>
 
