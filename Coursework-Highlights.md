@@ -82,6 +82,7 @@ permalink: /coursework-highlights
 	</div>
 </div>
 <div class="row">
+	<hr>
 	<div class="col-xs-6">
 		<h3>Assignment 2 - Shaders</h3>
 		<p>Using OpenGL and GLSL I was to create four requested effects on cubes, and come up with two of my own.</p>
@@ -111,6 +112,7 @@ permalink: /coursework-highlights
 	</div>
 </div>
 <div class="row">
+	<hr>
 	<div class="col-xs-6">
 		<h3>Coding the App</h3>
 		<p>In this stage we programmed our apps using Android Studio, i used Java for this rather then Kotlin.</p>
