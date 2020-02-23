@@ -8,7 +8,7 @@ Feel free to browse my [portfolio](/coursework1) and [github repository](https:/
 
 The **links in the header** show **work I have completed** during my time at **university** and for **personal projects**.
 
-I am still updating this portfolio so check back soon for any updates! (version 1.1)
+I am still updating this portfolio so check back soon for any updates! (version 1.2 : 23/02/2020)
 
 <hr>
 ## A Little Bit About Me
