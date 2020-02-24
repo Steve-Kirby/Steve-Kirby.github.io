@@ -18,7 +18,7 @@ permalink: /coursework1
 </div>
 <div class="col-xs-6">
 <h3>Assignment 1 - Tax Chart and Calculator</h3>
-<p>The First coursework we were tasked with in Java involved creating a Tax Calculator which then displayed a bar chart showing income and amount to pay.</p>
+<p>The first coursework we were tasked with in Java involved creating a Tax Calculator which then displayed a bar chart showing income and amount to pay.</p>
 </div>
 </div>
 <div class="row">
@@ -62,7 +62,7 @@ public void printTable(int[]gross){
   </div>
   <div class="col-xs-6">
     <h3>Assignment 2 - Hotel booking system</h3>
-    <p>The Second coursework we were tasked with in Java involved creating a Hotel using OOP to allow a booking system, this did not require a GUI.</p>
+    <p>The second coursework we were tasked with in Java involved creating a hotel booking system using OOP; this did not require a GUI.</p>
   </div>
 </div>
 <div class="row">
@@ -90,7 +90,7 @@ public void printTable(int[]gross){
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - Programming Presentation</h3>
-    <p>Research and present information on a programming language of our choice, including a written report of the information also</p>
+    <p>Research and present information on a programming language of our choosing, including a written report of the information.</p>
   </div>
 </div>
 <div class="row">
@@ -100,8 +100,8 @@ public void printTable(int[]gross){
   </div>
   <div class="col-xs-6">
     <h3>Assignment 2 - Ethics in Software Engineering</h3>
-    <p>This coursework involved choosing a computing disaster to discuss about, mainly the ethics behind the disaster and what happend,how it happened and what could of been done to prevent this.</p>
-    <p>The topic I decided to choose was 000webhost and their database breach of plain text information of over 13.5 million users details and passwords.</p>
+    <p>This coursework involved choosing a computing disaster to discuss, mainly about the ethics behind the disaster, what happened, how it happened and what could have been done to prevent it.</p>
+    <p>The topic I decided to choose was 000webhost and their database breach of plain text information; over 13.5 million users details and passwords.</p>
   </div>
 </div>
 <div class="row">
@@ -110,8 +110,8 @@ public void printTable(int[]gross){
     <img class="enlarge" src="/img/coursework/usabilityCoursework.PNG" style="max-width:90%" max-height="350">
   </div>
   <div class="col-xs-6">
-    <h3>Assignment 3 - Usability Analysis(Sprint)</h3>
-    <p>Using Nielsen's 10 Usablity Heuristics where appropriate we were tasked with testing out the universities blackboard system</p>
+    <h3>Assignment 3 - Usability Analysis (Sprint)</h3>
+    <p>Using Nielsen's 10 Usablity Heuristics where appropriate we were tasked with testing out the universities blackboard system.</p>
   </div>
 </div>
 <div class="row">
@@ -121,7 +121,7 @@ public void printTable(int[]gross){
   </div>
   <div class="col-xs-6">
     <h3>Assignment 4 - Literature Review</h3>
-    <p>Using Google Scholar we were to find 3 literature pieces from trusted and reliable sources based on a subject in computing science, I opted to choose AI and Machine Learning, this wasnt a suggested topic however I find this subject interesting.</p>
+    <p>Using Google Scholar we were to find 3 literature pieces from trusted and reliable sources based on a subject in computing science, I opted to choose AI and Machine Learning; this wasn't a suggested topic however I find this subject interesting.</p>
   </div>
 </div>
 <div class="row">
@@ -132,7 +132,7 @@ public void printTable(int[]gross){
   </div>
   <div class="col-xs-6">
     <h3>Assignment 5 - Debugging PreWritten Code</h3>
-    <p>The Code we were given had been written specifically for the purpose of testing and debugging with injected issues.</p>
+    <p>The code we were given had been written specifically for the purpose of testing and debugging, it had issues injected purposefully.</p>
   </div>
 </div>
 
@@ -297,8 +297,8 @@ END
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - Copy a Website using image</h3>
-    <p>Using just an image and some pre written text we were tasked with marking up the text so that the page had the same underlying 
-structure as a website and then using css to make it look like the final result</p>
+    <p>Using just an image and some pre-written text, we were tasked with marking up the text so that the page had the same underlying 
+structure as a website and then using CSS to make it look like the final result.</p>
   </div>
 </div>
 <div class="row">
@@ -309,9 +309,9 @@ structure as a website and then using css to make it look like the final result<
   </div>
   <div class="col-xs-6">
 	  <h3>Assignment 2 - Develop Tutorial Website</h3>
-	  <p>Voice clips and slides from the course are laid out in easy to use sections seperating the different topics of the course</p>
-	  <p>The user can use what they learn from the website and gain feedback immediately by using the live HTML, CSS, Javascript testing area, i believe this function was adapted from some code i found online and changes depending on what section of the tutorial website the user is on (shown in the pictures).</p>
-	  <p>This testing area can expand to accomodate more lines as needed</p>
+	  <p>Voice clips and slides from the course are laid out in easy to use sections separating the different topics of the course.</p>
+	  <p>The user can utilise what they have learnt from the website and gain feedback immediately by using the live HTML, CSS, Javascript testing area, this function was adapted from some code I found online, the layout changes depending on what section of the tutorial website the user is on (shown in the pictures).</p>
+	  <p>This testing area can expand to accommodate more lines as needed.</p>
 	  <img class="enlarge" src="/img/coursework/TutorialWebsiteExpand.png" style="max-width:90%" max-height="350">
 	  
   </div>
