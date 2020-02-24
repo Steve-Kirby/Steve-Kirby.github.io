@@ -20,8 +20,8 @@ permalink: /coursework2
 <div class="col-xs-6">
 <h3>Assignment 1 - Test Driven Development</h3>
 <p>This assignment was split into 3 tasks, the first of which being to produce a UML diagram.</p>
-<p>The second task was to produce the program using the UML diagram as a base writing the code first and then the tests, the code could differ from the UML diagram as long as any changes were documented in the code</p>
-<p>The third task was to program the same program, however using TDD(Test Driven Development) first, producing tests before doing any programming, we had to show the test failing and then passing once the programming was complete, this was tracked using a framework provided.</p>
+<p>The second task was to produce the program using the UML diagram as a base, writing the code first and then the tests, the code could differ from the UML diagram as long as any changes were documented in the code</p>
+<p>The third task was to program the same program, however using TDD (Test Driven Development) first, producing tests before doing any programming, we had to show the test failing and then passing once the programming was complete; this was tracked using the framework provided.</p>
 </div>
 </div>
 <div class="row">
