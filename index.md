@@ -6,7 +6,7 @@ layout: default
 <hr>
 Feel free to browse my [portfolio](/coursework1) and [github repository](https://github.com/Steve-Kirby).
 
-The **links in the header** show **work I have completed** during my time at **university** and for **personal projects**.
+The **links in the header** show the **work** I have **completed** during my time at **University** and my **personal projects**.
 
 I am still updating this portfolio so check back soon for any updates! (version 1.2 : 23/02/2020)
 
@@ -14,9 +14,9 @@ I am still updating this portfolio so check back soon for any updates! (version 
 ## A Little Bit About Me
 <hr>
 
-I am a recent **Graduate** with a **First Class Degree** in **BSc Computer Science(Game Engineering)** from **Newcastle University** attaining results between 70-80% for each year of the course.
+I am a recent **Graduate** with a **First Class Degree** in **BSc Computer Science (Game Engineering)** from **Newcastle University** attaining results between 70-80% for each year of the course.
 
-I am looking for a role within the **games industry**, with the goal of becoming experienced in **programming** for games.
+I am looking for a role within the **Games Industry**, with the goal of becoming experienced in **programming** for games.
 
 I also enjoy **web development** and know most aspects of web development needed to build and maintain a **secure feature packed website**.
 
@@ -40,8 +40,9 @@ I have decided to work on improving this as I would like to get back into my ama
 
 **Simple Snake 2D**
 
-This is based on the classic nokia game Snake, i hope to add extra interesting features such as upgradeable snakes with ranks after the basic implementation is solid with maps of your own design using text maps and random fruit spawn.
+This is based on the classic Nokia game Snake, I hope to add extra interesting features such as upgradeable snakes; with ranks after the basic implementation is solid. I also plan on making a map editor using text maps and random fruit spawn.
 
+- [x] Classes I expect to use
 - [ ] Implement a singular cube as snake
 - [ ] Implement map and collision
 - [ ] Implement fruit
@@ -64,8 +65,8 @@ View these links to see what i have worked on in the past.
 ## Education and Learning ##
 <hr>
 
-Any resources i have used to help me learn from and use as a reference in case i need to look over it again, including YouTube, Books, University/College and Websites such as Stack Overflow, GitHub and any others i see fit.
-This will be in reverse chronilogical order with the most recent and relevent information at the top of the list.
+Any resources i have used to help me learn from and use as a reference in case i need to look over it again, including YouTube, books, University/College and Websites such as Stack Overflow, GitHub and any others i see fit.
+This will be in reverse chronological order with the most recent and relevent information at the top of the list.
 
 ### Current Goals
   - Working through android game programming course on [gamecodeschool.com](http://gamecodeschool.com/courses/android-game-programming/)
@@ -126,7 +127,7 @@ This will be in reverse chronilogical order with the most recent and relevent in
     - Software Design and Development
     - Systems Analysis and Design
     
-  Won a BITS(*Brilliant IT Students*) award, nominated by class tutor(1 per class of around 20) [article available here](https://www.yorkcollege.ac.uk/in-the-news/367-summer-term-2015/2073-recognising-brilliant-it-students.html)
+  Won a BITS (*Brilliant IT Students*) award, nominated by class tutor(1 per class of around 20) [article available here](https://www.yorkcollege.ac.uk/in-the-news/367-summer-term-2015/2073-recognising-brilliant-it-students.html)
   
 **C++**
   - C++ for engineers
