@@ -20,7 +20,7 @@ permalink: /coursework-highlights
 	</div>
 	<div class="col-xs-6">
 		<h3>Poster</h3>
-		<p>For my 3rd year dissertation I wanted to explore graphics within programming as id never quite grasped how to implement them.</p>
+		<p>For my 3rd year dissertation I wanted to explore graphics within programming as I had never quite grasped how to implement them.</p>
 		<p>Tackling this topic enabled me to explore the belly of the beast, I utilised a codebase provided to us during the graphics module I was doing that year.</p>
 		<p>This provided a framework in which to easily set up a window using OpenGL as well as a few other features, however understanding the codebase I had never used before made this slightly more difficult; albeit increasing my confidence in using another programmers complex code.</p>
 	</div>
@@ -29,7 +29,7 @@ permalink: /coursework-highlights
 	<hr>
 	<div class="col-xs-6">
 		<h3>Planning - Gantt Chart</h3>
-		<p>In order to organise my dissertation I used a gantt chart which changed over time as needed.</p>
+		<p>In order to organise my dissertation I used a Gantt chart which changed over time as needed.</p>
 		<p>I enjoy games with wide open worlds that can be explored, and naturally wanted to generate random islands to replicate this, this changed after discussion with my tutors.</p>
 		<p> The biggest change was to incorperate climate change and rising sea levels, which are returning to the forefront of issues we face once again.</p>
 		<p>I made the decision to use heightmaps of the UK rather then randomly generated islands, in hopes of making people aware that these are real issues, not just an interesting graphics demo.</p>
@@ -115,7 +115,7 @@ permalink: /coursework-highlights
 	<hr>
 	<div class="col-xs-6">
 		<h3>Coding the App</h3>
-		<p>In this stage we programmed our apps using Android Studio, i used Java for this rather then Kotlin.</p>
+		<p>In this stage we programmed our apps using Android Studio, I used Java for this rather then Kotlin.</p>
 		<p>The embedded <a href="https://www.youtube.com/watch?v=wm44R9TGu7s">Youtube video shows the app in action</a> with voice over explaining what I am doing on the app.</p>
 		<p>I then wrote a reflective essay on my experience designing and programming the app, highlighting what went right and what went wrong, as well as what I had learnt from this assignment.</p>
 	</div>
@@ -137,14 +137,14 @@ permalink: /coursework-highlights
 	</div>
 	<div class="col-xs-6">
 		<h3>Godot - Exported to HTML</h3>
-		<p>The screenshot shows the game in action, it isnt perfect and it was extremely ambitious for the time I had to work with along side looming deadlines for other modules and my dissertation, but more importantly I learned a lot about Godot and game development in general whilst making this prototype game.</p>
+		<p>The screenshot shows the game in action, it isn't perfect and was extremely ambitious for the time I had, alongside looming deadlines for other modules and my dissertation. More importantly I learned a lot about Godot and game development in general whilst making this prototype game.</p>
 	</div>
 </div>
 <hr>
 <div class="row">
 	
 <h2><a href="https://github.com/Steven-Kirby/Seaton-Valley-Council-App">Team Project - Seaton Valley Council - Android App</a></h2>
-<p> Link above leads to a git repository with only the code which was written by myself or a team member for this app and as such wont work as an imported project. </p>
+<p> Link above leads to a git repository with only the code which was written by myself or a team member for this app and as such will not work as an imported project. </p>
 <hr>
 </div>
 <div class="row">
@@ -237,7 +237,7 @@ WaitUpButton:
 	AND	AL, 20		; Isolate up button
 	JNZ	UP		; Jump to up if Pressed else continue
 	JMP	WaitUpButton	; Keep checking till button pressed
-;------------ Display Down and start down motor ----------------
+;------------ Display down and start down motor ----------------
 Down:
 	
 	IN	06		; Read lift status
@@ -304,7 +304,7 @@ END
 	  <img class="enlarge" src="/img/coursework/TutorialWebsite.png" style="max-width:90%;max-height:350px">
   </div>
   <div class="col-xs-6">
-	  <p>Voice clips and slides from the course are laid out in easy to use sections seperating the different topics of the course</p>
+	  <p>Voice clips and slides from the course are laid out in easy to use sections separating the different topics of the course</p>
 	  <p>The user can use what they learn from the website and gain feedback immediately by using the live HTML, CSS, Javascript testing area, this was adapted from some code found online, the layout changes depending on what section of the tutorial website the user is on (shown in the pictures).</p>
   </div>
 
