@@ -11,7 +11,12 @@ permalink: /personal-highlights
 <h2><a href="/personal1">Retrohub.co.uk and Sellcards.co.uk - Ecommerce Websites</a></h2>
 <p>Link above leads to a more indepth look into both of these websites.</p>
 </div>
-
+<div class="row">
+	<h3> Code </h3>
+	<p><a href="https://github.com/Steve-Kirby/RetroHub-PHP-OLD">Link to old php code for Retrohub</a>, this is old code but is my only backup, it is insecure and vulnerable to SQLi/XSS</p>
+	<p><a href="https://github.com/Steve-Kirby/SellCards-PHP-OLD">Link to old php code for Sellcards</a>, this is old code but is my only backup, it is insecure and vulnerable to SQLi/XSS, it is also inefficient with repeated code.</p>
+</div>
+	
 <div class="row">
 	<hr>
 	<div class="col-xs-6">
