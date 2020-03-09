@@ -283,12 +283,11 @@ public class RecordManagerTestPart2 {
 <div class="col-xs-6">
 <h3>Assignment 1</h3>
 <p>Hard to remember what this was for, however I believe we were changing a function of the minix operating system.</p>
-	<p>Sadly no output to be shown at the moment.</p>
+<p>Sadly no output to be shown at the moment.</p>
 </div>
-
 <div class="row">
 <details><summary markdown="span" style="text-align:right">Show me the code!</summary>
-	
+
 ```c
 /*
  * Student Name : Steven Kirby
