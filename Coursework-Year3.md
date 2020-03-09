@@ -854,7 +854,6 @@ void Queen::Move()
 	</div>
 	
 </div>
-<hr>
 <div class="row">
   <hr>
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3224">Computer Games Development</a></h2>
