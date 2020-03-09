@@ -130,9 +130,7 @@ permalink: /coursework-highlights
 <h2><a href="#">Programming for Games - Space Chess (C++)</a></h2>
 <hr>
 </div>
-
 <div class="row">
-  <hr>
   <div class="col-xs-6">
     <img class="enlarge" src="/img/coursework/SpaceChess.png" style="max-width:90%;max-height=350px">
   </div>
@@ -550,7 +548,6 @@ void Queen::Move()
 	
 </details>
 {::options parse_block_html="false" /}
-</row>
 <hr>
 
 <div class="row">
