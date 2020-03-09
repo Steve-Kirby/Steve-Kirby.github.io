@@ -269,20 +269,192 @@ public class RecordManagerTestPart2 {
 	<p style="color:red">Work in progress.</p>
   </div>
 </div>
+{::options parse_block_html="true" /}
 <div class="row">
-  <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2025">Operating Systems</a></h2>
-</div>
+<hr>
+<h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2025">Operating Systems</a></h2>
+</div>	
 <div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img src="" style="max-width:90%" max-height="350"><br><br>
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 1 -</h3>
-    <p style="color:red">Work in progress.</p>
-  </div>
+<hr>
+<div class="col-xs-6">
+<img src="" style="max-width:90%;max-height=350px"><br><br>
 </div>
+<div class="col-xs-6">
+<h3>Assignment 1</h3>
+<p>Hard to remember what this was for, however I believe we were changing a function of the minix operating system.</p>
+	<p>Sadly no output to be shown at the moment.</p>
+</div>
+	
+<div class="row">
+<details><summary markdown="span" style="text-align:right">Show me the code!</summary>
+	
+```c
+/*
+ * Student Name : Steven Kirby
+ * Student Number : 16027577
+ * Date : 14/11/2017
+ */
+#include <errno.h>
+#include <limits.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "arraylib.h"
+
+/* error message format for fatalerror */
+static const char *ERR_FMT = "%s:%d - %s, errno %d: %s\n";
+
+/***************************************************************************/
+/***** ARRAYLIB.H IMPLEMENTATIONS ******************************************/
+/***************************************************************************/
+
+array *newarray(int len) {
+/* check if array will be of valid length */
+	if(len < 1){
+		errno = EINVAL;
+		return NULL;
+	}
+
+/* dynamic allocation of array struct */
+	array *struc = (array *) malloc(sizeof(array));
+
+/* allocate array, giving it enough size for len of ints */
+	int* newArray = calloc(len,sizeof(int));
+
+/* assign length and pointer to fields of array struct */
+	struc->ai = newArray;
+	struc->len = len;
+
+/* if allocation of memory failed set errno and release any memory allocation, then return NULL */
+	if(!struc || !newArray){
+		errno = ENOMEM;	
+		delarray(struc);
+		return NULL;
+	} 
+/* if all successful will return pointer to array struct */
+	return struc;
+}
+
+
+int get(array *arr, int idx) {
+
+/* check for any errors, set errno and return the minimum value of int if any error */
+	if(arr == NULL || arr->ai == NULL|| idx >= arr->len || idx < 0){
+		errno = EINVAL;
+		return INT_MIN;
+	}
+
+/* returns value in ai[x] */
+	return arr->ai[idx];
+}
+                
+void set(array *arr, int idx, int value) {
+  
+/* check for any errors, set errno if any error */
+	if(arr == NULL || arr->ai == NULL || idx >= arr->len || idx < 0){
+		errno = EINVAL;
+
+/* needs else as doesnt return on error (void method) */
+	} else {
+
+/* set value of ai[x] to the value given */
+	arr->ai[idx] = value;
+	}
+}
+
+void foreach(array *arr, applyfunction applyf) { 
+
+/* check to see if all conditions of foreach method specification are met */
+	if(arr && arr->ai && applyf && arr->len > 0){	
+
+/* loop iterates through each value in array to apply function to  */
+		for (int a = 0;a < arr->len;a++){
+
+/* stores the resulting value of applyf in the array at index a */
+			arr->ai[a] = applyf(arr,a);
+		}    
+	}
+}
+
+void print(FILE *stream, array *arr) {
+
+/* string always starts with [ */
+	fprintf(stream,"[");
+
+/* check for errors */
+	if(arr && arr->ai && arr->len > 0){
+
+/* loop through the array, printing each value out */
+		for(int i = 0; i < arr->len; i++){
+			fprintf(stream," %i,",arr->ai[i]);
+		}	
+	}
+
+/* close the string whether errors were found or not*/
+	fprintf(stream," ]");
+} 
+        
+/***************************************************************************/
+/***** THE FOLLOWING FUNCTIONS ARE IMPLEMENTED FOR YOU - DO NOT CHANGE *****/
+/***************************************************************************/
+
+/* see println comments in arraylib.h */
+void println(FILE *stream, array *arr) {
+    print(stream, arr);
+    fprintf(stream, "\n");
+}
+
+/* see delarray comments in arraylib.h */
+void delarray(array *arr) {
+    if (arr) { 
+        if (arr->ai) 
+            free(arr->ai);
+        free(arr);
+    }
+}
+
+/* see fatalerror comments in arraylib.h */
+void fatalerror(int line, char *msg) {
+    fprintf(stderr, ERR_FMT, __FILE__, line, msg, errno, strerror(errno));
+    exit(EXIT_FAILURE);
+}
+
+/* see newarray_e comments in arraylib.h */
+array *newarray_e(int len) {
+    array *arr = newarray(len);
+    
+    if (!arr)
+        fatalerror(__LINE__, "array allocation failed");
+        
+    return arr;
+}
+
+/* see get_e comments in arraylib.h */
+int get_e(array *arr, int idx) {
+    int val = get(arr, idx);
+    
+    if (val == INT_MIN && errno == EINVAL)
+        fatalerror(__LINE__, "null array or index out of bounds");
+    
+    return val;
+}
+        
+        
+/* see set_e comments in arraylib.h */
+void set_e(array *arr, int idx, int value) {
+    set(arr, idx, value);
+    
+    if (errno == EINVAL)
+        fatalerror(__LINE__, "null array or index out of bounds");
+}
+
+/***************************************************************************/
+```
+
+</details>
+</div>
+{::options parse_block_html="false" /}
 <div class="row">
   <hr>
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2026">Computer Networks</a></h2>
