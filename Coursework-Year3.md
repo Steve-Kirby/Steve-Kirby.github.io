@@ -497,7 +497,6 @@ int main() {
 ```
 	
 </details>
-</row>
 <div class="row">
 <details><summary markdown="span" style="text-align:right">Show me the code! (Piece.cpp)</summary>
 
@@ -725,7 +724,6 @@ void Piece::AddScore(int pieceScore[])
 ```
 	
 </details>
-</row>
 {::options parse_block_html="false" /}
 <div class="row">
   <hr>
