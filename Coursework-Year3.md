@@ -832,6 +832,7 @@ void Queen::Move()
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3223">Graphics for Games</a></h2>
 </div>
 <div class="row">
+	<hr>
 	<div class="col-xs-6">
 		<img class="enlarge" src="/img/coursework/GraphicsCW.png" style="max-width:90%;max-height:350px">
 	</div>
