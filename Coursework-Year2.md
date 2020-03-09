@@ -454,6 +454,7 @@ void set_e(array *arr, int idx, int value) {
 
 </details>
 </div>
+</div>
 {::options parse_block_html="false" /}
 <div class="row">
   <hr>
