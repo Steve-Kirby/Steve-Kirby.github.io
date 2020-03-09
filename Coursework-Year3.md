@@ -497,7 +497,6 @@ int main() {
 ```
 	
 </details>
-<div class="row">
 <details><summary markdown="span" style="text-align:right">Show me the code! (Piece.cpp)</summary>
 
 ```cpp
@@ -719,6 +718,95 @@ void Piece::AddScore(int pieceScore[])
 {
 	this->takes += 1;
 	cout << Info(p_score, this) << endl;
+}
+
+```
+	
+</details>
+<details><summary markdown="span" style="text-align:right">Show me the code! (Piece.cpp)</summary>
+
+```cpp
+
+/**
+Space Chess, Queen.cpp
+Purpose: A Queen Chess Piece type
+
+@author Steven Kirby
+@date 07/12/18
+*/
+
+#include "Queen.h"
+
+/**
+Calls Piece constructor with 'Q' symbol
+*/
+Queen::Queen() : Piece('Q')
+{
+	
+}
+
+
+Queen::~Queen()
+{
+
+}
+
+/**
+	Adds to total score of Queen pieces (hard coded) and adds to each pieces individual takes
+	@param pieceScore array of total scores for pieces
+*/
+void Queen::AddScore(int pieceScore[]) {
+	Piece::AddScore(pieceScore);
+	pieceScore[2] += 1;
+}
+
+/**
+	Queen can randomly move diagonally in either of 4 directions with equal distance moved x and y (direction can vary)like a bishop or like
+	a rook can also randomly move horizontally or vertically in any of 4 directions 
+*/
+void Queen::Move()
+{
+	//Random whether going to be like a rook or like a bishop this move
+	bool diagOrStr = rand() % 2;
+
+	if (diagOrStr) {
+
+		//see Bishop Move()
+		float dis;
+		int dir;
+		dis = (float(rand()) / float(RAND_MAX)) * MAX_DISTANCE;
+		dis = (dis == 0.0f) ? 0.1f : dis;
+			
+		do {	
+			dir = (rand() % 2);
+			dir = (dir == 0) ? -1 : 1;
+		} while ((dir == 1) ? (dis + xpos) > GRID_X : (-dis + xpos) < 0);
+			xpos = Clamp((dis * dir) + xpos, 0.0f, GRID_X);
+		do {
+			dir = (rand() % 2);
+			dir = (dir == 0) ? -1 : 1;
+		} while ((dir == 1) ? (dis + ypos) > GRID_Y : (-dis + ypos) < 0);
+			ypos = Clamp((dis * dir) + ypos, 0.0f, GRID_Y);
+		
+	}
+	else {
+
+		//see Rook Move()
+		float dis;
+		bool dir = rand() % 2;
+		do {	
+			dis = ((float(rand()) / float(RAND_MAX)) * (MAX_DISTANCE + MAX_DISTANCE)) - MAX_DISTANCE;
+			dis = (dis == 0.0f) ? 0.1f : dis;
+		} while ((dir) ? (dis + xpos) < 0 || (dis + xpos) > GRID_X : (dis + ypos) < 0 || (dis + ypos) > GRID_Y);
+
+		if (dir) {
+			xpos = Clamp(dis + xpos, 0.0f, GRID_X);
+		}
+		else {
+			ypos = Clamp(dis + ypos, 0.0f, GRID_Y);
+		}
+	}
+	
 }
 
 ```
