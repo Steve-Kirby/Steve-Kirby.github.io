@@ -119,14 +119,17 @@ Polynomial::Polynomial()
 Polynomial::Polynomial(const Polynomial &copy)
 {
 	arraySize = copy.arraySize;
-	polyArray = copy.polyArray;
+	polyArray = new int[copy.arraySize];
+	for (int i = 0; i < copy.arraySize; i++) {
+		polyArray[i] = copy.polyArray[i];
+	}
 }
 
 //destructor
 Polynomial::~Polynomial()
 {
-	//causes an error
-	//delete [] polyArray; 
+	//delete array and null the pointer
+	delete [] polyArray; 
 	polyArray = nullptr;
 }
 
@@ -344,8 +347,10 @@ Polynomial Polynomial::operator=(Polynomial polyRHS)
 {
 	//assignment of data
 	arraySize = polyRHS.arraySize;
-	polyArray = polyRHS.polyArray;
-
+	polyArray = new int[polyRHS.arraySize];
+	for (int i = 0; i < polyRHS.arraySize; i++) {
+		polyArray[i] = polyRHS.polyArray[i];
+	}
 	return *this;
 }
 
@@ -382,7 +387,6 @@ Polynomial & Polynomial::operator*=(Polynomial & polyRHS)
 
 	return *this;
 }
-
 ```
 
 </details>
@@ -393,11 +397,10 @@ Polynomial & Polynomial::operator*=(Polynomial & polyRHS)
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="" style="max-width:90%" max-height="350">
+    <img class="enlarge" src="" style="max-width:90%;max-height=350px">
   </div>
   <div class="col-xs-6">
     <h3>Assignment 2 - </h3>
-   <p style="color:red">Work in progress.</p>
   </div>
 </div>
 <div class="row">
