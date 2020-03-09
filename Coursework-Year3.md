@@ -856,7 +856,7 @@ void Queen::Move()
 </div>
 <div class="row">
 	<hr>
-	<h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3224">Game Development - Godot</a></h2>
+	<h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3224">Computer Games Development</a></h2>
 	<p><a href="https://steve-kirby.github.io/game/TheEmpyreanTreasure.html">This link</a> takes you to a 'playable in browser' version of this prototype game.</p>
 <hr>
 </div>
@@ -865,8 +865,9 @@ void Queen::Move()
 		<img class="enlarge" src="/img/coursework/GameDevelopment.png" style="max-width:90%;max-height:350px">
 	</div>
 	<div class="col-xs-6">
-		<h3>Godot - Exported to HTML</h3>
+		<h3>Assignment 1 & 2 - Make a game</h3>
 		<p>The screenshot shows the game in action, it isn't perfect and was extremely ambitious for the time I had, alongside looming deadlines for other modules and my dissertation. More importantly I learned a lot about Godot and game development in general whilst making this prototype game.</p>
+		<p>We could use any language and/or game engine we wanted to create the game, I chose Godot due to it being free and had heard good things about it when researching a game engine to use.</p>
 	</div>
 </div>
 <div class="row">
