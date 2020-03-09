@@ -880,7 +880,7 @@ void Queen::Move()
 		<img class="enlarge" src="/img/coursework/AppLog.png" style="max-width:90%;max-height:350px">
 	</div>
 	<div class="col-xs-6">
-		<h3>Moodboard, Fontboard, Storyboard and Business Case</h3>
+		<h3>Assignment 1 - Moodboard, Fontboard, Storyboard and Business Case</h3>
 		<p>This stage was designing and developing ideas for the app, once I had started the storyboard I had a pretty good idea of what I wanted the app to look like.</p>
 		<p>I also kept track of any ideas or problems I came across for the app in a spreadsheet</p>
 	</div>
@@ -891,7 +891,7 @@ void Queen::Move()
 		<iframe width="90%" height="350" src="https://www.youtube.com/embed/wm44R9TGu7s"> </iframe>
 	</div>
 	<div class="col-xs-6">
-		<h3>Coding the App</h3>
+		<h3>Assignment 2 - Coding the App</h3>
 		<p>In this stage I programmed my app using Android Studio, I used Java for this rather then Kotlin.</p>
 		<p>The embedded <a href="https://www.youtube.com/watch?v=wm44R9TGu7s">Youtube video shows the app in action</a> with voice over explaining what I am doing on the app.</p>
 		<p>I then wrote a reflective essay on my experience designing and programming the app, highlighting what went right and what went wrong, as well as what I had learnt from this assignment.</p>
