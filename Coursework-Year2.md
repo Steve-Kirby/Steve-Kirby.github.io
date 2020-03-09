@@ -288,7 +288,7 @@ public class RecordManagerTestPart2 {
 <div class="row">
 <details><summary markdown="span" style="text-align:right">Show me the code!</summary>
 
-```c
+```cpp
 /*
  * Student Name : Steven Kirby
  * Student Number : 16027577
