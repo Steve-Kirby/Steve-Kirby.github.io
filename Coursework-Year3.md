@@ -832,25 +832,28 @@ void Queen::Move()
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3223">Graphics for Games</a></h2>
 </div>
 <div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img class="enlarge" src="" style="max-width:90%" max-height="350">
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 1 - </h3>
-    <p style="color:red">Work in progress.</p>
-  </div>
+	<div class="col-xs-6">
+		<img class="enlarge" src="/img/coursework/GraphicsCW.png" style="max-width:90%;max-height:350px">
+	</div>
+	<div class="col-xs-6">
+		<h3>Assignment 1 - Space Scene</h3>
+		<p>Using OpenGL to create a space scene which needed to incorporate the sun, stars, a planet and a spaceship (user controlled).</p>
+		<p>I also added in a moving comet which randomly starts at a location in the distance and flys towards the player, when leaving the screen it starts somewhere randomly in the distance again.</p>
+	</div>
 </div>
 <div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img class="enlarge" src="" style="max-width:90%" max-height="350">
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 2 -</h3>
-	 <p style="color:red">Work in progress.</p>
-  </div>
+	<hr>
+	<div class="col-xs-6">
+		<img class="enlarge" src="/img/coursework/GraphicsCW2.png" style="max-width:90%;max-height:350px">
+	</div>
+	<div class="col-xs-6">
+		<h3>Assignment 2 - Shaders</h3>
+		<p>Using OpenGL and GLSL I was to create four requested effects on cubes, and come up with two of my own.</p>
+		<p>The two that I came up with on my own were the shattering cube and the twisting smiley cube.</p>
+	</div>
+	
 </div>
+<hr>
 <div class="row">
   <hr>
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3224">Computer Games Development</a></h2>
