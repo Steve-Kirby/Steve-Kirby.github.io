@@ -397,10 +397,12 @@ Polynomial & Polynomial::operator*=(Polynomial & polyRHS)
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="" style="max-width:90%;max-height=350px">
+    <img class="enlarge" src="/img/coursework/SpaceChess.png" style="max-width:90%;max-height=350px">
   </div>
   <div class="col-xs-6">
-    <h3>Assignment 2 - </h3>
+	  <h3>Assignment 2 - Space Chess</h3>
+	  <p>The task for this assignment was to create a simulation of a Rook , Bishop, and Queen on a board, these pieces could move any distance by teleportation within the board including non-integer values (unlike chess).</p>
+	  <p>I learnt a lot about polymorphism and inheritance as well as collision detection of simple shapes within a 2d space.</p>
   </div>
 </div>
 <div class="row">
