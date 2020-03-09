@@ -856,8 +856,8 @@ void Queen::Move()
 </div>
 <div class="row">
 	<hr>
-	<h2><a href="https://steve-kirby.github.io/game/TheEmpyreanTreasure.html">Game Development - Godot</a></h2>
-	<p>Link above takes you to a 'playable in browser' version of this prototype game.</p>
+	<h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3224">Game Development - Godot</a></h2>
+	<p><a href="https://steve-kirby.github.io/game/TheEmpyreanTreasure.html">This link</a> takes you to a 'playable in browser' version of this prototype game.</p>
 <hr>
 </div>
 <div class="row">
