@@ -269,7 +269,7 @@ public class RecordManagerTestPart2 {
 	<p style="color:red">Work in progress.</p>
   </div>
 </div>
-{::options parse_block_html="true" /}
+
 <div class="row">
 <hr>
 <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2025">Operating Systems</a></h2>
@@ -284,7 +284,7 @@ public class RecordManagerTestPart2 {
 <p>Hard to remember what this was for, however I believe we were changing a function of the minix operating system.</p>
 	<p>Sadly no output to be shown at the moment.</p>
 </div>
-	
+{::options parse_block_html="true" /}	
 <div class="row">
 <details><summary markdown="span" style="text-align:right">Show me the code!</summary>
 	
