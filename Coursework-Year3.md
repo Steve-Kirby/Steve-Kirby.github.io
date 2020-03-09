@@ -820,11 +820,24 @@ void Queen::Move()
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="" style="max-width:90%" max-height="350">
+    <img class="enlarge" src="/img/coursework/PhysicsCW.png" style="max-width:90%;max-height=350px">
   </div>
   <div class="col-xs-6">
-    <h3>Assignment 1 - </h3>
-    <p style="color:red">Work in progress.</p>
+    <h3>Part 1 - Newtonian Dynamics, Collision Detection and Resolution</h3>
+	  <p>The game and framework was provided to us unfinished without any physics or AI, this is what we had to implement.</p>
+	  <p>This part of the coursework involved detecting whether a collision had occured between AABB boxes and Spheres or a combination of. This was then to be improved using broad phase and narrow phase, I managed to implement a way of narrowing down the amount of collison calculations but would not class it as broad and narrow phase exactly; this is shown by the white squares in the image to the left.</p>
+	  <p>The movement of player and enemy entities used newtonian dynamics with velocity, elasticity and mass affecting how impulses were resolved in the case of a collision. I implemented this quite well however shooting of the laser didnt work as well as i had hoped and was colliding in odd ways, leading to a very slow laser facing in odd directions, eventually I had to abandon this in order to work on other aspects of the coursework.</p> 
+  </div>
+</div>
+<div class="row">
+  <hr>
+  <div class="col-xs-6">
+    <img class="enlarge" src="" style="max-width:90%;max-height=350px">
+  </div>
+  <div class="col-xs-6">
+    <h3>Part 2 - AI(State/Decisions), Flocking, Pathfinding, Entity Lifetime and Gameplay Rules</h3>  		<p>For this section, I implemented a basic boids flocking system , where the red, pink and green robots(non enemies) once close enough would flock together and stay together moving as a group without moving as one block.</p>
+	  <p>I also implemented some basic State system for AI, where in the enemy robots chased the player if the player was close by, and stopped when they were not and moved randomly instead, I also had other states such as guarding and shooting half completed however ran out of time for this coursework due to other deadlines.</p>
+	  <p>I was also was unable to implement A* pathfinding into the codebase, however I would like to learn this so will try to create a demo of my own in the future.</p>
   </div>
 </div>
 <div class="row">
