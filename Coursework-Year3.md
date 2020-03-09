@@ -68,11 +68,14 @@ permalink: /coursework3
 <hr>
 <div class="row">
 <div class="col-xs-6">
-<img class="enlarge" src="" style="max-width:90%" max-height="350">
+<img class="enlarge" src="/img/coursework/QuadTest.png" style="max-width:90%;max-height=350px">
+<img class="enlarge" src="/img/coursework/PolyTest.png" style="max-width:90%;max-height=350px">
 </div>
 <div class="col-xs-6">
-<h3>Assignment 1 - </h3>
-<p style="color:red">Work in progress.</p>
+<h3>Assignment 1 - Polynomials and Quadratics</h3>
+<p>For this assignment we were to display the co-efficient of a power of x, compute values of a polynomials given a value of x.</p>
+<p>Overloading of +, * and - operators as well as IO operators >> and <<. Implemented other operators such as == != += -= *=, Constructors, Destructors, Assignment and Copy constructor; to allow manipulation of polynomials.</p>
+<p>STL vector use was forbidden, requiring data to be stored on the heap using an array.</p>
 </div>
 </div>
 <div class="row">
