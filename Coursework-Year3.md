@@ -723,7 +723,7 @@ void Piece::AddScore(int pieceScore[])
 ```
 	
 </details>
-<details><summary markdown="span" style="text-align:right">Show me the code! (Piece.cpp)</summary>
+<details><summary markdown="span" style="text-align:right">Show me the code! (Queen.cpp)</summary>
 
 ```cpp
 
