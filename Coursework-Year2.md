@@ -256,6 +256,7 @@ public class RecordManagerTestPart2 {
 <p>For this coursework I implemented insertion sort, quick sort and was also provided a new sorting algorithm to implement which included elements from both of these sorting methods.</p>
 <p>I believe the constructor, reading and displaying methods were provided to me by the course leader, with the module being about the algorithms rather then programming.</p>
 </div>
+</div>
 <div class="row">
 <details><summary markdown="span" style="text-align:right">Show me the code! (Sort.java)</summary>
 
