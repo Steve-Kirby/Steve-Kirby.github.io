@@ -284,13 +284,13 @@ END
   <div class="col-xs-6">
     <h3>Assignment 1 - Fundamental Maths</h3>
     <p>Some of the topics we covered for this coursework included.</p>
-	  <li>
-		  <ul>Basics of Set Theory</ul>
-		  <ul>Numbers and their representations</ul>
-		  <ul>Real Valued Functions</ul>
-		  <ul>Vectors and Matrices</ul>
-		  <ul>Combinatorics and Basics of Counting</ul>
-	  </li>
+	  <ul>
+		  <li>Basics of Set Theory</li>
+		  <li>Numbers and their representations</li>
+		  <li>Real Valued Functions</li>
+		  <li>Vectors and Matrices</li>
+		  <li>Combinatorics and Basics of Counting</li>
+	  </ul>
   </div>
 </div>
 <div class="row">
@@ -301,12 +301,12 @@ END
   <div class="col-xs-6">
     <h3>Assignment 2 - Discrete Maths</h3>
     <p>Some of the topics we covered for this coursework included.</p>
-	  <li>
-		  <ul>Relations and Functions</ul>
-		  <ul>Proof Techniques</ul>
-		  <ul>Recursive Function Definitions and Proof by Induction</ul>
-		  <ul>Graph Theory</ul>
-	  </li>
+	  <ul>
+		  <li>Relations and Functions</li>
+		  <li>Proof Techniques</li>
+		  <li>Recursive Function Definitions and Proof by Induction</li>
+		  <li>Graph Theory</li>
+	  </ul>
   </div>
 </div>
 <div class="row">
