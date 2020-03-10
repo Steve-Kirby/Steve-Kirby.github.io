@@ -980,10 +980,11 @@ void Queen::Move()
     <h3>Assignment 1 - Review of Web Server Technologies (Apache HTTPD)</h3>
     <p>This coursework I was tasked with choosing a Web Server technology to discuss and compare features/performance with other options available to use as a Web Servers backbone.</p>
   </div>
-	<div class="row">
+</div>
+<div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="/img/coursework/WebServerReview.png" style="max-width:90%;max-height=350px"><br><br>
+    <img class="enlarge" src="" style="max-width:90%;max-height=350px"><br><br>
   </div>
   <div class="col-xs-6">
     <h3>Assignment 2 - Deploy Apache Web Server)</h3>
