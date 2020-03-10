@@ -563,7 +563,7 @@ public class TestSort {
 <img class="enlarge" src="/img/coursework/RopeCutting.png" style="max-width:90%;max-height=350px">
 </div>
 <div class="col-xs-6">
-<h3>Assignment 2 - Algorithm Analysis</h3>
+<h3>Assignment 2 - Algorithm Design and Analysis</h3>
 <p></p>
 </div>
 </div>
