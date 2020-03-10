@@ -567,7 +567,6 @@ public class TestSort {
 <p></p>
 </div>
 </div>
-
 <div class="row">
 <hr>
 <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2024">Database Technology</a></h2>
