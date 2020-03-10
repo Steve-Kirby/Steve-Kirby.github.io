@@ -953,8 +953,18 @@ void Queen::Move()
     <img class="enlarge" src="" style="max-width:90%" max-height="350"><br><br>
   </div>
   <div class="col-xs-6">
-    <h3>Assignment 1 - </h3>
-    <p style="color:red">Work in progress.</p>
+    <h3>Assignment 1 - Capture the Flags</h3>
+    <p>This coursework involved 10 tasks of differing security issues faced in computing including decompiling .jar files, cryptography, XSS, SQLi, exploiting buffer overflows, packet sniffing on a network and other variations upon these.</p>
+  </div>
+</div>
+<div class="row">
+  <hr>
+  <div class="col-xs-6">
+    <img class="enlarge" src="" style="max-width:90%" max-height="350"><br><br>
+  </div>
+  <div class="col-xs-6">
+    <h3>Assignment 2 - Security Analysis</h3>
+    <p>As a group of 4 students, we were to take a scenario, in this case a hospital providing a smartphone to all of the medical staff using a tracking system (Pozyx) as well as other uses. We then had to identify, assess and suggest risk control mechanisms for two different attacks that could occur against the hospital.</p>
   </div>
 </div>
 <div class="row">
