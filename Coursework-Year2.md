@@ -288,7 +288,7 @@ public class RecordManagerTestPart2 {
 <div class="row">
 <details><summary markdown="span" style="text-align:right">Show me the code!</summary>
 
-```java
+```c
 /*
  * Student Name : Steven Kirby
  * Student Number : 16027577
@@ -304,10 +304,6 @@ public class RecordManagerTestPart2 {
 
 /* error message format for fatalerror */
 static const char *ERR_FMT = "%s:%d - %s, errno %d: %s\n";
-
-/***************************************************************************/
-/***** ARRAYLIB.H IMPLEMENTATIONS ******************************************/
-/***************************************************************************/
 
 array *newarray(int len) {
 /* check if array will be of valid length */
@@ -395,9 +391,7 @@ void print(FILE *stream, array *arr) {
 	fprintf(stream," ]");
 } 
         
-/***************************************************************************/
-/***** THE FOLLOWING FUNCTIONS ARE IMPLEMENTED FOR YOU - DO NOT CHANGE *****/
-/***************************************************************************/
+THE FOLLOWING FUNCTIONS ARE IMPLEMENTED FOR YOU - DO NOT CHANGE
 
 /* see println comments in arraylib.h */
 void println(FILE *stream, array *arr) {
@@ -440,7 +434,6 @@ int get_e(array *arr, int idx) {
     return val;
 }
         
-        
 /* see set_e comments in arraylib.h */
 void set_e(array *arr, int idx, int value) {
     set(arr, idx, value);
@@ -448,8 +441,6 @@ void set_e(array *arr, int idx, int value) {
     if (errno == EINVAL)
         fatalerror(__LINE__, "null array or index out of bounds");
 }
-
-/***************************************************************************/
 ```
 
 </details>
