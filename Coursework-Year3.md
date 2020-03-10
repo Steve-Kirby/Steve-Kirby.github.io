@@ -936,6 +936,7 @@ void Queen::Move()
   <div class="col-xs-6">
 	  <img class="enlarge" src="/img/coursework/SearchKeys.png" style="max-width:90%;max-height=350px"><br><br>
 	  <img class="enlarge" src="/img/coursework/LostKeys.png" style="max-width:90%;max-height=350px"><br><br>
+	  <img class="enlarge" src="/img/coursework/SearchPerson.png" style="max-width:90%;max-height=350px"><br><br>
   </div>
   <div class="col-xs-6">
     <h3>Assignment 2 - Redbean, Twig, Sass, Bootstrap</h3>
