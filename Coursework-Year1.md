@@ -282,8 +282,31 @@ END
     <img src="/img/coursework/Maths.jpg" style="max-width:90%" max-height="350"><br><br>
   </div>
   <div class="col-xs-6">
-    <h3>Assignment 1 - Maths</h3>
-    <p>Generic maths</p>
+    <h3>Assignment 1 - Fundamental Maths</h3>
+    <p>Some of the topics we covered for this coursework included.</p>
+	  <li>
+		  <ul>Basics of Set Theory</ul>
+		  <ul>Numbers and their representations</ul>
+		  <ul>Real Valued Functions</ul>
+		  <ul>Vectors and Matrices</ul>
+		  <ul>Combinatorics and Basics of Counting</ul>
+	  </li>
+  </div>
+</div>
+<div class="row">
+  <hr>
+  <div class="col-xs-6">
+    <img src="" style="max-width:90%" max-height="350"><br><br>
+  </div>
+  <div class="col-xs-6">
+    <h3>Assignment 2 - Discrete Maths</h3>
+    <p>Some of the topics we covered for this coursework included.</p>
+	  <li>
+		  <ul>Relations and Functions</ul>
+		  <ul>Proof Techniques</ul>
+		  <ul>Recursive Function Definitions and Proof by Induction</ul>
+		  <ul>Graph Theory</ul>
+	  </li>
   </div>
 </div>
 <div class="row">
