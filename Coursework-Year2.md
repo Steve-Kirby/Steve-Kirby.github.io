@@ -555,9 +555,19 @@ public class TestSort {
 ```
 
 </details>
+</div>
 
+<div class="row">
+<hr>
+<div class="col-xs-6">
+<img class="enlarge" src="/img/coursework/RopeCutting.png" style="max-width:90%;max-height=350px">
+</div>
+<div class="col-xs-6">
+<h3>Assignment 2 - Algorithm Analysis</h3>
+<p></p>
 </div>
 </div>
+
 <div class="row">
 <hr>
 <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2024">Database Technology</a></h2>
