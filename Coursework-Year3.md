@@ -950,7 +950,7 @@ void Queen::Move()
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="" style="max-width:90%" max-height="350"><br><br>
+    <img class="enlarge" src="" style="max-width:90%;max-height=350px"><br><br>
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - Capture the Flags</h3>
@@ -960,7 +960,7 @@ void Queen::Move()
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="" style="max-width:90%" max-height="350"><br><br>
+    <img class="enlarge" src="" style="max-width:90%;max-height=350px"><br><br>
   </div>
   <div class="col-xs-6">
     <h3>Assignment 2 - Security Analysis</h3>
@@ -969,15 +969,15 @@ void Queen::Move()
 </div>
 <div class="row">
   <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3123">Web Construction and Management(Server-Side)</a></h2>
+  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3422">Web Construction and Management(Server-Side)</a></h2>
 </div>
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="" style="max-width:90%" max-height="350"><br><br>
+    <img class="enlarge" src="/img/coursework/WebServerReview.png" style="max-width:90%;max-height=350px"><br><br>
   </div>
   <div class="col-xs-6">
-    <h3>Assignment 1 - </h3>
-    <p style="color:red">Work in progress.</p>
+    <h3>Assignment 1 - Review of Web Server Technologies (Apache HTTPD)</h3>
+    <p>This coursework I was tasked with choosing a Web Server technology to discuss and compare features/performance with other options available to use as a Web Servers backbone.</p>
   </div>
 </div>
