@@ -916,16 +916,30 @@ void Queen::Move()
   <hr>
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3123">Web Technologies</a></h2>
 </div>
+
 <div class="row">
   <hr>
   <div class="col-xs-6">
-	  <img class="enlarge" src="FontboardMoodboard.png" style="max-width:90%;max-height=350px"><br><br>
-    <img class="enlarge" src="WebTechSitemap.png" style="max-width:90%;max-height=350px"><br><br>
-	<img class="enlarge" src="WebTechStoryboard.gif" style="max-width:90%;max-height=350px"><br><br>
+	  <img class="enlarge" src="/img/coursework/FontboardMoodboard.png" style="max-width:90%;max-height=350px"><br><br>
+    <img class="enlarge" src="/img/coursework/WebTechSitemap.png" style="max-width:90%;max-height=350px"><br><br>
+	<img class="enlarge" src="/img/courseowork/WebTechStoryboard.gif" style="max-width:90%;max-height=350px"><br><br>
   </div>
   <div class="col-xs-6">
-    <h3>Assignment 1 - Storyboard, Fontboard and Sitemap </h3>
-    <p style="color:red">Work in progress.</p>
+    <h3>Assignment 1 - Moodboard, Fontboard, Storyboard and Sitemap</h3>
+    <p>For this assignment I was given a specification of a website in which would be used for keeping track of Keys that have been issued to users. These were physical keys on physical hooks in cupboards, controlled by an admin.</p>
+	  <p>The gif shows the website storyboard in a powerpoint with links for moving around the website storyboard.</p>
+  </div>
+</div>
+
+<div class="row">
+  <hr>
+  <div class="col-xs-6">
+	  <img class="enlarge" src="/img/coursework/SearchKeys.png" style="max-width:90%;max-height=350px"><br><br>
+	  <img class="enlarge" src="/img/coursework/LostKeys.png" style="max-width:90%;max-height=350px"><br><br>
+  </div>
+  <div class="col-xs-6">
+    <h3>Assignment 2 - Redbean, Twig, Sass, Bootstrap</h3>
+	<p>Using a provided framework, I built upon this to create the website using Redbean and Twig primarily.</p>
   </div>
 </div>
 <div class="row">
