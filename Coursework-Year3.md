@@ -980,4 +980,16 @@ void Queen::Move()
     <h3>Assignment 1 - Review of Web Server Technologies (Apache HTTPD)</h3>
     <p>This coursework I was tasked with choosing a Web Server technology to discuss and compare features/performance with other options available to use as a Web Servers backbone.</p>
   </div>
+	<div class="row">
+  <hr>
+  <div class="col-xs-6">
+    <img class="enlarge" src="/img/coursework/WebServerReview.png" style="max-width:90%;max-height=350px"><br><br>
+  </div>
+  <div class="col-xs-6">
+    <h3>Assignment 2 - Deploy Apache Web Server)</h3>
+    <p>I deployed a fully functional server using a LAMP stack involving CentOS7, Apache, PHP5 and MySQL.</p>
+	  <p>On top of this, Wordpress was used as a content management system in order to generate content. The website was customised with a theme and plugins installed to support an e-commerce store</p>
+	  <p>I was also tasked with configuring the Web Server for use of URL rewrites, HTTPS, Custom Error Pages (e.g 404), Authentication and Access Control through htpasswd and an IP filter.</p>
+	  <p>I touched on CGI, Reverse Proxies, and Jetty JVM, but had a few issues with these.</p> 
+  </div>
 </div>
