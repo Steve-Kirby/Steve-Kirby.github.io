@@ -279,7 +279,7 @@ END
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img src="/img/coursework/Maths.jpg" style="max-width:90%" max-height="350"><br><br>
+    <img class="enlarge" src="/img/coursework/Maths.jpg" style="max-width:90%" max-height="350"><br><br>
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - Fundamental Maths</h3>
