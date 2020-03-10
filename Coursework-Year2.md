@@ -274,7 +274,7 @@ public class RecordManagerTestPart2 {
 <hr>
 <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2025">Operating Systems</a></h2>
 </div>
-{::options parse_block_html="true" /}	
+{::options parse_block_html="true" /}
 <div class="row">
 <hr>
 <div class="col-xs-6">
@@ -288,7 +288,7 @@ public class RecordManagerTestPart2 {
 <div class="row">
 <details><summary markdown="span" style="text-align:right">Show me the code!</summary>
 
-```cpp
+```c
 /*
  * Student Name : Steven Kirby
  * Student Number : 16027577
