@@ -919,7 +919,8 @@ void Queen::Move()
 <div class="row">
   <hr>
   <div class="col-xs-6">
-    <img class="enlarge" src="" style="max-width:90%" max-height="350"><br><br>
+    <img class="enlarge" src="WebTechSitemap.png" style="max-width:90%;max-height=350px"><br><br>
+	<img class="enlarge" src="WebTechStoryboard.gif" style="max-width:90%;max-height=350px"><br><br>
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - </h3>
