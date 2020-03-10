@@ -249,11 +249,312 @@ public class RecordManagerTestPart2 {
 <div class="row">
 <hr>
 <div class="col-xs-6">
-<img class="enlarge" src="" style="max-width:90%" max-height="350">
+<img class="enlarge" src="/img/coursework/SortingAlgos.png" style="max-width:90%;max-height=350px">
 </div>
 <div class="col-xs-6">
-<h3>Assignment 1 -</h3>
-<p style="color:red">Work in progress.</p>
+<h3>Assignment 1 - Implementing and Comparing Sorting Algorithms</h3>
+<p>For this coursework I implemented insertion sort, quick sort and was also provided a new sorting algorithm to implement which included elements from both of these sorting methods.</p>
+<p>I believe the constructor, reading and displaying methods were provided to me by the course leader, with the module being about the algorithms rather then programming.</p>
+</div>
+<div class="row">
+<details><summary markdown="span" style="text-align:right">Show me the code! (Sort.java)</summary>
+
+```java
+
+/*****************************************************/
+/***     Initial Author: Jason Steggles 20/09/17   ***/
+/***     Extended by: Steven Kirby  Date 24/10/17  ***/
+/*****************************************************/
+
+import java.io.*;
+import java.text.*;
+import java.util.*;
+
+public class Sort {
+
+	/** Array of integers to sort **/
+	private int[] A;
+
+	/** Size of the array **/
+	private int size;
+
+	/** Number of elements actually used in array **/
+	private int usedSize;
+
+	/** Global variables for counting sort comparisons **/
+	public int compIS;
+	/** Global comparison count for Insertion Sort **/
+	public int compQS;
+	/** Global comparison count for Quicksort **/
+	public int compNewS;
+
+	/** Global comparison count for new sort **/
+
+	/*****************/
+	/** Constructor **/
+	/*****************/
+	Sort(int max) {
+		/** Initialiase global sort count variables **/
+		compIS = 0;
+		compQS = 0;
+		compNewS = 0;
+
+		/** Initialise size variables **/
+		usedSize = 0;
+		size = max;
+
+		/** Create Array of Integers **/
+		A = new int[size];
+	}
+
+	public int getArraySize() {
+		return usedSize;
+	}
+
+	/*********************************************/
+	/*** Read a file of integers into an array ***/
+	/*********************************************/
+	public void readIn(String file) {
+		try {
+			/** Initialise loop variable **/
+			usedSize = 0;
+
+			/** Set up file for reading **/
+			FileReader reader = new FileReader(file);
+			Scanner in = new Scanner(reader);
+
+			/** Loop round reading in data while array not full **/
+			while (in.hasNextInt() && (usedSize < size)) {
+				A[usedSize] = in.nextInt();
+				usedSize++;
+			}
+
+		} catch (IOException e) {
+			System.out.println("Error processing file " + file);
+		}
+	}
+
+	/**********************/
+	/*** Display array ***/
+	/**********************/
+	public void display(int line, String header) {
+		/*** Integer Formatter - three digits ***/
+		NumberFormat FI = NumberFormat.getInstance();
+		FI.setMinimumIntegerDigits(3);
+
+		/** Print header string **/
+		System.out.print("\n" + header);
+
+		/** Display array data **/
+		for (int i = 0; i < usedSize; i++) {
+			/** Check if new line is needed **/
+			if (i % line == 0) {
+				System.out.println();
+			}
+
+			/** Display an array element **/
+			System.out.print(FI.format(A[i]) + " ");
+		}
+	}
+
+	/** Insertion Sort Algorithm **/
+	public void insertion() {
+		// Loop through the array, for N - 1
+		for (int i = 1; i < A.length; i++) {
+			int key = A[i];
+			/*
+			 * Store an extra pointer as j variable to loop through array
+			 * without affecting i variable
+			 */
+			int j = i;
+			// Check to ensure we don't have a out of bounds exception at -1 of
+			// array which doesn't exist.
+			// also checks to see if the pointer is in the right place by
+			// checking if the value to the left in the array is bigger then it.
+			while (j > 0 && key < A[j - 1]) {
+				// comparison was made so we would increment the counter.
+				compIS++;
+				// move values up the array as we know the key should be lower
+				// then this.
+				A[j] = A[j - 1];
+				// decrement j to check the next value in the array.
+				j -= 1;
+			}
+			// when we find the right place even though the while loop is false
+			// we need to increment the counter.
+			compIS++;
+			// insert key into the correct place in the array.
+			A[j] = key;
+		}
+
+	}
+
+	/** QuickSort Algorithm **/
+	public void quick(int L, int R) {
+		// if pointers haven't crossed during recursion.
+		if (R > L) {
+			// partition the left side then the right side.
+			int p = partition(L, R);
+			quick(L, p - 1);
+			quick(p + 1, R);
+		}
+	}
+
+	/**
+	 * Method to partition array from left pointer to right pointer in array.
+	 **/
+	public int partition(int L, int R) {
+		int pL = L;
+		int pR = R;
+		// value always always right value to start (pivot)
+		int v = A[R];
+
+		// if pointers haven't crossed yet
+		while (pL < pR) {
+
+			// starting from the left pointer, keep moving right in array until
+			// a value less then the pivot is found
+			while (A[pL] < v) {
+				pL += 1;
+				compQS++;
+			}
+			compQS++;
+			// then check from the right pointer and move to the left, ensuring
+			// we don't move past the original left pointer
+			while (A[pR] >= v && pR > L) {
+				pR -= 1;
+				compQS++;
+			}
+			compQS++;
+			// swap the values of the pointers if left pointer still smaller the
+			// right pointer
+			if (pL < pR) {
+				swap(pL, pR);
+			}
+		}
+		// swap the value with the original pivot.
+		swap(pL, R);
+		// return the new left pointer.
+		return pL;
+	}
+
+	/** Method to swap one element in an array with another **/
+	public void swap(int L, int R) {
+		// Temporarily store value in variable before overwriting it.
+		int temp = A[L];
+		A[L] = A[R];
+		// and finally writing it to the swap counterpart.
+		A[R] = temp;
+	}
+
+	/** New Sorting Algorithm **/
+	public void newsort() {
+		// for each position in array starting from index 0
+		int pos = 0;
+		while (pos < A.length - 1) {
+			// find the minimum value in the array that hasn't been sorted yet.
+			int min = findMinFrom(pos);
+
+			// check which array index is the minimum value
+			for (int i = pos; i < A.length; i++) {
+				if (A[i] == min) {
+					// swap it into position
+					swap(i, pos);
+					// increase the position to find the next minimum
+					pos += 1;
+				}
+				compNewS++;
+			}
+		}
+	}
+
+	/**
+	 * Method to find and return the next minimum value in the array after a
+	 * given position
+	 **/
+	public int findMinFrom(int pos) {
+		int min = A[pos];
+		for (int i = pos + 1; i < A.length; i++) {
+			// if value is smaller, it becomes the new minimum
+			if (A[i] < min) {
+				min = A[i];
+			}
+			compNewS++;
+		}
+		return min;
+
+	}
+} /** End of Sort Class **/
+
+```
+
+</details>
+<br/>
+<details><summary markdown="span" style="text-align:right">Show me the code! (TestSort.java)</summary>
+
+```java
+
+/*************************************************/
+/***    Test class for Sort class    	       ***/
+/***                                           ***/
+/***    Author: Steven Kirby    24/10/2017     ***/
+/*************************************************/
+
+public class TestSort {
+	public static void main(String[] args) {
+
+		// tests using each file as required, array size, test file, which
+		// algorithms to test(insertion,quick,new)
+		test(15, "test1.txt", true, true, false);
+		test(15, "test2.txt", true, true, false);
+		test(100, "test3.txt", true, true, true);
+		test(100, "test4.txt", true, true, true);
+		test(100, "test5.txt", true, false, true);
+
+	}
+
+	// method for calling whichever tests are required for each array test file.
+	public static void test(int maxArraySize, String testfile, boolean i, boolean q, boolean n) {
+
+		// read in and display array before it is sorted
+		Sort beforeSorting = new Sort(maxArraySize);
+		beforeSorting.readIn(testfile);
+		beforeSorting.display(10, "Array Before Sorting using " + testfile);
+		System.out.println("\n");
+
+		// insertion sort test
+		if (i) {
+			Sort sortTestInsertion = new Sort(maxArraySize);
+			sortTestInsertion.readIn(testfile);
+			sortTestInsertion.insertion();
+			sortTestInsertion.display(10, "Insertion Test using " + testfile);
+			System.out.println("\n   Insertion sort comparison counter: " + sortTestInsertion.compIS);
+		}
+		// quick sort test
+		if (q) {
+			Sort sortTestQuick = new Sort(maxArraySize);
+			sortTestQuick.readIn(testfile);
+			sortTestQuick.quick(0, sortTestQuick.getArraySize() - 1);
+			sortTestQuick.display(10, "\nQuickSort Test using " + testfile);
+			System.out.println("\n   Quicksort comparison counter: " + sortTestQuick.compQS);
+		}
+		// new sort test
+		if (n) {
+			Sort sortTestNew = new Sort(maxArraySize);
+			sortTestNew.readIn(testfile);
+			sortTestNew.newsort();
+			sortTestNew.display(10, "\nNewSort Test using " + testfile);
+			System.out.println("\n   Newsort comparison counter: " + sortTestNew.compNewS);
+		}
+		System.out.println("\n------------------------------------------\n");
+	}
+
+} /** End of Test class **/
+
+```
+
+</details>
+
 </div>
 </div>
 <div class="row">
@@ -266,8 +567,8 @@ public class RecordManagerTestPart2 {
 <img class="enlarge" src="" style="max-width:90%" max-height="350"><br><br>
 </div>
 <div class="col-xs-6">
-<h3>Assignment 1 - </h3>
-<p style="color:red">Work in progress.</p>
+<h3></h3>
+<p></p>
 </div>
 </div>
 <div class="row">
