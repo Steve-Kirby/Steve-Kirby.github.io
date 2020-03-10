@@ -922,7 +922,7 @@ void Queen::Move()
   <div class="col-xs-6">
 	  <img class="enlarge" src="/img/coursework/FontboardMoodboard.png" style="max-width:90%;max-height=350px"><br><br>
     <img class="enlarge" src="/img/coursework/WebTechSitemap.png" style="max-width:90%;max-height=350px"><br><br>
-	<img class="enlarge" src="/img/courseowork/WebTechStoryboard.gif" style="max-width:90%;max-height=350px"><br><br>
+	<img class="enlarge" src="/img/coursework/WebTechStoryboard.gif" style="max-width:90%;max-height=350px"><br><br>
   </div>
   <div class="col-xs-6">
     <h3>Assignment 1 - Moodboard, Fontboard, Storyboard and Sitemap</h3>
