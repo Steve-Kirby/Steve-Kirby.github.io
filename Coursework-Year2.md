@@ -204,77 +204,74 @@ public class RecordManagerTestPart2 {
 <br/>
 </div>
 </div>
-{::options parse_block_html="false" /}
 <div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img class="enlarge" src="/img/coursework/TDDreport.png" style="max-width:90%" max-height="350">
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 2 - Report - Test Driven Development</h3>
-<p>This assignment required us to write a short report (500 words) based on our experience of producing a same piece of software with both TDD and non-TDD workflows.</p> 
-  </div>
+<hr>
+<div class="col-xs-6">
+<img class="enlarge" src="/img/coursework/TDDreport.png" style="max-width:90%" max-height="350">
+</div>
+<div class="col-xs-6">
+<h3>Assignment 2 - Report - Test Driven Development</h3>
+<p>This assignment required us to write a short report (500 words) based on our experience of producing a same piece of software with both TDD and non-TDD workflows.</p>
+</div>
 </div>
 <div class="row">
 <div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img class="enlarge" src="" style="max-width:90%" max-height="350">
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 3 - VDM-SL (Overture) Temperature Monitoring</h3>
-<p>Using VDM-SL to check logic and prove properties of a program by modelling its' systems in Overture.</p> 
-	  <p style="color:red">Work in progress.</p>
-  </div>
+<hr>
+<div class="col-xs-6">
+<img class="enlarge" src="" style="max-width:90%" max-height="350">
+</div>
+<div class="col-xs-6">
+<h3>Assignment 3 - VDM-SL (Overture) Temperature Monitoring</h3>
+<p>Using VDM-SL to check logic and prove properties of a program by modelling its' systems in Overture.</p>
+<p style="color:red">Work in progress.</p>
+</div>
 </div>
 <div class="row">
-  <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2022">Software Engineering Team Project</a></h2>
+<hr>
+<h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2022">Software Engineering Team Project</a></h2>
 </div>
 <div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img class="enlarge" src="" style="max-width:90%" max-height="350">
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 1 -</h3>
-    <p style="color:red">Work in progress.</p>
-  </div>
+<hr>
+<div class="col-xs-6">
+<img class="enlarge" src="" style="max-width:90%" max-height="350">
+</div>
+<div class="col-xs-6">
+<h3>Assignment 1 -</h3>
+<p style="color:red">Work in progress.</p>
+</div>
 </div>
 <div class="row">
-  <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2023">Algorithm Design and Analysis</a></h2>
+<hr>
+<h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2023">Algorithm Design and Analysis</a></h2>
 </div>
 <div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img class="enlarge" src="" style="max-width:90%" max-height="350">
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 1 -</h3>
-  <p style="color:red">Work in progress.</p>
-  </div>
+<hr>
+<div class="col-xs-6">
+<img class="enlarge" src="" style="max-width:90%" max-height="350">
+</div>
+<div class="col-xs-6">
+<h3>Assignment 1 -</h3>
+<p style="color:red">Work in progress.</p>
+</div>
 </div>
 <div class="row">
-  <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2024">Database Technology</a></h2>
+<hr>
+<h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2024">Database Technology</a></h2>
 </div>
 <div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img class="enlarge" src="" style="max-width:90%" max-height="350"><br><br>
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 1 - </h3>
-	<p style="color:red">Work in progress.</p>
-  </div>
+<hr>
+<div class="col-xs-6">
+<img class="enlarge" src="" style="max-width:90%" max-height="350"><br><br>
 </div>
-
+<div class="col-xs-6">
+<h3>Assignment 1 - </h3>
+<p style="color:red">Work in progress.</p>
+</div>
+</div>
 <div class="row">
 <hr>
 <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2025">Operating Systems</a></h2>
 </div>
-{::options parse_block_html="true" /}
 <div class="row">
 <hr>
 <div class="col-xs-6">
