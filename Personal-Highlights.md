@@ -13,8 +13,8 @@ permalink: /personal-highlights
 </div>
 <div class="row">
 	<h3> Code </h3>
-	<p><a href="https://github.com/Steve-Kirby/RetroHub-PHP-OLD">Link to old php code for Retrohub</a>, this is old code but is my only backup, it is insecure and vulnerable to SQLi/XSS</p>
-	<p><a href="https://github.com/Steve-Kirby/SellCards-PHP-OLD">Link to old php code for Sellcards</a>, this is old code but is my only backup, it is insecure and vulnerable to SQLi/XSS, it is also inefficient with repeated code.</p>
+	<p><a href="https://github.com/Steve-Kirby/RetroHub-PHP-OLD">Link to old php code for Retrohub</a>, this is old code but is my only backup, it was insecure and vulnerable to SQLi/XSS however I am improving this as and when I have time.</p>
+	<p><a href="https://github.com/Steve-Kirby/SellCards-PHP-OLD">Link to old php code for Sellcards</a>, this is old code and is essentially a earlier iteration of the retrohub code but has the cards showcased.</p>
 </div>
 	
 <div class="row">
