@@ -1188,5 +1188,4 @@ implementation {
 
 </details>
 </div>
-</div>
 {::options parse_block_html="false" /}
