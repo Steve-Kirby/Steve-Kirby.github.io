@@ -754,7 +754,6 @@ public class coursework {
 	
 </details>
 </div>
-
 <div class="row">
 <hr>
 <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2025">Operating Systems</a></h2>
