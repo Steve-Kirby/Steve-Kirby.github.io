@@ -937,18 +937,255 @@ void set_e(array *arr, int idx, int value) {
 </details>
 </div>
 </div>
+
+<div class="row">
+<hr>
+<h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2026">Computer Networks</a></h2>
+</div>
+<div class="row">
+<hr>
+<div class="col-xs-6">
+<img class="enlarge" src="/img/coursework/Networks.png" style="max-width:90%;max-height=350px"><br><br>
+</div>
+<div class="col-xs-6">
+<h3>Assignment 1 - PAR Protocol - TinyOS - BlinkToRadio</h3>
+<p>This coursework was used to teach sending and recieving with acknowledgments, known as the PAR Protocol (positive acknowledgement and retransmission). I would send the radio a signal to blink each time it recieved data. I could also keep track of this using a program provided to me. This was an issue occasionally as with the vast number of students doing this coursework at the same time would cause there to be dropped packets on the reciever radios.</p>
+</div>
+<div class="row">
+<details><summary markdown="span" style="text-align:right">Show me the code!(BlinkToRadioAppC.nc)</summary>
+
+```c
+//Steven Kirby - CSC2026 - Computer Networks//
+ #include <Timer.h>
+ #include "BlinkToRadio.h"
+ 
+configuration BlinkToRadioAppC {}
+
+implementation {
+  components BlinkToRadioC;
+
+  components MainC;
+  components LedsC;
+  components AMSendReceiveC as Radio;
+  components new TimerMilliC() as Timer0;
+  components new TimerMilliC() as Timer1;
+
+  BlinkToRadioC.Boot -> MainC;
+  BlinkToRadioC.RadioControl -> Radio;
+
+  BlinkToRadioC.Leds -> LedsC;
+  BlinkToRadioC.Timer0 -> Timer0;
+  BlinkToRadioC.Timer1 -> Timer1;
+
+  BlinkToRadioC.Packet -> Radio;
+  BlinkToRadioC.AMPacket -> Radio;
+  BlinkToRadioC.AMSendReceiveI -> Radio;
+}
+
+```
+
+</details>
+<details><summary markdown="span" style="text-align:right">Show me the code!(BlinkToRadioC.nc)</summary>
+
+```c
+//Steven Kirby - CSC2026 - Computer Networks//
+ #include <Timer.h>
+ #include "BlinkToRadio.h"
+ 
+module BlinkToRadioC {
+  uses {
+    interface Boot;
+    interface SplitControl as RadioControl;
+
+    interface Leds;
+    interface Timer<TMilli> as Timer0;
+	interface Timer<TMilli> as Timer1;
+    interface Packet;
+    interface AMPacket;
+    interface AMSendReceiveI;
+  }
+}
+
+
+
+implementation {
+  //boolean for checking whether a acknowledge packet has been recieved.
+  bool acknowledged = TRUE;
+  
+  //keeps track of how many sets of packets have been set.
+  uint16_t counter = 0;
+  
+  //timeout for the resending of dropped packets.
+  uint16_t timeout = 5000;
+  
+  //message buffers for packets
+  message_t sendMsgBuf;
+  message_t ackMsgBuf;
+  message_t savedMsgBuf;
+  
+  //pointer to message buffers
+  message_t* sendMsg = &sendMsgBuf; 
+  message_t* ackMsg = &ackMsgBuf; 
+  message_t* savedMsg = &savedMsgBuf;
+
+  event void Boot.booted() {
+    call RadioControl.start();
+  };
+
+  //task sends 60 messages up to 0x3C then slows to 1 per second.
+   task void speedSend() { 
+  
+  if (counter<60){
+	  //init packets.
+	  BlinkToRadioMsg* btrpkt;
+	  BlinkToRadioMsg* savedpkt;
+	  
+	  if(acknowledged){
+		//increase counter only if received ackknowledgment.
+		counter++;
+		
+		//setting up the packet. 
+		call AMPacket.setType(sendMsg, AM_BLINKTORADIO);
+		call AMPacket.setDestination(sendMsg, DEST_ECHO);
+		call AMPacket.setSource(sendMsg, TOS_NODE_ID);
+		call Packet.setPayloadLength(sendMsg, sizeof(BlinkToRadioMsg));
+
+		//putting this data into the packet.
+		btrpkt = (BlinkToRadioMsg*)(call Packet.getPayload(sendMsg, sizeof (BlinkToRadioMsg)));
+		btrpkt->type = TYPE_DATA;
+		btrpkt->seq = counter%2;// changed from 0.
+		btrpkt->nodeid = TOS_NODE_ID;
+		btrpkt->counter = counter;
+
+		//setting up a second packet to save the information in case it is dropped.
+		call AMPacket.setType(savedMsg, AM_BLINKTORADIO);
+		call AMPacket.setDestination(savedMsg, DEST_ECHO);
+		call AMPacket.setSource(savedMsg, TOS_NODE_ID);
+		call Packet.setPayloadLength(savedMsg, sizeof(BlinkToRadioMsg));
+
+		//putting the data into the packet that is identical to the original packet.
+		savedpkt = (BlinkToRadioMsg*)(call Packet.getPayload(savedMsg, sizeof (BlinkToRadioMsg)));
+		savedpkt->type = btrpkt->type;
+		savedpkt->seq = btrpkt->seq;
+		savedpkt->nodeid = btrpkt->nodeid;
+		savedpkt->counter = btrpkt->counter;
+		
+		//send message and store returned pointer to free buffer for next message.
+		sendMsg = call AMSendReceiveI.send(sendMsg);
+		//reset acknowledged for the next set of packets.
+		acknowledged = FALSE;
+		//start timer to check if we recieve an acknowledgement within the timeout duration.
+		call Timer1.startOneShot(timeout);
+		} 
+	} else {
+		//if we have sent 60 sets of packets fast already, slow it down to 1 per second and use original method.
+		call Timer0.startPeriodic(TIMER_PERIOD_MILLI);
+	}
+  }
+  
+  event void RadioControl.startDone(error_t error) {
+    if (error == SUCCESS) {
+	post speedSend();
+	//Removed when task was introduced.
+    //call Timer0.startPeriodic(TIMER_PERIOD_MILLI); 
+	
+    }
+  };
+
+  //do nothing.
+  event void RadioControl.stopDone(error_t error){};
+
+  
+  event void Timer0.fired() {
+  BlinkToRadioMsg* btrpkt;
+  BlinkToRadioMsg* savedpkt;
+  
+  //same as above code in task speedSend
+  if(acknowledged){
+	counter++;
+	
+    call AMPacket.setType(sendMsg, AM_BLINKTORADIO);
+    call AMPacket.setDestination(sendMsg, DEST_ECHO);
+    call AMPacket.setSource(sendMsg, TOS_NODE_ID);
+    call Packet.setPayloadLength(sendMsg, sizeof(BlinkToRadioMsg));
+
+    btrpkt = (BlinkToRadioMsg*)(call Packet.getPayload(sendMsg, sizeof (BlinkToRadioMsg)));
+    btrpkt->type = TYPE_DATA;
+    btrpkt->seq = counter%2;// changed from 0
+    btrpkt->nodeid = TOS_NODE_ID;
+    btrpkt->counter = counter;
+
+	call AMPacket.setType(savedMsg, AM_BLINKTORADIO);
+    call AMPacket.setDestination(savedMsg, DEST_ECHO);
+    call AMPacket.setSource(savedMsg, TOS_NODE_ID);
+    call Packet.setPayloadLength(savedMsg, sizeof(BlinkToRadioMsg));
+
+    savedpkt = (BlinkToRadioMsg*)(call Packet.getPayload(savedMsg, sizeof (BlinkToRadioMsg)));
+	savedpkt->type = btrpkt->type;
+	savedpkt->seq = btrpkt->seq;
+	savedpkt->nodeid = btrpkt->nodeid;
+	savedpkt->counter = btrpkt->counter;
+	
+    sendMsg = call AMSendReceiveI.send(sendMsg);
+	acknowledged = FALSE;
+	call Timer1.startOneShot(timeout);
+	} 
+  }
+  
+  event void Timer1.fired(){
+  //if acknowledge message hasnt been recieved within the time, send the message again and restart the timer incase of multiple dropped packets in a row.
+  if(!acknowledged){
+	  sendMsg = call AMSendReceiveI.send(savedMsg);
+	  call Timer1.startOneShot(timeout);
+  }
+  
+  }
+
+  //receiving messages
+  event message_t* AMSendReceiveI.receive(message_t* msg) {
+	//get length of message 
+    uint8_t len = call Packet.payloadLength(msg);
+	//use this data to create the packet
+    BlinkToRadioMsg* btrpkt = (BlinkToRadioMsg*)(call Packet.getPayload(msg, len));
+	call Leds.set(btrpkt->counter);
+	
+	//if message received is of TYPE_DATA then send a ackknowledge message back to 
+	if(btrpkt->type == TYPE_DATA){
+		BlinkToRadioMsg* ackpkt;
+		
+		call AMPacket.setType(ackMsg, AM_BLINKTORADIO);
+		call AMPacket.setDestination(ackMsg, DEST_ECHO);
+		call AMPacket.setSource(ackMsg, TOS_NODE_ID);
+		call Packet.setPayloadLength(ackMsg, sizeof(BlinkToRadioMsg));
+
+		ackpkt = (BlinkToRadioMsg*)(call Packet.getPayload(ackMsg, sizeof (BlinkToRadioMsg)));
+		ackpkt->type = TYPE_ACK;
+		ackpkt->seq = btrpkt->seq;
+		ackpkt->nodeid = TOS_NODE_ID;
+		ackpkt->counter = counter;
+
+		// send message and store returned pointer to free buffer for next message
+		ackMsg = call AMSendReceiveI.send(ackMsg);
+		
+	}
+	
+	// if the packet is an acknowledge message and the sequence number matches
+	if(btrpkt->type == TYPE_ACK && btrpkt->seq == counter%2){
+		//set acknowledged to true.
+		acknowledged = TRUE;
+		//stop the timeout check
+		call Timer1.stop();
+		//send next set of packets
+		post speedSend();
+	}
+	
+    return msg; // no need to make msg point to new buffer as msg is no longer needed
+  }
+}
+
+```
+
+</details>
+</div>
+</div>
 {::options parse_block_html="false" /}
-<div class="row">
-  <hr>
-  <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2026">Computer Networks</a></h2>
-</div>
-<div class="row">
-  <hr>
-  <div class="col-xs-6">
-    <img class="enlarge" src="" style="max-width:90%" max-height="350"><br><br>
-  </div>
-  <div class="col-xs-6">
-    <h3>Assignment 1 - </h3>
-    <p style="color:red">Work in progress.</p>
-  </div>
-</div>
