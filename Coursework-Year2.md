@@ -574,13 +574,187 @@ public class TestSort {
 <div class="row">
 <hr>
 <div class="col-xs-6">
-<img class="enlarge" src="" style="max-width:90%" max-height="350"><br><br>
+<img class="enlarge" src="/img/coursework/DatabaseDesign.png" style="max-width:90%;max-height=350px"><br><br>
 </div>
 <div class="col-xs-6">
-<h3></h3>
-<p></p>
+<h3>Assignment 1 - Database Design</h3>
+<p>I created a database for a bus company, making sure the relationships of the database would cover all the data and their connections.</p>
 </div>
 </div>
+<div class="row">
+<hr>
+<div class="col-xs-6">
+<img class="enlarge" src="/img/coursework/.png" style="max-width:90%;max-height=350px"><br><br>
+</div>
+<div class="col-xs-6">
+<h3>Assignment 2 - Spark (Java) - Movie Rating Database  </h3>
+<p>Using spark and 3 large .csv files for movies, ratings and genres. I was tasked with producing output similar to the image shown left, I do not have the data files any more so I can not show how these were laid out.</p>
+</div>
+<div class="row">
+<details><summary markdown="span" style="text-align:right">Show me the code!</summary>
+	
+```java
+package sparkCoursework;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.LogManager;
+import org.apache.spark.SparkConf;
+import org.apache.spark.api.java.JavaSparkContext;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Row;
+import org.apache.spark.sql.SparkSession;
+import static org.apache.spark.sql.functions.*;
+
+public class coursework {
+
+	private static String PATH = Messages.getString("Coursework.0"); //$NON-NLS-1$
+	private static String MOVIES_DATA = "movies.csv";
+	private static String RATINGS     = "ratings.csv";
+	private static String MOVIE_GENRE_DATA = "movieGenres.csv";
+	
+	static SparkConf conf = new SparkConf().setMaster("local").setAppName("My App");
+	static JavaSparkContext sc = new JavaSparkContext(conf);
+	static SparkSession spark = SparkSession.builder().appName("Java Spark SQL basic example")
+			.config("spark.some.config.option", "some-value").getOrCreate();
+	
+	static boolean headers = false;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		LogManager.getLogger("org").setLevel(Level.ERROR);
+		
+		System.out.println("Step 1");
+		//Step 1 - load data and print schemas
+		Dataset<Row> movies = LoadMoviesData();
+		movies.printSchema();
+		Dataset<Row> ratings = LoadRatingsData();
+		ratings.printSchema();
+		
+		System.out.println("Step 2 - no info to show");
+		//Step 2 - CSV WRITER APPENDS TO FILE SO MAY NEED TO COMMENT THIS OUT IF YOU RUN CODE
+		//Takes 5-10 minutes
+		//Put data into lists 
+		List<Row> movieList = movies.select("movieId").collectAsList();
+		List<Row> genresList = movies.select("genres").collectAsList();
+		//list to hold individual genres
+		List<String> movieGenre;
+		//index
+		int i = 0;
+		for(Row m : movieList ){
+		//Split genres and remove [ and ]
+			movieGenre = Arrays.asList((genresList.get(i).toString().replace("[","").replace("]","").split("\\|")));
+			for(String g : movieGenre){
+				//method to output to CSV
+				outputToCSV(m.toString().replace("[", "").replace("]", "") + "," + g.toString());
+			}
+				i++;
+		}
+		System.out.println("Step 3");
+		//Step 3
+		
+		//load newly created csv file data
+		Dataset<Row> movieGenres = LoadMovieGenresData();
+		movieGenres.printSchema();
+		//show top 50
+		movieGenres.orderBy(movieGenres.col("movieId").desc()).show(50);
+		
+		System.out.println("Step 4");
+		//Step 4
+		//count after grouping genres together and rename count column
+		Dataset<Row> genrePopularity = movieGenres.groupBy(movieGenres.col("genre")).count().withColumnRenamed("count", "moviesCount");
+		genrePopularity.printSchema();
+		//show top 10 most popular genres
+		genrePopularity.orderBy(genrePopularity.col("moviesCount").desc()).show(10);
+		
+		System.out.println("Step 5");
+		//Step 5
+		Dataset<Row> topTen = genrePopularity.orderBy(genrePopularity.col("moviesCount").desc()).limit(10);
+		//get table of all users that have rated a movie of the top 10 genre
+		Dataset<Row> joinedData = ratings.join(movieGenres,"movieId").join(topTen,"genre");
+		//group genre and userId to see each count of genre each user has
+		Dataset<Row> userGenre = joinedData.groupBy(joinedData.col("genre"),joinedData.col("userId")).count();
+		//order by the most then remove any data that has the same genre after this top one is found, could also use max
+		Dataset<Row> ugPairs = userGenre.orderBy(userGenre.col("genre"),userGenre.col("count").desc()).dropDuplicates("genre");
+		ugPairs.printSchema();
+		ugPairs.select(ugPairs.col("genre"),ugPairs.col("userId")).show();
+		
+		System.out.println("Step 6");
+		//Step 6
+		//count how many movies user has rated
+		Dataset<Row> numMoviesPerUser = ratings.groupBy(ratings.col("userId")).count().withColumnRenamed("count", "ratingsCount");
+		//get the top 10 users
+		Dataset<Row> top10NumMoviesPerUser = numMoviesPerUser.orderBy(numMoviesPerUser.col("ratingsCount").desc()).limit(10);
+		top10NumMoviesPerUser.printSchema();
+		top10NumMoviesPerUser.show();
+		//see what genre they have most reviewed
+		Dataset<Row> top10CommonGenre = ratings.join(movieGenres,"movieId").join(top10NumMoviesPerUser,"userId");
+		Dataset<Row> commonGenre = top10CommonGenre.groupBy(top10CommonGenre.col("userId"), top10CommonGenre.col("genre")).count().withColumnRenamed("genre", "mostCommonGenre");
+		commonGenre.printSchema();
+		//remove any other data for that user after highest genre is found for that user, join numMoviesPerUser again to be able to see their original ratingsCount
+		commonGenre.orderBy(commonGenre.col("count").desc()).dropDuplicates("userId").join(numMoviesPerUser, "userId").select("userId","ratingsCount","mostCommonGenre").show();
+		
+		System.out.println("Step 7");
+		//Step 7
+		//group data of the same movieId to find the average and variance of the ratings that were left for them, renamed columns
+		Dataset<Row> avgRating = ratings.groupBy(ratings.col("movieId")).agg(avg("rating"),variance("rating")).withColumnRenamed("var_samp(rating)", "variance").withColumnRenamed("avg(rating)","averageRating");
+		//show the top 10 rated
+		avgRating.orderBy(avgRating.col("averageRating").desc()).limit(10).show();
+		}
+
+
+	private static Dataset<Row> LoadRatingsData() {
+		return spark.read().option("inferSchema", true).option("header", true).option("multLine", true)
+				.option("mode", "DROPMALFORMED").csv(PATH + RATINGS);
+	}
+
+	private static Dataset<Row> LoadMoviesData() {
+		return spark.read().option("inferSchema", true).option("header", true).option("multLine", true)
+				.option("mode", "DROPMALFORMED").csv(PATH + MOVIES_DATA);
+	}
+	
+	private static Dataset<Row> LoadMovieGenresData() {
+		return spark.read().option("inferSchema", true).option("header", true).option("multLine", true)
+				.option("mode", "DROPMALFORMED").csv(PATH + MOVIE_GENRE_DATA);
+	}
+	
+
+	public static void outputToCSV(String str) {
+
+		try {
+			// new file with append true
+			FileWriter w = new FileWriter("src/main/resources/movieGenres.csv", true);
+			BufferedWriter b = new BufferedWriter(w);
+
+			// if the headers have not already been written to the file, then
+			// write them
+			if (!headers) {
+				b.write("movieId,genre\n");
+				headers = true;
+			}
+			
+			b.write(str + "\n");
+			b.flush();
+			b.close();
+
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+}
+```
+	
+</details>
+</div>
+</div>
+
 <div class="row">
 <hr>
 <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2025">Operating Systems</a></h2>
