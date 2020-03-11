@@ -218,7 +218,7 @@ public class RecordManagerTestPart2 {
 <div class="row">
 <hr>
 <div class="col-xs-6">
-<img class="enlarge" src="" style="max-width:90%" max-height="350">
+<img class="enlarge" src="/img/coursework/VDM.png" style="max-width:90%;max-height=350px">
 </div>
 <div class="col-xs-6">
 <h3>Assignment 3 - VDM-SL (Overture) Temperature Monitoring</h3>
