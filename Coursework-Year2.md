@@ -215,7 +215,6 @@ public class RecordManagerTestPart2 {
 </div>
 </div>
 <div class="row">
-<div class="row">
 <hr>
 <div class="col-xs-6">
 <img class="enlarge" src="/img/coursework/VDM.png" style="max-width:90%;max-height=350px">
@@ -223,7 +222,16 @@ public class RecordManagerTestPart2 {
 <div class="col-xs-6">
 <h3>Assignment 3 - VDM-SL (Overture) Temperature Monitoring</h3>
 <p>Using VDM-SL to check logic and prove properties of a program by modelling its' systems in Overture.</p>
-<p style="color:red">Work in progress.</p>
+</div>
+</div>
+<div class="row">
+<hr>
+<div class="col-xs-6">
+<img class="enlarge" src="/img/coursework/Mondex.png" style="max-width:90%;max-height=350px">
+</div>
+<div class="col-xs-6">
+<h3>Assignment 4 - VDM-SL (Overture) Mondex</h3>
+<p>More of the same as previous assignment, except this time a bit less guided and more complicated system to model.</p>
 </div>
 </div>
 <div class="row">
