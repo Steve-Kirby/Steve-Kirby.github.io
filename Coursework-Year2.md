@@ -584,10 +584,10 @@ public class TestSort {
 <div class="row">
 <hr>
 <div class="col-xs-6">
-<img class="enlarge" src="/img/coursework/.png" style="max-width:90%;max-height=350px"><br><br>
+<img class="enlarge" src="/img/coursework/SparkOutput.png" style="max-width:90%;max-height=350px"><br><br>
 </div>
 <div class="col-xs-6">
-<h3>Assignment 2 - Spark (Java) - Movie Rating Database  </h3>
+<h3>Assignment 2 - Spark (Java) - Movie Rating Database </h3>
 <p>Using spark and 3 large .csv files for movies, ratings and genres. I was tasked with producing output similar to the image shown left, I do not have the data files any more so I can not show how these were laid out.</p>
 </div>
 <div class="row">
