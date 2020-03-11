@@ -951,6 +951,7 @@ void set_e(array *arr, int idx, int value) {
 <h3>Assignment 1 - PAR Protocol - TinyOS - BlinkToRadio</h3>
 <p>This coursework was used to teach sending and recieving with acknowledgments, known as the PAR Protocol (positive acknowledgement and retransmission). I would send the radio a signal to blink each time it recieved data. I could also keep track of this using a program provided to me. This was an issue occasionally as with the vast number of students doing this coursework at the same time would cause there to be dropped packets on the reciever radios.</p>
 </div>
+</div>
 <div class="row">
 <details><summary markdown="span" style="text-align:right">Show me the code!(BlinkToRadioAppC.nc)</summary>
 
