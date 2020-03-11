@@ -590,6 +590,7 @@ public class TestSort {
 <h3>Assignment 2 - Spark (Java) - Movie Rating Database </h3>
 <p>Using spark and 3 large .csv files for movies, ratings and genres. I was tasked with producing output similar to the image shown left, I do not have the data files any more so I can not show how these were laid out.</p>
 </div>
+</div>
 <div class="row">
 <details><summary markdown="span" style="text-align:right">Show me the code!</summary>
 	
@@ -752,7 +753,6 @@ public class coursework {
 ```
 	
 </details>
-</div>
 </div>
 
 <div class="row">
