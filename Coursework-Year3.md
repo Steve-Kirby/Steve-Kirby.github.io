@@ -12,10 +12,10 @@ permalink: /coursework3
 </div>
 
 <div class="row">
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/coursework/DissertationPoster.png" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Poster</h3>
 		<p>For my 3rd year dissertation I wanted to explore graphics within programming as I had never quite grasped how to implement them.</p>
 		<p>Tackling this topic enabled me to explore the belly of the beast, I utilised a codebase provided to us during the graphics module I was doing that year.</p>
@@ -24,10 +24,10 @@ permalink: /coursework3
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/coursework/DissGantt.png" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Planning - Gantt Chart</h3>
 		<p>In order to organise my dissertation I used a Gantt chart which changed over time as needed.</p>
 		<p>I enjoy games with wide open worlds that can be explored, and naturally wanted to generate random islands to replicate this, this changed after discussion with my tutors.</p>
@@ -37,10 +37,10 @@ permalink: /coursework3
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/coursework/DissErosion.png" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>The Result</h3>
 		<p>This project was a challenging experience for me, however I managed to achieve what I had set out to do, albeit not as pretty as I would have liked.</p>
 		<p>The image shows the erosion and the inundation of water upon the UK after the sea level had risen.</p>
@@ -50,10 +50,10 @@ permalink: /coursework3
 
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/coursework/DissertationGraph.png" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Data Analysis Graph</h3>
 		<p>Another aspect of this dissertation I enjoyed was the data analysis of testing performance of the simulation with different detail or tesselation levels, amount of textures being rendered etc.</p>
 		<p>This is just one example of the graphs I produced in Excel, this particular graph using the fps, x and y position of the 'camera' to see how much the render times/fps were effected by how much of the model was showing on the screen.</p>
@@ -67,11 +67,11 @@ permalink: /coursework3
 <div class="row">
 <hr>
 <div class="row">
-<div class="col-xs-6">
+<div class="col-sm-6">
 <img class="enlarge" src="/img/coursework/QuadTest.png" style="max-width:90%;max-height=350px">
 <img class="enlarge" src="/img/coursework/PolyTest.png" style="max-width:90%;max-height=350px">
 </div>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <h3>Assignment 1 - Polynomials and Quadratics</h3>
 <p>For this assignment we were to display the co-efficient of a power of x, compute values of a polynomials given a value of x.</p>
 <p>Overloading of +, * and - operators as well as IO operators >> and <<. Implemented other operators such as == != += -= *=, Constructors, Destructors, Assignment and Copy constructor; to allow manipulation of polynomials.</p>
@@ -396,10 +396,10 @@ Polynomial & Polynomial::operator*=(Polynomial & polyRHS)
 {::options parse_block_html="false" /}
 <div class="row">
   <hr>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <img class="enlarge" src="/img/coursework/SpaceChess.png" style="max-width:90%;max-height=350px">
   </div>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
 	  <h3>Assignment 2 - Space Chess</h3>
 	  <p>The task for this assignment was to create a simulation of a Rook , Bishop, and Queen on a board, these pieces could move any distance by teleportation within the board including non-integer values (unlike chess).</p>
 	  <p>I learnt a lot about polymorphism and inheritance as well as collision detection of simple shapes within a 2d space.</p>
@@ -819,10 +819,10 @@ void Queen::Move()
 </div>
 <div class="row">
   <hr>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <img class="enlarge" src="/img/coursework/PhysicsCW.png" style="max-width:90%;max-height=350px">
   </div>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <h3>Part 1 - Newtonian Dynamics, Collision Detection and Resolution</h3>
 	  <p>The game and framework was provided to us unfinished without any physics or AI, this is what we had to implement.</p>
 	  <p>This part of the coursework involved detecting whether a collision had occured between AABB boxes and Spheres or a combination of. This was then to be improved using broad phase and narrow phase, I managed to implement a way of narrowing down the amount of collison calculations but would not class it as broad and narrow phase exactly; this is shown by the white squares in the image to the left.</p>
@@ -831,10 +831,10 @@ void Queen::Move()
 </div>
 <div class="row">
   <hr>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <img class="enlarge" src="" style="max-width:90%;max-height=350px">
   </div>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <h3>Part 2 - AI(State/Decisions), Flocking, Pathfinding, Entity Lifetime and Gameplay Rules</h3>  		<p>For this section, I implemented a basic boids flocking system , where the red, pink and green robots(non enemies) once close enough would flock together and stay together moving as a group without moving as one block.</p>
 	  <p>I also implemented some basic State system for AI, where in the enemy robots chased the player if the player was close by, and stopped when they were not and moved randomly instead, I also had other states such as guarding and shooting half completed however ran out of time for this coursework due to other deadlines.</p>
 	  <p>I was also was unable to implement A* pathfinding into the codebase, however I would like to learn this so will try to create a demo of my own in the future.</p>
@@ -846,10 +846,10 @@ void Queen::Move()
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/coursework/GraphicsCW.png" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Assignment 1 - Space Scene</h3>
 		<p>Using OpenGL to create a space scene which needed to incorporate the sun, stars, a planet and a spaceship (user controlled).</p>
 		<p>I also added in a moving comet which randomly starts at a location in the distance and flys towards the player, when leaving the screen it starts somewhere randomly in the distance again.</p>
@@ -857,10 +857,10 @@ void Queen::Move()
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/coursework/GraphicsCW2.png" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Assignment 2 - Shaders</h3>
 		<p>Using OpenGL and GLSL I was to create four requested effects on cubes, and come up with two of my own.</p>
 		<p>The two that I came up with on my own were the shattering cube and the twisting smiley cube.</p>
@@ -874,10 +874,10 @@ void Queen::Move()
 <hr>
 </div>
 <div class="row">
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/coursework/GameDevelopment.png" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Assignment 1 & 2 - Make a game</h3>
 		<p>The screenshot shows the game in action, it isn't perfect and was extremely ambitious for the time I had, alongside looming deadlines for other modules and my dissertation. More importantly I learned a lot about Godot and game development in general whilst making this prototype game.</p>
 		<p>We could use any language and/or game engine we wanted to create the game, I chose Godot due to it being free and had heard good things about it when researching a game engine to use.</p>
@@ -888,11 +888,11 @@ void Queen::Move()
   <h2><a href="https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3122">Mobile Computer Systems Development</a></h2>
 </div>
 <div class="row">
-	<div class ="col-xs-6">
+	<div class ="col-sm-6">
 		<br /><br />
 		<img class="enlarge" src="/img/coursework/AppLog.png" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Assignment 1 - Moodboard, Fontboard, Storyboard and Business Case</h3>
 		<p>This stage was designing and developing ideas for the app, once I had started the storyboard I had a pretty good idea of what I wanted the app to look like.</p>
 		<p>I also kept track of any ideas or problems I came across for the app in a spreadsheet</p>
@@ -900,10 +900,10 @@ void Queen::Move()
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<iframe width="90%" height="350" src="https://www.youtube.com/embed/wm44R9TGu7s"> </iframe>
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Assignment 2 - Coding the App</h3>
 		<p>In this stage I programmed my app using Android Studio, I used Java for this rather then Kotlin.</p>
 		<p>The embedded <a href="https://www.youtube.com/watch?v=wm44R9TGu7s">Youtube video shows the app in action</a> with voice over explaining what I am doing on the app.</p>
@@ -919,12 +919,12 @@ void Queen::Move()
 
 <div class="row">
   <hr>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
 	  <img class="enlarge" src="/img/coursework/FontboardMoodboard.png" style="max-width:90%;max-height=350px"><br><br>
     <img class="enlarge" src="/img/coursework/WebTechSitemap.png" style="max-width:90%;max-height=350px"><br><br>
 	<img class="enlarge" src="/img/coursework/WebTechStoryboard.gif" style="max-width:90%;max-height=350px"><br><br>
   </div>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <h3>Assignment 1 - Moodboard, Fontboard, Storyboard and Sitemap</h3>
     <p>For this assignment I was given a specification of a website in which would be used for keeping track of Keys that have been issued to users. These were physical keys on physical hooks in cupboards, controlled by an admin.</p>
 	  <p>The gif shows the website storyboard in a powerpoint with links for moving around the website storyboard.</p>
@@ -933,12 +933,12 @@ void Queen::Move()
 
 <div class="row">
   <hr>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
 	  <img class="enlarge" src="/img/coursework/SearchKeys.png" style="max-width:90%;max-height=350px"><br><br>
 	  <img class="enlarge" src="/img/coursework/LostKeys.png" style="max-width:90%;max-height=350px"><br><br>
 	  <img class="enlarge" src="/img/coursework/SearchPerson.png" style="max-width:90%;max-height=350px"><br><br>
   </div>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <h3>Assignment 2 - Redbean, Twig, Sass, Bootstrap</h3>
 	<p>Using a provided framework, I built upon this to create the website using Redbean and Twig primarily.</p>
   </div>
@@ -949,20 +949,20 @@ void Queen::Move()
 </div>
 <div class="row">
   <hr>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <img class="enlarge" src="" style="max-width:90%;max-height=350px"><br><br>
   </div>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <h3>Assignment 1 - Capture the Flags</h3>
     <p>This coursework involved 10 tasks of differing security issues faced in computing including decompiling .jar files, cryptography, XSS, SQLi, exploiting buffer overflows, packet sniffing on a network and other variations upon these.</p>
   </div>
 </div>
 <div class="row">
   <hr>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <img class="enlarge" src="" style="max-width:90%;max-height=350px"><br><br>
   </div>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <h3>Assignment 2 - Security Analysis</h3>
     <p>As a group of 4 students, we were to take a scenario, in this case a hospital providing a smartphone to all of the medical staff using a tracking system (Pozyx) as well as other uses. We then had to identify, assess and suggest risk control mechanisms for two different attacks that could occur against the hospital.</p>
   </div>
@@ -973,20 +973,20 @@ void Queen::Move()
 </div>
 <div class="row">
   <hr>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <img class="enlarge" src="/img/coursework/WebServerReview.png" style="max-width:90%;max-height=350px"><br><br>
   </div>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <h3>Assignment 1 - Review of Web Server Technologies (Apache HTTPD)</h3>
     <p>This coursework I was tasked with choosing a Web Server technology to discuss and compare features/performance with other options available to use as a Web Servers backbone.</p>
   </div>
 </div>
 <div class="row">
   <hr>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <img class="enlarge" src="" style="max-width:90%;max-height=350px"><br><br>
   </div>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <h3>Assignment 2 - Deploy Apache Web Server)</h3>
     <p>I deployed a fully functional server using a LAMP stack involving CentOS7, Apache, PHP5 and MySQL.</p>
 	  <p>On top of this, Wordpress was used as a content management system in order to generate content. The website was customised with a theme and plugins installed to support an e-commerce store</p>
