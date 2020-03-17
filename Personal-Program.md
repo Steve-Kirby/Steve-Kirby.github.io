@@ -13,10 +13,10 @@ permalink: /personal3
 <div class="row">
 <hr>
 <div class="row">
-<div class="col-xs-6">
+<div class="col-sm-6">
 <img class="enlarge" src="" style="max-width:90%" max-height="350">
 </div>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <h3>Program Info</h3>
 <p>Information about program.</p>
 </div>
@@ -36,10 +36,10 @@ permalink: /personal3
 
 <div class="row">
   <hr>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <img class="enlarge" src="" style="max-width:90%" max-height="350">
   </div>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <h3>Program Info</h3>
     <p>Information about program.</p>
   </div>
