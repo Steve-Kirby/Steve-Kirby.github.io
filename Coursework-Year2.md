@@ -13,11 +13,11 @@ permalink: /coursework2
 <div class="row">
 <hr>
 <div class="row">
-<div class="col-xs-6">
+<div class="col-sm-6">
 <img class="enlarge" src="/img/coursework/UMLdiagram.png" style="max-width:90%" max-height="350"><br><br>
 <img class="enlarge" src="/img/coursework/TDDtests.png" style="max-width:90%" max-height="350">
 </div>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <h3>Assignment 1 - Test Driven Development</h3>
 <p>This assignment was split into 3 tasks, the first of which being to produce a UML diagram.</p>
 <p>The second task was to produce the program using the UML diagram as a base, writing the code first and then the tests, the code could differ from the UML diagram as long as any changes were documented in the code</p>
@@ -206,30 +206,30 @@ public class RecordManagerTestPart2 {
 </div>
 <div class="row">
 <hr>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <img class="enlarge" src="/img/coursework/TDDreport.png" style="max-width:90%" max-height="350">
 </div>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <h3>Assignment 2 - Report - Test Driven Development</h3>
 <p>This assignment required us to write a short report (500 words) based on our experience of producing a same piece of software with both TDD and non-TDD workflows.</p>
 </div>
 </div>
 <div class="row">
 <hr>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <img class="enlarge" src="/img/coursework/VDM.png" style="max-width:90%;max-height=350px">
 </div>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <h3>Assignment 3 - VDM-SL (Overture) Temperature Monitoring</h3>
 <p>Using VDM-SL to check logic and prove properties of a program by modelling its' systems in Overture.</p>
 </div>
 </div>
 <div class="row">
 <hr>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <img class="enlarge" src="/img/coursework/Mondex.png" style="max-width:90%;max-height=350px">
 </div>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <h3>Assignment 4 - VDM-SL (Overture) Mondex</h3>
 <p>More of the same as previous assignment, except this time a bit less guided and more complicated system to model.</p>
 </div>
@@ -240,10 +240,10 @@ public class RecordManagerTestPart2 {
 </div>
 <div class="row">
 <hr>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <img class="enlarge" src="/img/coursework/SeatonValleyDemo.gif" style="max-width:90%;max-height:350px">
 </div>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <p>As part of our <em>Software Engineering - Group Project</em> module we were to design and develop an android app, this could be a variety of different options chosen by the university.</p>
 <p>We decided as a group to take on the Seaton Valley Council app, which could provide information to residents of the parish.</p>
 <p>The gif here shows the app in use, for this part of the team project I was lead programmer along with 2 other programmers and 2 testers, ensuring any code pushed using gitlab was functional and could integrate with previous code.</p>
@@ -256,10 +256,10 @@ public class RecordManagerTestPart2 {
 </div>
 <div class="row">
 <hr>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <img class="enlarge" src="/img/coursework/SortingAlgos.png" style="max-width:90%;max-height=350px">
 </div>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <h3>Assignment 1 - Implementing and Comparing Sorting Algorithms</h3>
 <p>For this coursework I implemented insertion sort, quick sort and was also provided a new sorting algorithm to implement which included elements from both of these sorting methods.</p>
 <p>I believe the constructor, reading and displaying methods were provided to me by the course leader, with the module being about the algorithms rather then programming.</p>
@@ -567,10 +567,10 @@ public class TestSort {
 
 <div class="row">
 <hr>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <img class="enlarge" src="/img/coursework/RopeCutting.png" style="max-width:90%;max-height=350px">
 </div>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <h3>Assignment 2 - Algorithm Design and Analysis</h3>
 <p></p>
 </div>
@@ -581,20 +581,20 @@ public class TestSort {
 </div>
 <div class="row">
 <hr>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <img class="enlarge" src="/img/coursework/DatabaseDesign.png" style="max-width:90%;max-height=350px"><br><br>
 </div>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <h3>Assignment 1 - Database Design</h3>
 <p>I created a database for a bus company, making sure the relationships of the database would cover all the data and their connections.</p>
 </div>
 </div>
 <div class="row">
 <hr>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <img class="enlarge" src="/img/coursework/SparkOutput.png" style="max-width:90%;max-height=350px"><br><br>
 </div>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <h3>Assignment 2 - Spark (Java) - Movie Rating Database </h3>
 <p>Using spark and 3 large .csv files for movies, ratings and genres. I was tasked with producing output similar to the image shown left, I do not have the data files any more so I can not show how these were laid out.</p>
 </div>
@@ -768,10 +768,10 @@ public class coursework {
 </div>
 <div class="row">
 <hr>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <img src="" style="max-width:90%;max-height=350px"><br><br>
 </div>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <h3>Assignment 1</h3>
 <p>Hard to remember what this was for, however I believe we were changing a function of the minix operating system.</p>
 <p>Sadly no output to be shown at the moment.</p>
@@ -944,10 +944,10 @@ void set_e(array *arr, int idx, int value) {
 </div>
 <div class="row">
 <hr>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <img class="enlarge" src="/img/coursework/Networks.png" style="max-width:90%;max-height=350px"><br><br>
 </div>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <h3>Assignment 1 - PAR Protocol - TinyOS - BlinkToRadio</h3>
 <p>This coursework was used to teach sending and recieving with acknowledgments, known as the PAR Protocol (positive acknowledgement and retransmission). I would send the radio a signal to blink each time it recieved data. I could also keep track of this using a program provided to me. This was an issue occasionally as with the vast number of students doing this coursework at the same time would cause there to be dropped packets on the reciever radios.</p>
 </div>
