@@ -12,11 +12,11 @@ permalink: /personal1
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/personal/LoginSellCards.PNG" style="max-width:90%;max-height:350px">
 		<img class="enlarge" src="/img/personal/UserDB.PNG" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>PHP Login/SQL Database</h3>
 		<p>Hashing of user passwords using bcrypt.</p>
 		<p>User can sign up, however no email verification is in place, and log in using this email and the password chosen.</p>
@@ -25,11 +25,11 @@ permalink: /personal1
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/personal/MessageSellCards.PNG" style="max-width:90%;max-height:350px">
 		<img class="enlarge" src="/img/personal/EmailSentSellCards.png" style="max-width:90%;max-height:350px"><br>
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>PHP Mail</h3>
 		<p>Uses GET to pass the data to the mail php file, although this potentially allows for spam requests accidentally so will be changing this to POST.</p>
 		<p>Below is the very simple code for this. </p>
@@ -48,12 +48,12 @@ permalink: /personal1
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/personal/SellcardsHome.PNG"  style="max-width:90%;max-height:350px">
 		<img class="enlarge" src="/img/personal/SellcardsSearch.PNG"  style="max-width:90%;max-height:350px">
 		<img class="enlarge" src="/img/personal/CardDBSellCards.PNG"  style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>PHP/SQL Search & Sort</h3>
 		<p>This function works by reloading the page with new GET parameters which it reads to determine how to order the cards.</p>
 		<p>A query is sent to the database and returns the cards based on the above parameters and the search parameter.</p>
@@ -62,10 +62,10 @@ permalink: /personal1
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/personal/SellcardsHighlight.PNG" style="max-width:90%" max-height="350">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>CSS Transition</h3>
 		<p>Upon hovering over each card, the background will go black, and the card will enlarge and remain highlighted as well as pop out in front of the other cards.</p>
 		<p>This took alot of trial and error, however the result is very satisfactory.</p>
@@ -73,12 +73,12 @@ permalink: /personal1
 </div>
 <div class="row">
 	<hr>
-        <div class="col-xs-6">
+        <div class="col-sm-6">
 		<img class="enlarge" src="/img/personal/SellcardsAccount.PNG"  style="max-width:90%;max-height:350px">
 		<img class="enlarge" src="/img/personal/CartsDB.PNG"  style="max-width:90%;max-height:350px">
 		<img class="enlarge" src="/img/personal/SellcardsPaypal.PNG"  style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>PHP/SQL Cart & PayPal</h3>
 		<p>The account page includes all the items that the user has added to their cart, able to remove these and is stored in a seperate table in the database, with the fields below to create a connection or foreign key between tables.</p>
 		<p>The user's details are also included on this page and in the future I will make this editible by the user.</p>
@@ -105,10 +105,10 @@ permalink: /personal1
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/personal/RetrohubCart.png" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Account/Cart</h3>
 		<p>The account page shows the user the products currently in their cart with an ability to remove the item, which can be inspected further by clicking on the item itself.</p>
 		<p>The user can checkout using paypal, and has a section where they can view which items are on their wishlist, the wishlist can also contain items that are out of stock.</p>
@@ -117,12 +117,12 @@ permalink: /personal1
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/personal/RetrohubSSL.png" style="max-width:90%;max-height:350px">
 		<img class="enlarge" src="/img/personal/RetrohubSignupPage.png" style="max-width:90%;max-height:350px">
 		<img class="enlarge" src="/img/personal/RetrohubVisitorTracking.png" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Security and GDPR</h3>
 		<p>The Website has an SSL certificate and uses https in all sections of the website where is it is needed, if the user does go to these sections of the website using http, they are redirected to https automatically.</p>
 		<p>The user must agree to terms and conditions and privacy policy before they are able to sign up for the website.</p>
@@ -132,11 +132,11 @@ permalink: /personal1
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/personal/RetrohubWishlistOOS.png" style="max-width:90%;max-height:350px">
 		<img class="enlarge" src="/img/personal/RetrohubAnotherUser.png" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Preventing Simultanious Sales</h3>
 		<p>Due to the unique nature of the items for sale, being that most if not all items are second hand and in varyings states of condition (which the customer can see before they purchase the item). Each item cannot sell more then once.</p>
 		<p>These images show a couple of measures to prevent this, being that if the item is in another users cart, they will be told so and given a timeframe before this item can be added to their own cart.</p>
@@ -150,20 +150,20 @@ permalink: /personal1
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/personal/loginFreegram.PNG" style="max-width:90%;max-height:350px">
             </div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>WordPress/Social Media Login</h3>
 		<p>The site uses WordPress and enables users to signup and login with facebook, google, twitter or youtube quickly and securely in a couple of clicks.</p>
 	</div>
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/personal/seperationFreegram.PNG" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Blog Categories</h3>
 		<p>I chose to lay the site out as a blog, which would enable users to post their own blogs, projects and news. By setting the correct category, they could be separated and easily found.</p>
 		<p>The main categories include News, Blogs and Projects, this is because the site is primarily supposed to be aimed toward companies with little to no budget/charities who need programming jobs done in exchange for a programmer to gain experience and a reference to add to their portfolio.</p>
@@ -171,10 +171,10 @@ permalink: /personal1
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
             <img class="enlarge" src="/img/personal/userblogFreegram.PNG" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Editing of Plugins</h3>
 		<p>The use of plugins make it very easy to knock up a website in a very short time with great functionality, however to get the very best out of WordPress, you need the ability to edit or modify plugins to your liking, I have done this here with limited success as it is a very manual process, by excluding my own posts into the blogs by users, and likewise with only including my own blogs in the blogs by me section.</p>
 		<p>Blogs by users will only show other peoples blogs, Blogs by Freegram will only show the blogs posted by me.</p>
@@ -183,30 +183,30 @@ permalink: /personal1
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/personal/tutislandFreegram.PNG" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Tutorial Island</h3>
 		<p>This page is a one stop place for many of a budding programmers needs to learn, without having to leave the page they have access to alot of resources from youtube about web development, programming and SEO.</p>
 	</div>
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/personal/socialFreegram.PNG" style="max-width:90%;max-height:100px">
             </div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Social Media</h3>
 		<p>Using the application IFTTT (If This Then That), I have made each and every blog, news or project that is posted, also be posted to facebook and twitter.</p>
             </div>
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/personal/customFreegram.PNG" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Custom HTML Pages</h3>
 		<p>Of course just because the website uses wordpress predominantly, there is no reason why not to use custom html pages, as such I have created a smoking calculator.</p>
 	</div>
