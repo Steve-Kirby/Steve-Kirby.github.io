@@ -14,11 +14,11 @@ permalink: /coursework-highlights
 </div>
 
 <div class="row">
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/coursework/DissertationPoster.png" style="max-width:90%;max-height:350px">
 		<p>Most images on my portfolio can be enlarged by holding down the left mouse button on the image</p>
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Poster</h3>
 		<p>For my 3rd year dissertation I wanted to explore graphics within programming as I had never quite grasped how to implement them.</p>
 		<p>Tackling this topic enabled me to explore the belly of the beast, I utilised a codebase provided to us during the graphics module I was doing that year.</p>
@@ -27,24 +27,24 @@ permalink: /coursework-highlights
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Planning - Gantt Chart</h3>
 		<p>In order to organise my dissertation I used a Gantt chart which changed over time as needed.</p>
 		<p>I enjoy games with wide open worlds that can be explored, and naturally wanted to generate random islands to replicate this, this changed after discussion with my tutors.</p>
 		<p> The biggest change was to incorperate climate change and rising sea levels, which are returning to the forefront of issues we face once again.</p>
 		<p>I made the decision to use heightmaps of the UK rather then randomly generated islands, in hopes of making people aware that these are real issues, not just an interesting graphics demo.</p>
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/coursework/DissGantt.png" style="max-width:90%;max-height:350px">
 	</div>
 
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/coursework/DissErosion.png" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>The Result</h3>
 		<p>This project was a challenging experience for me, however I managed to achieve what I had set out to do, albeit not as pretty as I would have liked.</p>
 		<p>The image shows the erosion and the inundation of water upon the UK after the sea level had risen.</p>
@@ -54,12 +54,12 @@ permalink: /coursework-highlights
 
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Data Analysis Graph</h3>
 		<p>Another aspect of this dissertation I enjoyed was the data analysis of testing performance of the simulation with different detail or tesselation levels, amount of textures being rendered etc.</p>
 		<p>This is just one example of the graphs I produced in Excel, this particular graph using the fps, x and y position of the 'camera' to see how much the render times/fps were effected by how much of the model was showing on the screen.</p>
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/coursework/DissertationGraph.png" style="max-width:90%;max-height:350px">
 	</div>
 
@@ -72,10 +72,10 @@ permalink: /coursework-highlights
 <hr>
 </div>
 <div class="row">
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/coursework/GraphicsCW.png" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Assignment 1 - Space Scene</h3>
 		<p>Using OpenGL to create a space scene which needed to incorporate the sun, stars, a planet and a spaceship (user controlled).</p>
 		<p>I also added in a moving comet which randomly starts at a location in the distance and flys towards the player, when leaving the screen it starts somewhere randomly in the distance again.</p>
@@ -83,12 +83,12 @@ permalink: /coursework-highlights
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Assignment 2 - Shaders</h3>
 		<p>Using OpenGL and GLSL I was to create four requested effects on cubes, and come up with two of my own.</p>
 		<p>The two that I came up with on my own were the shattering cube and the twisting smiley cube.</p>
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/coursework/GraphicsCW2.png" style="max-width:90%;max-height:350px">
 	</div>
 </div>
@@ -99,13 +99,13 @@ permalink: /coursework-highlights
 <hr>
 </div>
 <div class="row">
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/coursework/ISpyPP.png" style="max-width:90%;max-height:350px">
 		<p><a href="/ISpyPP.pptx">Download Powerpoint(23.1mb), with business case (embedded word document).</a></p>
 		<br /><br />
 		<img class="enlarge" src="/img/coursework/AppLog.png" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Moodboard, Fontboard, Storyboard and Business Case</h3>
 		<p>This stage was designing and developing ideas for the app, once I had started the storyboard I had a pretty good idea of what I wanted the app to look like.</p>
 		<p>I also kept track of any ideas or problems I came across for the app in a spreadsheet</p>
@@ -113,13 +113,13 @@ permalink: /coursework-highlights
 </div>
 <div class="row">
 	<hr>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Coding the App</h3>
 		<p>In this stage I programmed my app using Android Studio, I used Java for this rather then Kotlin.</p>
 		<p>The embedded <a href="https://www.youtube.com/watch?v=wm44R9TGu7s">Youtube video shows the app in action</a> with voice over explaining what I am doing on the app.</p>
 		<p>I then wrote a reflective essay on my experience designing and programming the app, highlighting what went right and what went wrong, as well as what I had learnt from this assignment.</p>
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<iframe width="90%" height="350" src="https://www.youtube.com/embed/wm44R9TGu7s"> </iframe>
 	</div>
 	
@@ -131,10 +131,10 @@ permalink: /coursework-highlights
 <hr>
 </div>
 <div class="row">
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <img class="enlarge" src="/img/coursework/SpaceChess.png" style="max-width:90%;max-height=350px">
   </div>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
 	  <h3>What 'off' earth is Space Chess?</h3>
 	  <p>The task for this assignment was to create a simulation of a Rook , Bishop, and Queen on a board, these pieces could move any distance by teleportation within the board including non-integer values (unlike chess).</p>
 	  <p>I learnt a lot about polymorphism and inheritance as well as collision detection of simple shapes within a 2d space.</p>
@@ -556,10 +556,10 @@ void Queen::Move()
 <hr>
 </div>
 <div class="row">
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/coursework/GameDevelopment.png" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<h3>Godot - Exported to HTML</h3>
 		<p>The screenshot shows the game in action, it isn't perfect and was extremely ambitious for the time I had, alongside looming deadlines for other modules and my dissertation. More importantly I learned a lot about Godot and game development in general whilst making this prototype game.</p>
 	</div>
@@ -572,10 +572,10 @@ void Queen::Move()
 <hr>
 </div>
 <div class="row">
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<img class="enlarge" src="/img/coursework/SeatonValleyDemo.gif" style="max-width:90%;max-height:350px">
 	</div>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<p>As part of our <em>Software Engineering - Group Project</em> module we were to design and develop an android app, this could be a variety of different options chosen by the university.</p>
 		<p>We decided as a group to take on the Seaton Valley Council app, which could provide information to residents of the parish.</p>
 		<p>The gif here shows the app in use, for this project I was lead programmer along with 2 other programmers and 2 testers, ensuring any code pushed using gitlab was functional and could integrate with previous code.</p>
@@ -591,10 +591,10 @@ void Queen::Move()
 <div class="row">
 <hr>
 <div class="row">
-<div class="col-xs-6">
+<div class="col-sm-6">
 <img class="enlarge" src="/img/coursework/liftCoursework.PNG" style="max-width:90%;max-height:350px"><br><br>
 </div>
-<div class="col-xs-6">
+<div class="col-sm-6">
 <h3>Lift Simulator</h3>
 <p>Using assembly language, we were tasked with controlling a lift.</p>
 <p>We had a very limited amount of memory to work with.</p>
@@ -723,11 +723,11 @@ END
 <div class="row">
   <h2><a href="#">Tutorial Website</a></h2>
   <hr>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <img class="enlarge" src="/img/coursework/TutorialWebsiteCSS.png" style="max-width:90%;max-height:350px"><br /><br />
 	  <img class="enlarge" src="/img/coursework/TutorialWebsite.png" style="max-width:90%;max-height:350px">
   </div>
-  <div class="col-xs-6">
+  <div class="col-sm-6">
 	  <p>Voice clips and slides from the course are laid out in easy to use sections separating the different topics of the course</p>
 	  <p>The user can use what they learn from the website and gain feedback immediately by using the live HTML, CSS, Javascript testing area, this was adapted from some code found online, the layout changes depending on what section of the tutorial website the user is on (shown in the pictures).</p>
   </div>
