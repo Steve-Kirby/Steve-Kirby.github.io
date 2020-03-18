@@ -16,7 +16,7 @@ I am still updating this portfolio so check back soon for any updates! (version 
 
 I am a recent **Graduate** with a **First Class Degree** in **BSc Computer Science (Game Engineering)** from **Newcastle University** attaining results between 70-80% for each year of the course.
 
-I am looking for a role within the **Games Industry**, with the goal of becoming experienced in **programming** for games.
+I am looking for a role encompassing **programming**, with the goal of becoming a more experienced software or games developer.
 
 I also enjoy **web development** and know most aspects of web development needed to build and maintain a **secure feature packed website**.
 
