@@ -987,7 +987,7 @@ void Queen::Move()
     <img class="enlarge" src="" style="max-width:90%;max-height=350px"><br><br>
   </div>
   <div class="col-sm-6">
-    <h3>Assignment 2 - Deploy Apache Web Server)</h3>
+    <h3>Assignment 2 - Deploy Apache Web Server</h3>
     <p>I deployed a fully functional server using a LAMP stack involving CentOS7, Apache, PHP5 and MySQL.</p>
 	  <p>On top of this, Wordpress was used as a content management system in order to generate content. The website was customised with a theme and plugins installed to support an e-commerce store</p>
 	  <p>I was also tasked with configuring the Web Server for use of URL rewrites, HTTPS, Custom Error Pages (e.g 404), Authentication and Access Control through htpasswd and an IP filter.</p>
