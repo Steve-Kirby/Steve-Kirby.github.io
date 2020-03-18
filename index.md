@@ -36,6 +36,16 @@ The previous itteration of this programs' result is shown below in past projects
 
 I have decided to work on improving this as I would like to get back into my amateur photography hobby also.
 
+**Sudoku Solver**
+
+I am implementing a simple sudoku solver, currently the solver works on most easy, medium and hard sudoku boards.
+
+There is no recursive backtracking implemented yet, this is the next step for this project for boards where an educated guess is required, there is also another logical process which I need to implement, more to come.
+
+**Photography Website**
+
+Using HTML, CSS, JavaScript, PHP and SQL. I am currently developing a website which I can use to showcase my photography. I am taking a more object oriented approach to building this website then my previous 2 websites which was almost entirely procedural.
+
 ### Future ###
 
 **Simple Snake 2D**
@@ -50,6 +60,7 @@ This is based on the classic Nokia game Snake, I hope to add extra interesting f
 - [ ] ......
 
 *Update:12/02/2020* Postponing to work on Watermarker.
+*Update:18/03/2020* Been working on my portfolio, also working on Sudoku Solver and Photography website.
 
 <hr>
 ## Past Projects ##
@@ -57,8 +68,8 @@ This is based on the classic Nokia game Snake, I hope to add extra interesting f
 
 View these links to see what i have worked on in the past.
 
-  - [University Coursework](/coursework1)
-  - [Personal Projects](/personal1) 
+  - [University Coursework](/coursework-highlights)
+  - [Personal Projects](/personal-highlights) 
   - [Projects on GitHub](https://github.com/Steve-Kirby)
 
 <hr>
