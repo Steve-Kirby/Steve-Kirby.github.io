@@ -4,7 +4,7 @@ layout: default
 <hr>
 # Welcome!
 <hr>
-Feel free to browse my [portfolio](/coursework1) and [github repository](https://github.com/Steve-Kirby).
+Feel free to browse my [portfolio](/coursework-highlights) and [github repository](https://github.com/Steve-Kirby).
 
 The **links in the header** show the **work** I have **completed** during my time at **University** and my **personal projects**.
 
