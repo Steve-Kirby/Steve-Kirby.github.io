@@ -89,20 +89,20 @@ This will be in reverse chronological order with the most recent and relevent in
   - Year 3 (*First 70.8% average*)
     - [Programming for Games](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3221) (C++)
     - [Gaming Simulations](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3222) (C++)
-    - [Graphics for Games](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3223) (C++)(OpenGL)(GLSL)
-    - [Computer Games Development](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3224) (GODOT)
-    - [Mobile Computer Systems Development](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3122) (Android)(Java)(XML)
-    - [Web Technologies](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3123) (RedBean)(Twig)(PHP)(HTML)(SASS)
+    - [Graphics for Games](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3223) (C++) (OpenGL) (GLSL)
+    - [Computer Games Development](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3224) (Godot)
+    - [Mobile Computer Systems Development](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3122) (Android) (Java) (XML)
+    - [Web Technologies](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3123) (RedBean) (Twig) (PHP) (HTML) (SASS)
     - [System and Network Security](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3124) 
     - [Website Construction and Management (Server-Side)](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3422) (WordPress)(Apache)
-    - [Project and Dissertation in Computing Science](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3095) (C++)(OpenGL)(GLSL)
+    - [Project and Dissertation in Computing Science](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3095) (C++) (OpenGL)(GLSL)
     
   - Year 2 (*First 79.2% average*)
-    - [Software Engineering](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2021)(Java)(VDM-SL)(UML)
-    - [Software Engineering Team Project](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2022) (Java)(Android)(XML)(Google Maps API)(Git)(Teamwork)
-    - [Algorithm Design and Analysis](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2023)(Java)
-    - [Database Technology](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2024) (MySQL)(Java - Spark)
-    - [Operating Systems](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2025) (Minix)(C)
+    - [Software Engineering](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2021) (Java) (VDM-SL) (UML)
+    - [Software Engineering Team Project](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2022) (Java) (Android) (XML) (Google Maps API) (Git) (Teamwork)
+    - [Algorithm Design and Analysis](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2023) (Java)
+    - [Database Technology](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2024) (MySQL) (Java - Spark)
+    - [Operating Systems](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2025) (Minix) (C)
     - [Computer Networks](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2026) (C)
     
   - Year 1 (*First 77.3% average*)
@@ -111,16 +111,16 @@ This will be in reverse chronological order with the most recent and relevent in
     - [The Software Engineering Professional](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1023)
     - [Computer Architecture](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1024) (Assembly)
     - [Mathematics for Computer Science](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1025)
-    - [Website Design and Construction](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1026) (HTML)(CSS)(JavaScript)
+    - [Website Design and Construction](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC1026) (HTML) (CSS) (JavaScript)
   
   **York College - BTEC Software Development (Extended Diploma)** [scan of results](/CollegeResults.JPG)
   
   Achieved the highest grade possible of Triple Distinction Star.
   - Year 2 (_D* D* D*_)
-    - Computer Game Design
-    - Developing Computer Games
+    - Computer Game Design 
+    - Developing Computer Games (GameMaker)
     - Human Computer Interaction
-    - Web Server Scripting
+    - Web Server Scripting (PHP)
     - E-Commerce
     - Organisation Systems Security
     - Information Systems
@@ -128,14 +128,14 @@ This will be in reverse chronological order with the most recent and relevent in
     - Controlling Systems Using IT
     
   - Year 1 (_D* D*_) 
-    - Event Driven Programming
+    - Event Driven Programming (Visual Basic)
     - Spreadsheet Modelling
     - Computer Systems
     - Communication and Employability Skills For IT
     - Client Side Customisation of Web Pages
-    - Database Design
-    - Website Production
-    - Software Design and Development
+    - Database Design (Access)
+    - Website Production (HTML) (CSS) (JavaScript)
+    - Software Design and Development (Visual Basic)
     - Systems Analysis and Design
     
   Won a BITS (*Brilliant IT Students*) award, nominated by class tutor(1 per class of around 20) [article available here](https://www.yorkcollege.ac.uk/in-the-news/367-summer-term-2015/2073-recognising-brilliant-it-students.html)
