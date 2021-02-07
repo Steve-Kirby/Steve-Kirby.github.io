@@ -8,7 +8,7 @@ Feel free to browse my [portfolio](/coursework-highlights) and [github repositor
 
 The **links in the header** show the **work** I have **completed** during my time at **University** and my **personal projects**.
 
-I am still updating this portfolio so check back soon for any updates! (version 1.3 : 11/03/2020)
+I am still updating this portfolio so check back soon for any updates! (version 1.4 : 07/02/2021)
 
 <hr>
 ## A Little Bit About Me
@@ -42,25 +42,11 @@ I am implementing a simple sudoku solver, currently the solver works on most eas
 
 There is no recursive backtracking implemented yet, this is the next step for this project for boards where an educated guess is required, there is also another logical process which I need to implement, more to come.
 
-**Photography Website**
-
-Using HTML, CSS, JavaScript, PHP and SQL. I am currently developing a website which I can use to showcase my photography. I am taking a more object oriented approach to building this website then my previous 2 websites which was almost entirely procedural.
-
 ### Future ###
 
-**Simple Snake 2D**
+Currently applying for jobs and working through coding course websites.
 
-This is based on the classic Nokia game Snake, I hope to add extra interesting features such as upgradeable snakes; with ranks after the basic implementation is solid. I also plan on making a map editor using text maps and random fruit spawn.
-
-- [x] Classes I expect to use
-- [ ] Implement a singular cube as snake
-- [ ] Implement map and collision
-- [ ] Implement fruit
-- [ ] Implement growing snake
-- [ ] ......
-
-*Update:12/02/2020* Postponing to work on Watermarker.
-*Update:18/03/2020* Been working on my portfolio, also working on Sudoku Solver and Photography website.
+*Update:07/02/2021* Working on my portfolio.
 
 <hr>
 ## Past Projects ##
@@ -80,8 +66,9 @@ Any resources i have used to help me learn from and use as a reference in case i
 This will be in reverse chronological order with the most recent and relevent information at the top of the list.
 
 ### Current Goals
-  - Working through android game programming course on [gamecodeschool.com](http://gamecodeschool.com/courses/android-game-programming/)
-  - Working on Responsive Web Design Certification (300 hours) on [freecodecamp.org](http://www.freecodecamp.org);
+  - Working on 
+  - Working through android game programming course on [gamecodeschool.com](http://gamecodeschool.com/courses/android-game-programming/) *POSTPONED*
+  - Working on Responsive Web Design Certification (300 hours) on [freecodecamp.org](http://www.freecodecamp.org) *POSTPONED*
    
 ### Past Education and Learning ###
 
