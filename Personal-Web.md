@@ -100,8 +100,8 @@ permalink: /personal1
 </div>
 <div class="row">
 	<hr>
-	<h2><a href="https://retrohub.steve-kirby.website">RetroHub.co.uk (Ecommerce Site) </a></h2>
-	<p>The link above is a live version of an old backup of this site, as such not all aspects shown below can be tested. (Email:test@test.com, Password:test99)</p>
+	<h2>RetroHub.co.uk (Ecommerce Site) </a></h2>
+	<p>Built upon the successful parts of sellcards ecommerce website, using what I had learned to make this website more maintainable.</p>
 </div>
 <div class="row">
 	<hr>
