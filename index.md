@@ -67,7 +67,7 @@ This will be in reverse chronological order with the most recent and relevent in
 
 ### Current Goals
   - Working on Learn Javascript course (40 hours) on [https://www.codecademy.com](https://www.codecademy.com) *47% complete*
-  - Working on Responsive Web Design Certification (300 hours) on [freecodecamp.org](http://www.freecodecamp.org) *POSTPONED*
+  - Working on Responsive Web Design Certification (300 hours) on [freecodecamp.org](http://www.freecodecamp.org) *postponed*
    
 ### Past Education and Learning ###
 
