@@ -8,6 +8,7 @@ permalink: /personal1
 <div class="row">
   <hr>
   <h2>SellCards.co.uk (Ecommerce Site)</h2>
+	<p>An Ecommerce website that facilitates selling trading cards</p>
 </div>
 <div class="row">
 	<hr>
@@ -144,8 +145,8 @@ permalink: /personal1
 </div>	
 <div class="row">
   <hr>
-  <h2><a href="#">Freegram.co.uk (Wordpress Blog/Charity Site)</a></h2>
-	<p>There is no backup of this website and as such do not have a live demo available.</p>
+  <h2>Freegram.co.uk (Wordpress Blog/Charity Site)</h2>
+	<p>A website that facilitated charity posts and connecting developers with charities.</p>
 </div>
 <div class="row">
 	<hr>
