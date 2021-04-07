@@ -7,8 +7,7 @@ permalink: /personal1
 <h1 style="text-align:center;margin-top:20px;">Website Development</h1>
 <div class="row">
   <hr>
-  <h2><a href="https://sellcards.steve-kirby.website/index.php?search=">SellCards.co.uk (Ecommerce Site)</a></h2>
-	<p>The link above is a live version of an old backup of this site, as such not all aspects shown below can be tested. (Email:test@test.com, Password:test99)</p>
+  <h2>SellCards.co.uk (Ecommerce Site)</h2>
 </div>
 <div class="row">
 	<hr>
