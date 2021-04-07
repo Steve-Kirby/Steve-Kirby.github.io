@@ -66,8 +66,7 @@ Any resources i have used to help me learn from and use as a reference in case i
 This will be in reverse chronological order with the most recent and relevent information at the top of the list.
 
 ### Current Goals
-  - Working on 
-  - Working through android game programming course on [gamecodeschool.com](http://gamecodeschool.com/courses/android-game-programming/) *POSTPONED*
+  - Working on Learn Javascript course (40 hours) on [https://www.codecademy.com](https://www.codecademy.com) *47% complete*
   - Working on Responsive Web Design Certification (300 hours) on [freecodecamp.org](http://www.freecodecamp.org) *POSTPONED*
    
 ### Past Education and Learning ###
